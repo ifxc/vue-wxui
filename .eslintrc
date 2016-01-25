@@ -1,0 +1,12 @@
+{
+  "extends": "standard",
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "vue": true,
+  },
+  "plugins": [
+    "standard"
+  ]
+}
