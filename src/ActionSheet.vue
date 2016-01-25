@@ -76,7 +76,7 @@ export default {
 </script>
 
 <style lang="less">
-@import "./style/base/fn";
+@import "./style/base/fn.less";
 
 @bgColor:#ECECEC;
 .weui_actionsheet {
@@ -88,7 +88,6 @@ export default {
     z-index: 2;
     width: 100%;
     background-color: @pageDefaultBackgroundColor;
-    //slide up animation
     transition: transform .3s;
 }
 .weui_actionsheet_menu{
@@ -116,7 +115,6 @@ export default {
     }
 }
 
-//actionSheet aniamtion
 .weui_actionsheet_toggle{
     transform: translate(0, 0);
 }
