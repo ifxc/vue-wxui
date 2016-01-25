@@ -1,7 +1,7 @@
 var config = require('./webpack.config.js')
 
 config.entry = {
-  'vue-weui': './src/index.js',
+  'wzmui': './src/index.js',
 }
 
 config.output = {

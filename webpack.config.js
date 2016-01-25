@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: './static',
     publicPath: '/static/',
-    filename: 'build.js'
+    filename: 'wzmui.js'
   },
   module: {
     //加载器配置
