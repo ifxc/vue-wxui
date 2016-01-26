@@ -1,14 +1,14 @@
-var vue = require('vue-loader')
-var webpack = require('webpack')
+var vue = require('vue-loader');
+var webpack = require('webpack');
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
   //页面入口文件配置
-  entry: './example/main.js',
+  entry: {example:'./example/main.js'},
   //入口文件输出配置
   output: {
     path: './static',
-    publicPath: '/static/',
-    filename: 'wzmui.js'
+    filename: '[name].js'
   },
   module: {
     //加载器配置
@@ -25,12 +25,8 @@ module.exports = {
         loader: 'babel'
       },
       //图片文件使用 url-loader 来处理，小于8kb的直接转为base64
-      { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192'}
-    //   ,
-    //   {
-    //    test: /\.less$/,
-    //    loader: "style!css!autoprefixer!less"
-    //  },
+      { test: /\.(png|jpg)$/, loader: 'url?limit=8192&name=[name].[ext]?[hash]'},
+      { test: /\.(eot|woff|ttf|svg)$/, loader: 'file?name=../font/[name].[ext]'}
     ]
   },
   babel: {
@@ -39,22 +35,13 @@ module.exports = {
   },
   //add
   // watch: true
+  devtool: '#source-map',
+  plugins: [new ExtractTextPlugin("./style/example.css")],
+  vue: {
+    loaders: {
+        css: ExtractTextPlugin.extract("css"),
+        // you can also include <style lang="less"> or other langauges
+        less: ExtractTextPlugin.extract("css!less")
+    }
+  }
 };
-
-if (process.env.NODE_ENV === 'production') {
-  module.exports.plugins = [
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: '"production"'
-      }
-    }),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
-    }),
-    new webpack.optimize.OccurenceOrderPlugin()
-  ];
-} else {
-  module.exports.devtool = '#source-map';
-}
