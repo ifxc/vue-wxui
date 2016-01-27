@@ -1,9 +1,9 @@
 <template>
   <div v-show="show">
-      <div class="weui_mask_transparent"></div>
-      <div class="weui_toast">
-          <i class="weui_icon_toast"></i>
-          <p class="weui_toast_content"><slot>已完成</slot></p>
+      <div class="mask_transparent"></div>
+      <div class="toast">
+          <i class="icon-font icon-bighook"></i>
+          <p class="toast_content"><slot>已完成</slot></p>
       </div>
   </div>
 </template>
@@ -38,9 +38,9 @@ export default {
   },
   watch: {
     show(val) {
-      if (this._timeout) clearTimeout(this._timeout)
+      if (this._timeout) clearTimeout(this._timeout);
       if (val && !!this.duration) {
-        this._timeout = setTimeout(()=> this.show = false, this.duration)
+        this._timeout = setTimeout(()=> this.show = false, this.duration);
       }
     }
   }
@@ -50,7 +50,7 @@ export default {
 <style lang="less">
 @import "./style/base/fn";
 
-.weui_toast {
+.toast {
     position: fixed;
     z-index: 3;
     width: 7.6em;
@@ -62,8 +62,11 @@ export default {
     text-align: center;
     border-radius: 5px;
     color: #FFFFFF;
+    .icon-font{
+        font-size:32px;
+    }
 }
-.weui_icon_toast {
+.icon_toast {
     margin: 22px 0 0;
     display: block;
     &:before {
@@ -72,25 +75,25 @@ export default {
         font-size: 55px;
     }
 }
-.weui_toast_content {
+.toast_content {
     margin: 0 0 15px;
 }
 
 // loading toast
-.weui_loading_toast{
-    .weui_toast_content{
+.loading_toast{
+    .toast_content{
       margin-top:64%;
       font-size:14px;
     }
 }
-.weui_loading{
+.loading{
     position: absolute;
-    width: 0px;
+    width: 0;
     z-index: 2000000000;
     left: 50%;
     top: 38%;
 }
-.weui_loading_leaf{
+.loading_leaf{
     position: absolute;
     top: -1px;
     opacity: 0.25;

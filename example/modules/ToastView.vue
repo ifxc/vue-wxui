@@ -1,13 +1,13 @@
 <template>
-  <div class="page toast">
+  <div class="page">
     <div class="hd">
         <h1 class="page_title">Toast</h1>
     </div>
     <div class="bd spacing">
         <!-- <a href="javascript:;" class="weui_btn weui_btn_primary" id="showToast" v-on:click="show_toast()">点击弹出Toast</a> -->
-        <a href="javascript:;" class="weui_btn weui_btn_primary" v-on:click="showToast = true;">点击弹出Toast(手动关闭)</a>
-        <a href="javascript:;" class="weui_btn weui_btn_primary" v-on:click="showToast3000 = true;">点击弹出Toast(持续300毫秒)</a>
-        <a href="javascript:;" class="weui_btn weui_btn_primary" v-on:click="showLoadingToast = true;">点击弹出Loading Toast</a>
+        <a href="javascript:;" class="btn btn_primary" v-on:click="showToast = true;">点击弹出Toast(手动关闭)</a>
+        <a href="javascript:;" class="btn btn_primary" v-on:click="showToast3000 = true;">点击弹出Toast(持续300毫秒)</a>
+        <a href="javascript:;" class="btn btn_primary" v-on:click="showLoadingToast = true;">点击弹出Loading Toast</a>
     </div>
 
     <Toast :show.sync="showToast" :duration="0"></Toast>
