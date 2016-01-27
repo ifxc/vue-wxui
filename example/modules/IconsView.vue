@@ -86,3 +86,9 @@ export default {
   }
 }
 </script>
+
+<style>
+    .tip-title{
+        color: #DE7C23;margin-top: 10px;
+    }
+</style>
