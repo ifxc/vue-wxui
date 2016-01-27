@@ -1,0 +1,61 @@
+@import "../../base/fn";
+
+.btn {
+    &.btn_mini {
+        line-height: 180%;
+        font-size: @btnFontSize*.8;
+        padding-left:10px;
+        padding-right:10px;
+        display: inline-block;
+    }
+}
+
+button, input {
+    &.weui_btn {
+        width: 100%;
+        border-width: 0;
+        outline: 0;
+        -webkit-appearance: none;
+        &:focus {
+            outline: 0;
+        }
+    }
+    &.weui_btn_inline,&.weui_btn_mini {
+        width: auto;
+    }
+}
+
+/*gap between btn*/
+.btn + .btn {
+    margin-top: @btnDefaultGap;
+}
+
+.btn.btn_inline + .btn.btn_inline {
+    margin-top: auto;
+    margin-left: @btnDefaultGap;
+}
+
+.btn_area {
+    margin: @btnDefaultGap;
+    &.btn_area_inline {
+        -webkit-display: flex;
+        display: flex;
+        .btn {
+            margin-top: auto;
+            margin-right: @btnDefaultGap;
+            width: 100%;
+            -webkit-flex: 1;
+            flex: 1;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@import "btn_global";
+@import "btn_default";
+@import "btn_primary";
+@import "btn_warn";
+@import "btn_disabled";
+@import "btn_plain";

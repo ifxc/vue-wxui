@@ -36,6 +36,7 @@ body, .page {
     bottom: 0;
     left: 0;
     overflow: hidden;
+    background: #f3f3f3;
 }
 
 .page {

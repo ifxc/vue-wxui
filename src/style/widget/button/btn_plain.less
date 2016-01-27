@@ -1,0 +1,44 @@
+@import "../../base/fn";
+
+.btn_plain_primary {
+    color: @btnPrimaryColor;
+    border: 1px solid @btnPrimaryColor;
+    button&, input& {
+        border-width: 1px;
+        background-color: transparent;
+    }
+    &:active {
+        border-color: @btnPrimaryActiveColor;
+    }
+    &:after {
+        border-width: 0;
+    }
+}
+.btn_plain_warn {
+    color: @btnWarnColor;
+    border: 1px solid @btnWarnColor;
+    button&, input& {
+        border-width: 1px;
+        background-color: transparent;
+    }
+    &:active {
+        border-color: @btnWarnColor;
+    }
+    &:after {
+        border-width: 0;
+    }
+}
+.btn_plain_default {
+    color: @btnDefaultFontColor;
+    border: 1px solid @btnDefaultColor;
+    button&, input& {
+        border-width: 1px;
+        background-color: transparent;
+    }
+    &:active {
+        border-color: @btnDefaultActiveColor;
+    }
+    &:after {
+        border-width: 0;
+    }
+}

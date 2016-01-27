@@ -89,6 +89,8 @@ export default {
 
 <style>
     .tip-title{
-        color: #DE7C23;margin-top: 10px;
+        font-size: 16px;
+        color: #DE7C23;
+        margin-top: 10px;
     }
 </style>

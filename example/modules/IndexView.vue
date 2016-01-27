@@ -1,8 +1,8 @@
 <template>
   <div class="page">
     <div class="hd">
-        <h1 class="page_title">WeUI</h1>
-        <p class="page_desc">为微信Web服务量身设计</p>
+        <h1 class="page_title">WZMUI</h1>
+        <p class="page_desc">Base on WeUI,thank for vue-weui。</p>
     </div>
     <div class="bd">
         <div class="weui_cells weui_cells_access global_navs">

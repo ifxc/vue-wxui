@@ -1,0 +1,17 @@
+@import "../../base/fn";
+
+.btn_default {
+    color: @btnDefaultFontColor;
+    background-color: @btnDefaultBg;
+    &:not(.btn_disabled):visited {
+        background-color: @btnDefaultBg;
+    }
+    &:not(.btn_disabled):active {
+        color: @btnDefaultFontColor;
+        background-color: @btnDefaultActiveBg;
+    }
+    &.btn_disabled{
+        color: @btnDefaultDisabledFontColor;
+        background-color: @btnDefaultDisabledBg;
+    }
+}
