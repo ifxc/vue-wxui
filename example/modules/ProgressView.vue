@@ -1,6 +1,6 @@
 <template>
 
-<div class="page progress">
+<div class="page">
     <div class="hd">
         <h1 class="page_title">Progress</h1>
     </div>
@@ -20,9 +20,9 @@
         <Progress :size="size2"></Progress>
         <h3>手动变更</h3>
         <Progress :size="size"></Progress>
-        <a href="javascript:;" class="weui_btn weui_btn_mini weui_btn_primary" v-on:click="size=0">0%</a>
-        <a href="javascript:;" class="weui_btn weui_btn_mini weui_btn_primary" v-on:click="size=50">50%</a>
-        <a href="javascript:;" class="weui_btn weui_btn_mini weui_btn_primary" v-on:click="size=100">100%</a>
+        <a href="javascript:;" class="btn btn_mini btn_primary" v-on:click="size=0">0%</a>
+        <a href="javascript:;" class="btn btn_mini btn_primary" v-on:click="size=50">50%</a>
+        <a href="javascript:;" class="btn btn_mini btn_primary" v-on:click="size=100">100%</a>
     </div>
 </div>
 

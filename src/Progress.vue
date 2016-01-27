@@ -1,39 +1,43 @@
 <style lang="less">
 
 @import "./style/base/fn.less";
-.weui_progress {
+.progress {
     display: flex;
     align-items: center;
 }
 
-.weui_progress_bar {
-    background-color: @weuiProgressBg;
-    height: @weuiProgressHeight;
+.progress_bar {
+    background-color: @progressBg;
+    height: @progressHeight;
     flex: 1;
 }
 
-.weui_progress_inner_bar {
+.progress_inner_bar {
     width: 0;
     height: 100%;
-    background-color: @weuiProgressColor;
+    background-color: @progressColor;
 }
 
-.weui_progress_opr {
+.progress_opr {
     display: block;
     margin-left: 15px;
     font-size: 0;
+    color: @progressClose;
+    i:before{
+        color: @progressClose;
+    }
 }
 
 </style>
 
 <template>
 
-<div v-if="show" class="weui_progress">
-    <div class="weui_progress_bar">
-        <div class="weui_progress_inner_bar" :style="{ width: size + '%' }"></div>
+<div v-if="show" class="progress">
+    <div class="progress_bar">
+        <div class="progress_inner_bar" :style="{ width: size + '%' }"></div>
     </div>
-    <a v-if="showCloseBtn" href="javascript:;" class="weui_progress_opr" @click="dispatch('on-progress-cancel')">
-        <i class="weui_icon_cancel"></i>
+    <a v-if="showCloseBtn" href="javascript:;" class="progress_opr" @click="dispatch('on-progress-cancel')">
+        <i class="icon-font icon-cross"></i>
     </a>
 </div>
 
@@ -74,7 +78,7 @@ export default {
         };
     },
     methods: {
-        dispatch(event, eventStr) {
+        dispatch(eventStr) {
             this.$dispatch(eventStr);
             this.show = false;
         }
