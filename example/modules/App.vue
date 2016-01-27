@@ -66,7 +66,7 @@ body, .page {
 .page_title {
     text-align: center;
     font-size: 34px;
-    color: #3CC51F;
+    color: #1677cb;
     font-weight: 400;
     margin: 0 15%;
 }

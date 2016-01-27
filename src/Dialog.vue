@@ -1,53 +1,61 @@
 <style lang="less">
 
 @import "./style/base/fn";
-@weuiDialogBackgroudColor: #FAFAFC;
-@weuiDialogLineColor: #D5D5D6;
-@weuiDialogLinkColor: #3CC51F;
-.weui_dialog {
+@dialogBackgroudColor: #FAFAFC;
+@dialogLineColor: @gColorTitle;
+@dialogLinkColor: @gColorTitle;
+.dialog {
     position: fixed;
     z-index: 13;
     width: 85%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: @weuiDialogBackgroudColor;
+    background-color: @dialogBackgroudColor;
     text-align: center;
     border-radius: 3px;
-    .weui_dialog_confirm & {
-        .weui_dialog_hd {
-            text-align: left;
+    .dialog_confirm & {
+        .dialog_hd {
+            text-align: center;
             padding: 1.2em 20px .5em;
         }
-        .weui_dialog_bd {
+        .dialog_bd {
             text-align: left;
         }
     }
 }
-
-.weui_dialog_hd {
+.dialog_mask {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.dialog_hd {
     padding: 1.2em 0 .5em;
 }
 
-.weui_dialog_title {
+.dialog_title {
     font-weight: 400;
     font-size: 17px;
 }
 
-.weui_dialog_bd {
+.dialog_bd {
     padding: 0 20px;
     font-size: 15px;
     color: @globalTextColor;
 }
 
-.weui_dialog_ft {
+.dialog_ft {
     position: relative;
     line-height: 42px;
     margin-top: 20px;
     font-size: 17px;
     a {
         display: block;
-        color: @weuiDialogLinkColor;
+        color: @dialogLinkColor;
         text-decoration: none;
         .setTapColor;
         &:active,
@@ -57,16 +65,16 @@
     }
     &:after {
         content: " ";
-        .setLine(@weuiDialogLineColor);
+        .setLine(@gColorHr);
     }
-    .weui_dialog_confirm & {
+    .dialog_confirm & {
         a {
             position: relative;
             float: left;
             width: 50%;
             &:after {
                 content: " ";
-                .setLine(@weuiDialogLineColor, V);
+                .setLine(@dialogLineColor, V);
             }
             &:first-child {
                 &:after {
@@ -83,17 +91,17 @@
     }
 }
 
-.weui_btn_dialog {
+.btn_dialog {
     &.default {
-        color: #353535;
+        color: @gColorTitle;
     }
     &.primary {
-        color: #0BB20C;
+        color: @gColorPrimary;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .weui_dialog {
+    .dialog {
         width: 35%;
     }
 }
@@ -102,18 +110,18 @@
 
 <template>
 
-<div :class="'weui_dialog_' + type" v-show="show">
-    <div class="weui_mask"></div>
-    <div class="weui_dialog">
-        <div class="weui_dialog_hd">
-            <strong class="weui_dialog_title">{{title}}</strong>
+<div :class="'dialog_' + type" v-show="show">
+    <div class="dialog_mask"></div>
+    <div class="dialog">
+        <div class="dialog_hd">
+            <strong class="dialog_title">{{title}}</strong>
         </div>
-        <div class="weui_dialog_bd">
+        <div class="dialog_bd">
             <slot>请注意，这里可以自定义(支持html)</slot>
         </div>
-        <div class="weui_dialog_ft">
-            <a href="javascript:;" class="weui_btn_dialog default" v-if="type === 'confirm'" @click="dispatch($event,  'on-' + type + '-cancel')">{{cancelBtn}}</a>
-            <a href="javascript:;" class="weui_btn_dialog primary" @click="dispatch($event, 'on-' + type + '-confirm')">{{confirmBtn}}</a>
+        <div class="dialog_ft">
+            <a href="javascript:;" class="btn_dialog default" v-if="type === 'confirm'" @click="dispatch($event,  'on-' + type + '-cancel')">{{cancelBtn}}</a>
+            <a href="javascript:;" class="btn_dialog primary" @click="dispatch($event, 'on-' + type + '-confirm')">{{confirmBtn}}</a>
         </div>
     </div>
 </div>
