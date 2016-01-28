@@ -107,7 +107,7 @@
                 </div>
                 <div class="weui_cell_ft">
                     <input type="radio" class="weui_check" name="radio1" id="x11">
-                    <span class="weui_icon_checked"></span>
+                    <span class="iconfont weui_icon_checked"></span>
                 </div>
             </label>
             <label class="weui_cell weui_check_label" for="x12">
@@ -117,7 +117,7 @@
                 </div>
                 <div class="weui_cell_ft">
                     <input type="radio" name="radio1" class="weui_check" id="x12" checked="checked">
-                    <span class="weui_icon_checked"></span>
+                    <span class="iconfont weui_icon_checked"></span>
                 </div>
             </label>
         </div>
@@ -126,7 +126,7 @@
             <label class="weui_cell weui_check_label" for="s11">
                 <div class="weui_cell_hd">
                     <input type="checkbox" class="weui_check" name="checkbox1" id="s11" checked="checked">
-                    <i class="weui_icon_checked"></i>
+                    <i class="iconfont weui_icon_checked"></i>
                 </div>
                 <div class="weui_cell_bd weui_cell_primary">
                     <p>standard is dealt for u.</p>
@@ -135,7 +135,7 @@
             <label class="weui_cell weui_check_label" for="s12">
                 <div class="weui_cell_hd">
                     <input type="checkbox" name="checkbox1" class="weui_check" id="s12">
-                    <i class="weui_icon_checked"></i>
+                    <i class="iconfont weui_icon_checked"></i>
                 </div>
                 <div class="weui_cell_bd weui_cell_primary">
                     <p>standard is dealicient for u.</p>
@@ -182,20 +182,21 @@
                     <input class="weui_input" type="number" placeholder="请输入验证码"/>
                 </div>
                 <div class="weui_cell_ft">
-                    <i class="weui_icon_warn"></i>
+                    <i class="icon-font icon-roundwarning"></i>
                     <img src="/example/images/vcode.jpg" />
                 </div>
             </div>
         </div>
         <div class="weui_cells_tips">底部说明文字底部说明文字</div>
-        <div class="weui_btn_area">
-            <a class="weui_btn weui_btn_primary" href="javascript:">确定</a>
+        <div class="btn_area">
+            <a class="btn btn_primary" href="javascript:">确定</a>
         </div>
         <div class="weui_cells_title">文本域</div>
         <div class="weui_cells weui_cells_form">
             <div class="weui_cell">
                 <div class="weui_cell_bd weui_cell_primary">
-                    <textarea class="weui_textarea" placeholder="请输入评论"></textarea>
+                    <textarea class="weui_textarea" placeholder="请输入评论" rows="3"></textarea>
+                    <div class="weui_textarea_counter"><span>0</span>/200</div>
                 </div>
             </div>
         </div>
@@ -204,10 +205,10 @@
             <div class="weui_cell weui_cell_warn">
                 <div class="weui_cell_hd"><label for="" class="weui_label">卡号</label></div>
                 <div class="weui_cell_bd weui_cell_primary">
-                    <input class="weui_input" type="number" value="weui input error" placeholder="请输入卡号"/>
+                    <input class="weui_input" type="tel" value="weui input error" placeholder="请输入卡号"/>
                 </div>
                 <div class="weui_cell_ft">
-                    <i class="weui_icon_warn"></i>
+                    <i class="icon-font icon-roundwarning"></i>
                 </div>
             </div>
             <div class="weui_cell">
@@ -303,7 +304,7 @@ export default {
     }
   },
   ready() {
-    this.tooltipsWarn = '温馨提示：你写错啦你知不知道'
+    this.tooltipsWarn = '温馨提示：你写错啦你知不知道';
     const handler = setInterval(() => {
     if (this.errorCount === 1) {
       clearInterval(handler);
@@ -315,10 +316,10 @@ export default {
 </script>
 
 <style lang="less">
-@import "../../src/style/widget/weui_cell/weui_cell_global";
+@import "../../src/style/widget/cell/cell_global";
 
-@import "../../src/style/widget/weui_cell/weui_access";
-@import "../../src/style/widget/weui_cell/weui_check";
-@import "../../src/style/widget/weui_cell/weui_form";
-@import "../../src/style/widget/weui_cell/weui_switch";
+@import "../../src/style/widget/cell/access";
+@import "../../src/style/widget/cell/check";
+@import "../../src/style/widget/cell/form";
+@import "../../src/style/widget/cell/switch";
 </style>

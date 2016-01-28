@@ -1,5 +1,5 @@
 <template>
-  <div class="page icons">
+  <div class="page">
       <div class="hd">
           <h1 class="page_title">Icons</h1>
       </div>

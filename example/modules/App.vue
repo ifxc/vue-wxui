@@ -18,7 +18,7 @@ html, body {
 }
 
 body, .page {
-    background-color: #FBF9FE;
+    background-color: #f3f3f3;
 }
 
 .container {

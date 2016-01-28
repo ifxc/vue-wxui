@@ -6,13 +6,14 @@
     }
     .weui_cell {
         &:active {
-            background-color: #ECECEC;
+            background-color: @gColorAidGray;
         }
     }
     .weui_icon_checked {
+        margin: 0;
         &:before {
-            content: '\EA01';
-            color: #C9C9C9;
+            content: '\E60C';
+            color: @gColorPrimary;
             font-size: 23px;
             display: block;
         }
@@ -25,9 +26,10 @@
     .weui_cells_checkbox & {
         &:checked {
             & + .weui_icon_checked {
+                margin: 0;
                 &:before {
-                    content: '\EA06';
-                    color: #09BB07;
+                    content: '\E62A';
+                    color: @gColorPrimary;
                 }
             }
         }

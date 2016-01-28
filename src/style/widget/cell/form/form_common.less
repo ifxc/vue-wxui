@@ -30,7 +30,10 @@
     line-height: inherit;
     outline: 0;
 }
-
+.weui_textarea_counter{
+    color: #B2B2B2;
+    text-align: right;
+}
 .weui_toptips {
     display:none;
     position: fixed;
@@ -54,7 +57,12 @@
     .weui_cell_hd {
         padding-right: .3em;
     }
-    .weui_cell_ft{font-size:0;}
+    .weui_cell_ft{
+        font-size:0;
+        i:before{
+            color:@globalWarnColor;
+        }
+    }
     .weui_icon_warn{
         display:none;
     }

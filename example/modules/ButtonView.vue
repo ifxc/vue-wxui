@@ -1,5 +1,5 @@
 <template>
-  <div class="page button">
+  <div class="page">
       <div class="hd">
           <h1 class="page_title">Button</h1>
       </div>
