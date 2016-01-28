@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div class="page" transition="app">
     <div class="hd">
         <h1 class="page_title">WZMUI</h1>
         <p class="page_desc">Base on WeUI,thank for vue-weui。</p>

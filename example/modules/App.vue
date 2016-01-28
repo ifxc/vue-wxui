@@ -1,23 +1,15 @@
 <template>
   <div class="container js_container">
-    <!-- <div class="page"> -->
-      <!-- <div class="hd">
-          <h1 class="page_title">WeUI</h1>
-          <p class="page_desc">为微信Web服务量身设计</p>
-      </div> -->
       <!-- main view -->
       <router-view
         class="view"
         keep-alive
-        transition
-        transition-mode="out-in">
+        transition="slide">
       </router-view>
-    <!-- </div> -->
   </div>
 </template>
 
 <style lang="less">
-// @import "../../src/style/weui.less";
 @import "../../src/style/base/reset";
 
 html, body {
@@ -197,30 +189,5 @@ body, .page {
         }
     }
 }
-
-@keyframes slideIn {
-    from {
-        transform: translate3d(100%, 0, 0);
-    }
-    to {
-        transform: translate3d(0, 0, 0);
-    }
-}
-
-@keyframes slideOut {
-    from {
-        transform: translate3d(0, 0, 0);
-    }
-    to {
-        transform: translate3d(100%, 0, 0);
-    }
-}
-
-.page.slideIn {
-    animation: slideIn .2s forwards;
-}
-
-.page.slideOut {
-    animation: slideOut .2s forwards;
-}
+@import '../../src/style/slide';
 </style>
