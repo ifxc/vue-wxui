@@ -38,8 +38,10 @@ export default {
 
     .icon_area {
         margin-bottom: @msgIconGap;
+        i:before{
+            font-size: 68px;
+         }
     }
-
     .text_area {
         margin-bottom: @msgTextGap;
         padding:0 20px;
