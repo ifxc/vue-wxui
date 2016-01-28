@@ -5,79 +5,78 @@
         <p class="page_desc">Base on WeUI,thank for vue-weui。</p>
     </div>
     <div class="bd">
-        <div class="weui_cells weui_cells_access global_navs">
-            <!-- <a v-link="{ name: 'user', params: { userId: 123 }}">User</a> -->
-            <a class="weui_cell js_cell" v-link="'button'" data-id="cell">
-                <span class="weui_cell_hd"><img src="../images/icon_nav_button.png" class="icon_nav" alt=""></span>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <p>Button</p>
+        <div class="grids">
+            <a class="grid js_grid" v-link="'button'" data-id="button">
+                <div class="grid_icon">
+                    <img src="../images/icon_nav_button.png" alt="">
                 </div>
-                <div class="weui_cell_ft">
-                </div>
+                <p class="grid_label">
+                    Button
+                </p>
             </a>
-            <a class="weui_cell js_cell" v-link="'cell'" data-id="cell">
-                <span class="weui_cell_hd"><img src="../images/icon_nav_cell.png" class="icon_nav" alt=""></span>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <p>Cell</p>
+            <a class="grid js_grid" v-link="'cell'" data-id="cell">
+                <div class="grid_icon">
+                    <img src="../images/icon_nav_cell.png" alt="">
                 </div>
-                <div class="weui_cell_ft">
-                </div>
+                <p class="grid_label">
+                    Cell
+                </p>
             </a>
-            <a class="weui_cell js_cell" v-link="'toast'" data-id="toast">
-                <span class="weui_cell_hd"><img src="../images/icon_nav_toast.png" class="icon_nav" alt=""></span>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <p>Toast</p>
+            <a class="grid js_grid" v-link="'toast'" data-id="toast">
+                <div class="grid_icon">
+                    <img src="../images/icon_nav_toast.png" alt="">
                 </div>
-                <div class="weui_cell_ft">
-                </div>
+                <p class="grid_label">
+                    Toast
+                </p>
             </a>
-            <a class="weui_cell js_cell" v-link="'dialog'" href="javascript:;" data-id="dialog">
-                <span class="weui_cell_hd"><img src="../images/icon_nav_dialog.png" class="icon_nav" alt=""></span>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <p>Dialog</p>
+            <a class="grid js_grid" v-link="'dialog'" data-id="dialog">
+                <div class="grid_icon">
+                    <img src="../images/icon_nav_dialog.png" alt="">
                 </div>
-                <div class="weui_cell_ft">
-                </div>
+                <p class="grid_label">
+                    Dialog
+                </p>
             </a>
-            <a class="weui_cell js_cell" v-link="'progress'" data-id="progress">
-                <span class="weui_cell_hd"><img src="../images/icon_nav_button.png" class="icon_nav" alt=""></span>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <p>Progress</p>
+            <a class="grid js_grid" v-link="'progress'" data-id="progress">
+                <div class="grid_icon">
+                    <img src="../images/icon_nav_button.png" alt="">
                 </div>
-                <div class="weui_cell_ft">
-                </div>
+                <p class="grid_label">
+                    Progress
+                </p>
             </a>
-            <a class="weui_cell js_cell" v-link="'msg'" data-id="msg">
-                <span class="weui_cell_hd"><img src="../images/icon_nav_msg.png" class="icon_nav" alt=""></span>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <p>Msg Page</p>
+            <a class="grid js_grid" v-link="'msg'" data-id="msg">
+                <div class="grid_icon">
+                    <img src="../images/icon_nav_msg.png" alt="">
                 </div>
-                <div class="weui_cell_ft">
-                </div>
+                <p class="grid_label">
+                    Msg
+                </p>
             </a>
-            <a class="weui_cell js_cell" v-link="'article'" data-id="article">
-                <span class="weui_cell_hd"><img src="../images/icon_nav_article.png" class="icon_nav" alt=""></span>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <p>Article Page</p>
+            <a class="grid js_grid" v-link="'article'" data-id="article">
+                <div class="grid_icon">
+                    <img src="../images/icon_nav_article.png" alt="">
                 </div>
-                <div class="weui_cell_ft">
-                </div>
+                <p class="grid_label">
+                    Article
+                </p>
             </a>
-            <a class="weui_cell js_cell" v-link="'actionsheet'" data-id="actionSheet">
-                <span class="weui_cell_hd"><img src="../images/icon_nav_actionSheet.png" class="icon_nav" alt=""></span>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <p>ActionSheet</p>
+            <a class="grid js_grid" v-link="'actionsheet'" data-id="actionsheet">
+                <div class="grid_icon">
+                    <img src="../images/icon_nav_actionSheet.png" alt="">
                 </div>
-                <div class="weui_cell_ft">
-                </div>
+                <p class="grid_label">
+                    ActionSheet
+                </p>
             </a>
-            <a class="weui_cell js_cell" v-link="'icons'" data-id="icons">
-                <span class="weui_cell_hd"><img src="../images/icon_nav_icons.png" class="icon_nav" alt=""></span>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <p>Icons</p>
+            <a class="grid js_grid" v-link="'icons'" data-id="icons">
+                <div class="grid_icon">
+                    <img src="../images/icon_nav_icons.png" alt="">
                 </div>
-                <div class="weui_cell_ft">
-                </div>
+                <p class="grid_label">
+                    Icons
+                </p>
             </a>
         </div>
     </div>
@@ -150,6 +149,6 @@ export default {
 }
 </script>
 
-<style lang="stylus">
-
+<style lang="less">
+    @import '../../src/style/grid';
 </style>
