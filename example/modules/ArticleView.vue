@@ -1,10 +1,10 @@
 <template>
-  <div class="page article">
+  <div class="page">
       <div class="hd">
           <h1 class="page_title">Article</h1>
       </div>
       <div class="bd">
-          <article class="weui_article">
+          <article class="article">
               <h1>大标题</h1>
               <section>
                   <h2 class="title">章标题</h2>
@@ -35,27 +35,5 @@ export default {
 </script>
 
 <style lang="less">
-@import "../../src/style/base/fn";
-
-.weui_article {
-    padding: 20px 15px;
-    font-size: 15px;
-    section {
-        margin-bottom: 1.5em;
-    }
-    h1 {
-        font-size: 17px;
-        font-weight:400;
-        margin-bottom: .75em;
-    }
-    h2 {
-        font-size: 16px;
-        font-weight:400;
-        margin-bottom: .3em;
-    }
-    h3 {
-        font-weight:400;
-        font-size: 15px;
-    }
-}
+    @import "../../src/style/article";
 </style>
