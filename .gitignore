@@ -85,5 +85,4 @@ node_modules
 
 # project
 build/
-static/
 temp/
