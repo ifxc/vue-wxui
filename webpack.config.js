@@ -7,7 +7,7 @@ module.exports = {
   //入口文件输出配置
   output: {
     path: './static',
-    publicPath: 'http://localhost:8080/static/',
+    publicPath: 'http://ifxc.github.io/vue-wzmui/static/',
     filename: '[name].js'
   },
   module: {
