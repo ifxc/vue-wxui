@@ -18,3 +18,5 @@ npm run dev
 npm run build
 ```
 
+## Demo
+http://ifxc.github.io/vue-wzmui/
