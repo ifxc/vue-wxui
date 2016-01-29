@@ -1,10 +1,10 @@
 @import "../../base/fn";
-.weui_cell {
+.cell {
     // onepx
     position: relative;
     &:before {
-        .setTopLine(@weuiCellBorderColor);
-        left: @weuiCellGapH;
+        .setTopLine(@cellBorderColor);
+        left: @cellGapH;
     }
     &:first-child {
         &:before {
@@ -12,11 +12,11 @@
         }
     }
 }
-.weui_cells {
-    margin-top: @weuiCellsMarginTop;
-    background-color: @weuiCellBg;
-    line-height: @weuiCellLineHeight;
-    font-size: @weuiCellFontSize; //cell中间有效高度23px，跟客户端默认图标尺寸一致
+.cells {
+    margin-top: @cellsMarginTop;
+    background-color: @cellBg;
+    line-height: @cellLineHeight;
+    font-size: @cellFontSize; //cell中间有效高度23px，跟客户端默认图标尺寸一致
 
     overflow: hidden; //因为每个cell的border使用before元素left搞的，ie下伪元素的containing block估计跟标准不同，在cell上用oh不生效
 
@@ -24,40 +24,40 @@
     // onepx
     position: relative;
     &:before {
-        .setTopLine(@weuiCellBorderColor);
+        .setTopLine(@cellBorderColor);
     }
     &:after {
-        .setBottomLine(@weuiCellBorderColor);
+        .setBottomLine(@cellBorderColor);
     }
 }
 
-.weui_cells_title {
+.cells_title {
     margin-top: .77em; // 15px - 行高
     margin-bottom: .3em; // 8px - 行高
-    padding-left: @weuiCellGapH;
-    padding-right: @weuiCellGapH;
+    padding-left: @cellGapH;
+    padding-right: @cellGapH;
     color: @globalTextColor;
-    font-size: @weuiCellTipsFontSize;
+    font-size: @cellTipsFontSize;
 
-    &+.weui_cells{
+    &+.cells{
         margin-top: 0;
     }
 }
-.weui_cells_tips{
+.cells_tips{
     margin-top: .3em; // 8px - 行高
     color: @globalTextColor;
-    font-size: @weuiCellTipsFontSize;
+    font-size: @cellTipsFontSize;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.weui_cell {
-    padding: @weuiCellGapV @weuiCellGapH;
+.cell {
+    padding: @cellGapV @cellGapH;
     display: block; //这个是为了兼容语义化(li)与实现(table-cell)的冲突
     position: relative; //这个是为了兼容cells容器onepx方案被before挡住而做的
 }
 
-.weui_cell_hd, .weui_cell_bd, .weui_cell_ft {
+.cell_hd, .cell_bd, .cell_ft {
     display: table-cell;
     vertical-align: middle;
     word-wrap: break-word;
@@ -65,12 +65,12 @@
     white-space: nowrap;
 }
 
-.weui_cell_ft {
+.cell_ft {
     text-align: right;
     color: @globalTextColor;
 }
 
-.weui_cell_primary {
+.cell_primary {
     width: 2000px;
     white-space: normal;
 }

@@ -1,17 +1,17 @@
 @import "../../base/fn";
 
-.weui_cells_access {
-    .weui_cell:not(.no_access) {
+.cells_access {
+    .cell:not(.no_access) {
         // 在cell_access和其它类型的cell混着用的场景下，其它cell要加no_access，避免有点击态
         .setTapColor;
         &:active {
             background-color: @gColorAidGray;
         }
     }
-    a.weui_cell {
+    a.cell {
         color: inherit;
     }
-    .weui_cell_ft {
+    .cell_ft {
         &:after {
             content: " ";
             .setArrow_Wap(right, 6px, #C8C8CD, 2px);

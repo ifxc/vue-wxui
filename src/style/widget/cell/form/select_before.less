@@ -1,13 +1,13 @@
 @import "../../../base/fn";
 @import "select";
 
-.weui_select_before {
-    padding-right:@weuiCellGapH;
-    .weui_select{width:auto;}
-    .weui_cell_hd {
+.select_before {
+    padding-right:@cellGapH;
+    .select{width:auto;}
+    .cell_hd {
         position:relative;
         &:after {
-            .setRightLine(@weuiCellBorderColor);
+            .setRightLine(@cellBorderColor);
         }
         &:before{
             content: " ";
@@ -15,12 +15,12 @@
 
             position: absolute;
             top: 50%;
-            right: @weuiCellGapH;
+            right: @cellGapH;
             margin-top: -3px;
         }
     }
-    .weui_cell_bd {
-        padding-left:@weuiCellGapH;
+    .cell_bd {
+        padding-left:@cellGapH;
         &:after{
             display:none;
         }

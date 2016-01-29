@@ -1,10 +1,10 @@
 @import "../../../base/fn";
 
-.weui_label{
+.label{
   display:block;
   width:3em;
 }
-.weui_input {
+.input {
     width: 100%;
     border: 0;
     outline: 0;
@@ -12,8 +12,8 @@
     background-color: transparent;
     font-size: inherit;
     color: inherit;
-    height: unit(@weuiCellLineHeight, em);
-    line-height: @weuiCellLineHeight;
+    height: unit(@cellLineHeight, em);
+    line-height: @cellLineHeight;
 
     // hides the spin-button
     &::-webkit-outer-spin-button, &::-webkit-inner-spin-button{
@@ -21,7 +21,7 @@
         margin: 0;
     }
 }
-.weui_textarea {
+.textarea {
     display: block;
     border: 0;
     resize: none;
@@ -30,11 +30,11 @@
     line-height: inherit;
     outline: 0;
 }
-.weui_textarea_counter{
+.textarea_counter{
     color: #B2B2B2;
     text-align: right;
 }
-.weui_toptips {
+.toptips {
     display:none;
     position: fixed;
     -webkit-transform: translateZ(0);
@@ -45,25 +45,25 @@
     text-align: center;
     color: #FFF;
     z-index: 2;
-    &.weui_warn {
+    &.warn {
         background-color: @globalWarnColor;
     }
 }
-.weui_cells_form {
-    .weui_cell_warn{
+.cells_form {
+    .cell_warn{
         color:@globalWarnColor;
-        .weui_icon_warn{display:inline-block;}
+        .icon_warn{display:inline-block;}
     }
-    .weui_cell_hd {
+    .cell_hd {
         padding-right: .3em;
     }
-    .weui_cell_ft{
+    .cell_ft{
         font-size:0;
         i:before{
             color:@globalWarnColor;
         }
     }
-    .weui_icon_warn{
+    .icon_warn{
         display:none;
     }
 }

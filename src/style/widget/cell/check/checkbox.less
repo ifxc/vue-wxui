@@ -1,15 +1,15 @@
 @import "../../../base/fn";
 
-.weui_cells_checkbox {
-    .weui_cell_hd {
-        padding-right: @weuiCellInnerGapH;
+.cells_checkbox {
+    .cell_hd {
+        padding-right: @cellInnerGapH;
     }
-    .weui_cell {
+    .cell {
         &:active {
             background-color: @gColorAidGray;
         }
     }
-    .weui_icon_checked {
+    .i_checked {
         margin: 0;
         &:before {
             content: '\E60C';
@@ -21,11 +21,11 @@
 }
 
 // method2 accessbility
-.weui_check {
+.check {
     // checkbox
-    .weui_cells_checkbox & {
+    .cells_checkbox & {
         &:checked {
-            & + .weui_icon_checked {
+            & + .i_checked {
                 margin: 0;
                 &:before {
                     content: '\E62A';

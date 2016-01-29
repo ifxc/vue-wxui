@@ -4,234 +4,265 @@
         <h1 class="page_title">Cell</h1>
     </div>
     <div class="bd">
-        <div class="weui_cells_title">带说明的列表项</div>
-        <div class="weui_cells">
-            <div class="weui_cell">
-                <div class="weui_cell_bd weui_cell_primary">
+        <div class="cells_title">带说明的列表项</div>
+        <div class="cells">
+            <div class="cell">
+                <div class="cell_bd cell_primary">
                     <p>标题文字</p>
                 </div>
-                <div class="weui_cell_ft">
+                <div class="cell_ft">
                     说明文字
                 </div>
             </div>
         </div>
-        <div class="weui_cells_title">带图标、说明的列表项</div>
-        <div class="weui_cells weui_cells_split">
-            <div class="weui_cell">
-                <div class="weui_cell_hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
-                <div class="weui_cell_bd weui_cell_primary">
+        <div class="cells_title">带图标、说明的列表项</div>
+        <div class="cells cells_split">
+            <div class="cell">
+                <div class="cell_hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+                <div class="cell_bd cell_primary">
                     <p>标题文字</p>
                 </div>
-                <div class="weui_cell_ft">
+                <div class="cell_ft">
                     说明文字
                 </div>
             </div>
-            <div class="weui_cell">
-                <div class="weui_cell_hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
-                <div class="weui_cell_bd weui_cell_primary">
+            <div class="cell">
+                <div class="cell_hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+                <div class="cell_bd cell_primary">
                     <p>标题文字</p>
                 </div>
-                <div class="weui_cell_ft">
+                <div class="cell_ft">
                     说明文字
                 </div>
             </div>
         </div>
 
-        <div class="weui_cells_title">带跳转的列表项</div>
-        <div class="weui_cells weui_cells_access">
-            <a class="weui_cell" href="javascript:;">
-                <div class="weui_cell_bd weui_cell_primary">
+        <div class="cells_title">带跳转的列表项</div>
+        <div class="cells cells_access">
+            <a class="cell" href="javascript:;">
+                <div class="cell_bd cell_primary">
                     <p>cell standard</p>
                 </div>
-                <div class="weui_cell_ft">
+                <div class="cell_ft">
                 </div>
             </a>
-            <a class="weui_cell" href="javascript:;">
-                <div class="weui_cell_bd weui_cell_primary">
+            <a class="cell" href="javascript:;">
+                <div class="cell_bd cell_primary">
                     <p>cell standard</p>
                 </div>
-                <div class="weui_cell_ft">
-                </div>
-            </a>
-        </div>
-
-        <div class="weui_cells_title">带说明、跳转的列表项</div>
-        <div class="weui_cells weui_cells_access">
-            <a class="weui_cell" href="javascript:;">
-                <div class="weui_cell_bd weui_cell_primary">
-                    <p>cell standard</p>
-                </div>
-                <div class="weui_cell_ft">
-                    说明文字
-                </div>
-            </a>
-            <a class="weui_cell" href="javascript:;">
-                <div class="weui_cell_bd weui_cell_primary">
-                    <p>cell standard</p>
-                </div>
-                <div class="weui_cell_ft">
-                    说明文字
-                </div>
-            </a>
-
-        </div>
-
-        <div class="weui_cells_title">带图标、说明、跳转的列表项</div>
-        <div class="weui_cells weui_cells_access">
-
-            <a class="weui_cell" href="javascript:;">
-                <div class="weui_cell_hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <p>cell standard</p>
-                </div>
-                <div class="weui_cell_ft">
-                    说明文字
-                </div>
-            </a>
-            <a class="weui_cell" href="javascript:;">
-                <div class="weui_cell_hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <p>cell standard</p>
-                </div>
-                <div class="weui_cell_ft">
-                    说明文字
+                <div class="cell_ft">
                 </div>
             </a>
         </div>
 
-        <div class="weui_cells_title">单选列表项</div>
-        <div class="weui_cells weui_cells_radio">
-            <label class="weui_cell weui_check_label" for="x11">
-                <div class="weui_cell_bd weui_cell_primary">
+        <div class="cells_title">带说明、跳转的列表项</div>
+        <div class="cells cells_access">
+            <a class="cell" href="javascript:;">
+                <div class="cell_bd cell_primary">
                     <p>cell standard</p>
                 </div>
-                <div class="weui_cell_ft">
-                    <input type="radio" class="weui_check" name="radio1" id="x11">
-                    <span class="iconfont weui_icon_checked"></span>
+                <div class="cell_ft">
+                    说明文字
+                </div>
+            </a>
+            <a class="cell" href="javascript:;">
+                <div class="cell_bd cell_primary">
+                    <p>cell standard</p>
+                </div>
+                <div class="cell_ft">
+                    说明文字
+                </div>
+            </a>
+
+        </div>
+
+        <div class="cells_title">带图标、说明、跳转的列表项</div>
+        <div class="cells cells_access">
+
+            <a class="cell" href="javascript:;">
+                <div class="cell_hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+                <div class="cell_bd cell_primary">
+                    <p>cell standard</p>
+                </div>
+                <div class="cell_ft">
+                    说明文字
+                </div>
+            </a>
+            <a class="cell" href="javascript:;">
+                <div class="cell_hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+                <div class="cell_bd cell_primary">
+                    <p>cell standard</p>
+                </div>
+                <div class="cell_ft">
+                    说明文字
+                </div>
+            </a>
+        </div>
+
+        <div class="cells_title">单选列表项</div>
+        <div class="cells cells_radio">
+            <label class="cell check_label" for="x11">
+                <div class="cell_bd cell_primary">
+                    <p>cell standard</p>
+                </div>
+                <div class="cell_ft">
+                    <input type="radio" class="check" name="radio1" id="x11">
+                    <span class="icon i_checked"></span>
                 </div>
             </label>
-            <label class="weui_cell weui_check_label" for="x12">
+            <label class="cell check_label" for="x12">
 
-                <div class="weui_cell_bd weui_cell_primary">
+                <div class="cell_bd cell_primary">
                     <p>cell standard</p>
                 </div>
-                <div class="weui_cell_ft">
-                    <input type="radio" name="radio1" class="weui_check" id="x12" checked="checked">
-                    <span class="iconfont weui_icon_checked"></span>
+                <div class="cell_ft">
+                    <input type="radio" name="radio1" class="check" id="x12" checked="checked">
+                    <span class="icon i_checked"></span>
                 </div>
             </label>
         </div>
-        <div class="weui_cells_title">复选列表项</div>
-        <div class="weui_cells weui_cells_checkbox">
-            <label class="weui_cell weui_check_label" for="s11">
-                <div class="weui_cell_hd">
-                    <input type="checkbox" class="weui_check" name="checkbox1" id="s11" checked="checked">
-                    <i class="iconfont weui_icon_checked"></i>
+        <div class="cells_title">复选列表项</div>
+        <div class="cells cells_checkbox">
+            <label class="cell check_label" for="s11">
+                <div class="cell_hd">
+                    <input type="checkbox" class="check" name="checkbox1" id="s11" checked="checked">
+                    <i class="icon i_checked"></i>
                 </div>
-                <div class="weui_cell_bd weui_cell_primary">
+                <div class="cell_bd cell_primary">
                     <p>standard is dealt for u.</p>
                 </div>
             </label>
-            <label class="weui_cell weui_check_label" for="s12">
-                <div class="weui_cell_hd">
-                    <input type="checkbox" name="checkbox1" class="weui_check" id="s12">
-                    <i class="iconfont weui_icon_checked"></i>
+            <label class="cell check_label" for="s12">
+                <div class="cell_hd">
+                    <input type="checkbox" name="checkbox1" class="check" id="s12">
+                    <i class="icon i_checked"></i>
                 </div>
-                <div class="weui_cell_bd weui_cell_primary">
+                <div class="cell_bd cell_primary">
                     <p>standard is dealicient for u.</p>
                 </div>
             </label>
         </div>
 
-        <div class="weui_cells_title">开关</div>
-        <div class="weui_cells weui_cells_form">
-            <div class="weui_cell weui_cell_switch">
-                <div class="weui_cell_hd weui_cell_primary">标题文字</div>
-                <div class="weui_cell_ft">
-                    <input class="weui_switch" type="checkbox"/>
+        <div class="cells_title">开关</div>
+        <div class="cells cells_form">
+            <div class="cell cell_switch">
+                <div class="cell_hd cell_primary">标题文字</div>
+                <div class="cell_ft">
+                    <input class="switch" type="checkbox"/>
                 </div>
             </div>
         </div>
 
-        <div class="weui_cells_title">表单</div>
-        <div class="weui_cells weui_cells_form">
-            <div class="weui_cell">
-                <div class="weui_cell_hd"><label class="weui_label">qq</label></div>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <input class="weui_input" type="number" placeholder="请输入qq号"/>
+        <div class="cells_title">表单</div>
+        <div class="cells cells_form">
+            <div class="cell">
+                <div class="cell_hd"><label class="label">qq</label></div>
+                <div class="cell_bd cell_primary">
+                    <input class="input" type="number" placeholder="请输入qq号"/>
                 </div>
             </div>
-            <div class="weui_cell weui_vcode">
-                <div class="weui_cell_hd"><label class="weui_label">验证码</label></div>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <input class="weui_input" type="number" placeholder="请输入验证码"/>
+            <div class="cell vcode">
+                <div class="cell_hd"><label class="label">验证码</label></div>
+                <div class="cell_bd cell_primary">
+                    <input class="input" type="number" placeholder="请输入验证码"/>
                 </div>
-                <div class="weui_cell_ft">
+                <div class="cell_ft">
                     <img src="/example/images/vcode.jpg" />
                 </div>
             </div>
-            <div class="weui_cell">
-                <div class="weui_cell_hd"><label class="weui_label">银行卡</label></div>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <input class="weui_input" type="number" placeholder="请输入银行卡号"/>
+            <div class="cell">
+                <div class="cell_hd"><label class="label">银行卡</label></div>
+                <div class="cell_bd cell_primary">
+                    <input class="input" type="number" placeholder="请输入银行卡号"/>
                 </div>
             </div>
-            <div class="weui_cell weui_vcode weui_cell_warn">
-                <div class="weui_cell_hd"><label class="weui_label">验证码</label></div>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <input class="weui_input" type="number" placeholder="请输入验证码"/>
+            <div class="cell vcode cell_warn">
+                <div class="cell_hd"><label class="label">验证码</label></div>
+                <div class="cell_bd cell_primary">
+                    <input class="input" type="number" placeholder="请输入验证码"/>
                 </div>
-                <div class="weui_cell_ft">
-                    <i class="icon-font icon-roundwarning"></i>
+                <div class="cell_ft">
+                    <i class="icon i-roundwarning"></i>
                     <img src="/example/images/vcode.jpg" />
                 </div>
             </div>
         </div>
-        <div class="weui_cells_tips">底部说明文字底部说明文字</div>
+        <div class="cells_tips">底部说明文字底部说明文字</div>
         <div class="btn_area">
             <a class="btn btn_primary" href="javascript:">确定</a>
         </div>
-        <div class="weui_cells_title">文本域</div>
-        <div class="weui_cells weui_cells_form">
-            <div class="weui_cell">
-                <div class="weui_cell_bd weui_cell_primary">
-                    <textarea class="weui_textarea" placeholder="请输入评论" rows="3"></textarea>
-                    <div class="weui_textarea_counter"><span>0</span>/200</div>
+        <div class="cells_title">上传</div>
+        <div class="cells cells_form">
+            <div class="cell">
+                <div class="cell_bd cell_primary">
+                    <div class="uploader">
+                        <div class="uploader_hd cell">
+                            <div class="cell_bd cell_primary">图片上传</div>
+                            <div class="cell_ft">0/2</div>
+                        </div>
+                        <div class="uploader_bd">
+                            <ul class="uploader_files">
+                                <li class="uploader_file" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></li>
+                                <li class="uploader_file" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></li>
+                                <li class="uploader_file" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></li>
+                                <li class="uploader_file uploader_status" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)">
+                                    <div class="uploader_status_content">
+                                        <i class="icon i-roundwarning"></i> 
+                                    </div>
+                                </li>
+                                <li class="uploader_file uploader_status" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)">
+                                    <div class="uploader_status_content">50%</div>
+                                </li>
+                            </ul>
+                            <div class="uploader_input_wrp">
+                                <input class="uploader_input" type="file" accept="image/jpg,image/jpeg,image/png,image/gif" multiple />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="weui_cells_title">表单报错</div>
-        <div class="weui_cells weui_cells_form">
-            <div class="weui_cell weui_cell_warn">
-                <div class="weui_cell_hd"><label for="" class="weui_label">卡号</label></div>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <input class="weui_input" type="tel" value="weui input error" placeholder="请输入卡号"/>
-                </div>
-                <div class="weui_cell_ft">
-                    <i class="icon-font icon-roundwarning"></i>
-                </div>
-            </div>
-            <div class="weui_cell">
-                <div class="weui_cell_hd"><label for="" class="weui_label">日期</label></div>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <input class="weui_input" type="date" value=""/>
-                </div>
-            </div>
-            <div class="weui_cell">
-                <div class="weui_cell_hd"><label for="" class="weui_label">时间</label></div>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <input class="weui_input" type="datetime-local" value="" placeholder=""/>
+        <div class="cells_title">文本域</div>
+        <div class="cells cells_form">
+            <div class="cell">
+                <div class="cell_bd cell_primary">
+                    <textarea class="textarea" placeholder="请输入评论" rows="3"></textarea>
+                    <div class="textarea_counter"><span>0</span>/200</div>
                 </div>
             </div>
         </div>
-        <div class="weui_cells_title">选择</div>
-        <div class="weui_cells weui_cells_split">
+        <div class="cells_title">表单报错</div>
+        <div class="cells cells_form">
+            <div class="cell cell_warn">
+                <div class="cell_hd"><label for="" class="label">卡号</label></div>
+                <div class="cell_bd cell_primary">
+                    <input class="input" type="tel" value="weui input error" placeholder="请输入卡号"/>
+                </div>
+                <div class="cell_ft">
+                    <i class="icon i-roundwarning"></i>
+                </div>
+            </div>
+            <div class="cell">
+                <div class="cell_hd"><label for="" class="label">日期</label></div>
+                <div class="cell_bd cell_primary">
+                    <input class="input" type="date" value=""/>
+                </div>
+            </div>
+            <div class="cell">
+                <div class="cell_hd"><label for="" class="label">时间</label></div>
+                <div class="cell_bd cell_primary">
+                    <input class="input" type="datetime-local" value="" placeholder=""/>
+                </div>
+            </div>
+        </div>
+        <div class="cells_title">选择</div>
+        <div class="cells cells_split">
 
-            <div class="weui_cell weui_cell_select weui_select_before">
-                <div class="weui_cell_hd">
+            <div class="cell cell_select select_before">
+                <div class="cell_hd">
                   <we-select :options="areaCodeOptions" :selected.sync="areaCodeSelected"></we-select>
                     <!--
-                    <select class="weui_select" name="select2">
+                    <select class="select" name="select2">
                         <option value="1">+86</option>
                         <option value="2">+80</option>
                         <option value="3">+84</option>
@@ -239,16 +270,16 @@
                     </select>
                     -->
                 </div>
-                <div class="weui_cell_bd weui_cell_primary">
-                    <input class="weui_input" type="text" placeholder="请输入号码"/>
+                <div class="cell_bd cell_primary">
+                    <input class="input" type="text" placeholder="请输入号码"/>
                 </div>
             </div>
         </div>
-        <div class="weui_cells_title">选择</div>
-        <div class="weui_cells weui_cells_split">
-            <div class="weui_cell weui_cell_select">
-                <div class="weui_cell_bd weui_cell_primary">
-                    <!-- <select class="weui_select" name="select1">
+        <div class="cells_title">选择</div>
+        <div class="cells cells_split">
+            <div class="cell cell_select">
+                <div class="cell_bd cell_primary">
+                    <!-- <select class="select" name="select1">
                         <option selected="" value="1">微信号</option>
                         <option value="2">QQ号</option>
                         <option value="3">Email</option>
@@ -256,13 +287,13 @@
                     <we-select :options="contactOptions" :selected.sync="contactSelected"></we-select>
                 </div>
             </div>
-            <div class="weui_cell weui_cell_select weui_select_after">
-                <div class="weui_cell_hd">
+            <div class="cell cell_select select_after">
+                <div class="cell_hd">
                     国家/地区{{nationSelected}}
                 </div>
-                <div class="weui_cell_bd weui_cell_primary">
+                <div class="cell_bd cell_primary">
                     <!--
-                    <select class="weui_select" v-model="nationSelected">
+                    <select class="select" v-model="nationSelected">
                         <option value="1">中国</option>
                         <option value="2">美国</option>
                         <option value="3">英国</option>
@@ -322,4 +353,5 @@ export default {
 @import "../../src/style/widget/cell/check";
 @import "../../src/style/widget/cell/form";
 @import "../../src/style/widget/cell/switch";
+@import "../../src/style/widget/cell/uploader";
 </style>

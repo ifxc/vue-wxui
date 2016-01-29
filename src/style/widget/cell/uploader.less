@@ -1,0 +1,102 @@
+@import "../../base/fn";
+
+@uploaderBorderColor:#D9D9D9;
+@uploaderActiveBorderColor:#999999;
+@uploaderFileSpacing: 9px;
+@uploaderSize: 79px;
+@uploaderBorderWidth: 1px;
+
+.uploader{}
+.uploader_hd{
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
+  .cell_ft{
+    font-size: 1em;
+  }
+}
+.uploader_bd{
+  margin-bottom: @cellGapH - (@cellGapV + @uploaderFileSpacing);
+  margin-right: -@uploaderFileSpacing;
+  overflow: hidden;
+}
+
+.uploader_files{
+  list-style: none;
+}
+.uploader_file{
+  float: left;
+  margin-right: @uploaderFileSpacing;
+  margin-bottom: @uploaderFileSpacing;
+  width: @uploaderSize;
+  height: @uploaderSize;
+  background: no-repeat center center;
+  background-size: cover;
+}
+.uploader_status{
+  position: relative;
+  &:before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+  }
+  .uploader_status_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    i.icon:before{
+      color: #fff;
+    }
+  }
+  .icon_warn{
+    display: block;
+  }
+}
+
+.uploader_input_wrp{
+  float:left;
+  position: relative;
+  margin-right: @uploaderFileSpacing;
+  margin-bottom: @uploaderFileSpacing;
+  width: @uploaderSize - @uploaderBorderWidth * 2;
+  height: @uploaderSize - @uploaderBorderWidth * 2;
+  border: @uploaderBorderWidth solid @uploaderBorderColor;
+  &:before, &:after{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: @uploaderBorderColor;
+  }
+  &:before{
+    width: @uploaderBorderWidth + 1;
+    height: @uploaderSize / 2;
+  }
+  &:after{
+    width: @uploaderSize / 2;
+    height: @uploaderBorderWidth + 1;
+  }
+  &:active{
+    border-color: @uploaderActiveBorderColor;
+    &:before, &:after{
+      background-color: @uploaderActiveBorderColor;
+    }
+  }
+}
+.uploader_input{
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
