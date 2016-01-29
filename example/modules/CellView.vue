@@ -1,5 +1,5 @@
 <template>
-  <div class="page cell">
+  <div class="page">
     <div class="hd">
         <h1 class="page_title">Cell</h1>
     </div>
@@ -261,14 +261,6 @@
             <div class="cell cell_select select_before">
                 <div class="cell_hd">
                   <we-select :options="areaCodeOptions" :selected.sync="areaCodeSelected"></we-select>
-                    <!--
-                    <select class="select" name="select2">
-                        <option value="1">+86</option>
-                        <option value="2">+80</option>
-                        <option value="3">+84</option>
-                        <option value="4">+87</option>
-                    </select>
-                    -->
                 </div>
                 <div class="cell_bd cell_primary">
                     <input class="input" type="text" placeholder="请输入号码"/>
@@ -279,11 +271,6 @@
         <div class="cells cells_split">
             <div class="cell cell_select">
                 <div class="cell_bd cell_primary">
-                    <!-- <select class="select" name="select1">
-                        <option selected="" value="1">微信号</option>
-                        <option value="2">QQ号</option>
-                        <option value="3">Email</option>
-                    </select> -->
                     <we-select :options="contactOptions" :selected.sync="contactSelected"></we-select>
                 </div>
             </div>
@@ -292,14 +279,6 @@
                     国家/地区{{nationSelected}}
                 </div>
                 <div class="cell_bd cell_primary">
-                    <!--
-                    <select class="select" v-model="nationSelected">
-                        <option value="1">中国</option>
-                        <option value="2">美国</option>
-                        <option value="3">英国</option>
-                        <option v-for="option in nationOption">{{option}}</option>
-                    </select>
-                    -->
                     <we-select :after="true" :options="nationOptions" :selected.sync="nationSelected">
                         <span slot="header">国家/地区</span>
                     </we-select>

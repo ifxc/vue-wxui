@@ -1,9 +1,9 @@
 <style lang="less">
 
-.weui_toptips {
+.toptips {
   display: block;
 }
-.weui_toptips.weui_success {
+.toptips.weui_success {
   background-color: #039702;
 }
 </style>
@@ -12,9 +12,9 @@
 
 <div v-show="text"
   :class="{
-    'weui_toptips': true,
-    'weui_warn': (type == 'warn'),
-    'weui_success': (type == 'success')
+    'toptips': true,
+    'warn': (type == 'warn'),
+    'success': (type == 'success')
   }">{{text}}</div>
 
 </template>
@@ -41,9 +41,9 @@ export default {
     },
     watch: {
       text(val) {
-        if (this._timeout) clearTimeout(this._timeout)
+        if (this._timeout) clearTimeout(this._timeout);
         if (val && !!this.duration) {
-          this._timeout = setTimeout(()=> this.text = '', this.duration)
+          this._timeout = setTimeout(()=> this.text = '', this.duration);
         }
       }
     }
