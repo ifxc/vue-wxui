@@ -18,5 +18,6 @@ npm run dev
 npm run build
 ```
 
-## Demo
+## Demo地址
 http://ifxc.github.io/vue-wzmui/
+![](http://ifxc.github.io/vue-wzmui/img/qr.png)
