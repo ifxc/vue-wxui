@@ -20,7 +20,9 @@ html, body {
 body, .page {
     background-color: #f3f3f3;
 }
-
+.page{
+    padding-bottom: 40px;
+}
 .container {
     position: absolute;
     top: 0;

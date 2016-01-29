@@ -1,6 +1,6 @@
 <template>
 
-<select class="weui_select" v-model="selected">
+<select class="select" v-model="selected">
     <option v-for="(index, option) in options" :value="index + 1">{{option}}</option>
 </select>
 

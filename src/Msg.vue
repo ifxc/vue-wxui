@@ -1,6 +1,6 @@
 <template>
   <div class="msg">
-      <div class="icon_area"><i class="icon-font icon-bighook"></i></div>
+      <div class="icon_area"><i class="icon i-bighook"></i></div>
       <div class="text_area">
           <h2 class="msg_title">操作成功</h2>
           <p class="msg_desc">内容详情，可根据实际需要安排</p>

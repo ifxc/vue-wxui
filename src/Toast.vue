@@ -2,7 +2,7 @@
   <div v-show="show">
       <div class="mask_transparent"></div>
       <div class="toast">
-          <i class="icon-font icon-bighook"></i>
+          <i class="icon i-bighook"></i>
           <p class="toast_content"><slot>已完成</slot></p>
       </div>
   </div>
@@ -62,8 +62,11 @@ export default {
     text-align: center;
     border-radius: 5px;
     color: #FFFFFF;
-    .icon-font{
-        font-size:32px;
+    .icon{
+        font-size:56px;
+        &:before{
+             color: @gColorAidGray;
+         }
     }
 }
 .icon_toast {

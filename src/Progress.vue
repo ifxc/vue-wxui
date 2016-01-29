@@ -37,7 +37,7 @@
         <div class="progress_inner_bar" :style="{ width: size + '%' }"></div>
     </div>
     <a v-if="showCloseBtn" href="javascript:;" class="progress_opr" @click="dispatch('on-progress-cancel')">
-        <i class="icon-font icon-cross"></i>
+        <i class="icon i-cross"></i>
     </a>
 </div>
 

@@ -7,7 +7,7 @@
       <!-- actionsheet_toggle -->
       <div class="actionsheet" :class="{actionsheet_toggle:isShow}" id="actionsheet">
           <div class="actionsheet_menu">
-              <div class="actionsheet_cell" v-on:click="close()">示例菜单</div>
+              <div class="actionsheet_cell" v-on:click="close()">示例菜单2</div>
               <div class="actionsheet_cell" v-on:click="close()">示例菜单</div>
               <div class="actionsheet_cell" v-on:click="close()">示例菜单</div>
               <div class="actionsheet_cell">示例菜单(我没有关闭功能)</div>
@@ -103,7 +103,7 @@ export default {
     text-align: center;
     font-size: 18px;
     &:before {
-        .setTopLine(@weuiCellBorderColor);
+        .setTopLine(@cellBorderColor);
     }
     &:active{
         background-color: @bgColor;
