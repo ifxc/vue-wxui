@@ -20,4 +20,4 @@ npm run build
 
 ## Demo地址
 http://ifxc.github.io/vue-wzmui/
-![](http://ifxc.github.io/vue-wzmui/img/qr.png)
+![](http://ifxc.github.io/vue-wzmui/static/img/qr.png)
