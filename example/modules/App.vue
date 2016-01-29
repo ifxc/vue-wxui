@@ -1,5 +1,6 @@
 <template>
   <div class="container js_container">
+      <header-bar v-show="this.$route.isShowHeader=='hide'?false:true">sd</header-bar>
       <!-- main view -->
       <router-view
         class="view"
@@ -21,7 +22,7 @@ body, .page {
     background-color: #f3f3f3;
 }
 .page{
-    padding-bottom: 40px;
+    padding: 44px 0;
 }
 .container {
     position: absolute;
@@ -193,3 +194,16 @@ body, .page {
 }
 @import '../../src/style/slide';
 </style>
+
+<script>
+    import HeaderBar from '../../src/HeaderBar.vue';
+    export default {
+        name: 'AppView',
+        components: {HeaderBar},
+        data () {
+            return {
+                item: {}
+            }
+        }
+    }
+</script>

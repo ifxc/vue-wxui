@@ -27,7 +27,8 @@ var router = new Router();
 router.map({
   '/': {
     name: 'index',  // 路径别名
-    component: IndexView
+    component: IndexView,
+    isShowHeader: 'hide'
   },
   '/button': {
     name: 'button',
@@ -62,7 +63,6 @@ router.map({
 router.redirect({
   '*': '/'
 });
-
 router.start(App, '#app');
 
 // flexible
