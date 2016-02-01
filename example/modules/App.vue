@@ -1,12 +1,13 @@
 <template>
   <div class="container js_container">
-      <header-bar v-show="this.$route.isShowHeader=='hide'?false:true">sd</header-bar>
+      <header-bar v-show="this.$route.isShowHeader=='hide'?false:true"></header-bar>
       <!-- main view -->
       <router-view
         class="view"
         keep-alive
         transition="slide">
       </router-view>
+      <footer-bar v-show="this.$route.isShowHeader=='hide'?false:true"></footer-bar>
   </div>
 </template>
 
@@ -22,7 +23,7 @@ body, .page {
     background-color: #f3f3f3;
 }
 .page{
-    padding: 44px 0;
+    padding: 44px 0 54px;
 }
 .container {
     position: absolute;
@@ -197,9 +198,10 @@ body, .page {
 
 <script>
     import HeaderBar from '../../src/HeaderBar.vue';
+    import FooterBar from '../../src/FooterBar.vue';
     export default {
         name: 'AppView',
-        components: {HeaderBar},
+        components: {HeaderBar,FooterBar},
         data () {
             return {
                 item: {}
