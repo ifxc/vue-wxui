@@ -58,47 +58,47 @@
 	
 	var _App2 = _interopRequireDefault(_App);
 	
-	var _IndexView = __webpack_require__(53);
+	var _IndexView = __webpack_require__(61);
 	
 	var _IndexView2 = _interopRequireDefault(_IndexView);
 	
-	var _ButtonView = __webpack_require__(66);
+	var _ButtonView = __webpack_require__(71);
 	
 	var _ButtonView2 = _interopRequireDefault(_ButtonView);
 	
-	var _ToastView = __webpack_require__(71);
+	var _ToastView = __webpack_require__(76);
 	
 	var _ToastView2 = _interopRequireDefault(_ToastView);
 	
-	var _DialogView = __webpack_require__(91);
+	var _DialogView = __webpack_require__(96);
 	
 	var _DialogView2 = _interopRequireDefault(_DialogView);
 	
-	var _ActionSheetView = __webpack_require__(99);
+	var _ActionSheetView = __webpack_require__(104);
 	
 	var _ActionSheetView2 = _interopRequireDefault(_ActionSheetView);
 	
-	var _MsgView = __webpack_require__(112);
+	var _MsgView = __webpack_require__(117);
 	
 	var _MsgView2 = _interopRequireDefault(_MsgView);
 	
-	var _ArticleView = __webpack_require__(120);
+	var _ArticleView = __webpack_require__(125);
 	
 	var _ArticleView2 = _interopRequireDefault(_ArticleView);
 	
-	var _CellView = __webpack_require__(125);
+	var _CellView = __webpack_require__(130);
 	
 	var _CellView2 = _interopRequireDefault(_CellView);
 	
-	var _ProgressView = __webpack_require__(138);
+	var _ProgressView = __webpack_require__(143);
 	
 	var _ProgressView2 = _interopRequireDefault(_ProgressView);
 	
-	var _IconsView = __webpack_require__(146);
+	var _IconsView = __webpack_require__(151);
 	
 	var _IconsView2 = _interopRequireDefault(_IconsView);
 	
-	var _flexible = __webpack_require__(151);
+	var _flexible = __webpack_require__(156);
 	
 	var _flexible2 = _interopRequireDefault(_flexible);
 	
@@ -12465,7 +12465,7 @@
 	var __vue_script__, __vue_template__
 	__webpack_require__(42)
 	__vue_script__ = __webpack_require__(46)
-	__vue_template__ = __webpack_require__(52)
+	__vue_template__ = __webpack_require__(60)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -12516,7 +12516,7 @@
 	
 	
 	// module
-	exports.push([module.id, "html {\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%;\n}\nbody {\n  line-height: 1.6;\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n}\n* {\n  margin: 0;\n  padding: 0;\n}\na img {\n  border: 0;\n}\na {\n  text-decoration: none;\n}\nhtml,\nbody {\n  height: 100%;\n  -webkit-tap-highlight-color: transparent;\n}\nbody,\n.page {\n  background-color: #f3f3f3;\n}\n.page {\n  padding: 44px 0;\n}\n.container {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  overflow: hidden;\n  background: #f3f3f3;\n}\n.page {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  overflow-y: auto;\n  -webkit-overflow-scrolling: touch;\n}\n.hd {\n  padding: 2em 0;\n}\n.page_desc {\n  text-align: center;\n  color: #888;\n  font-size: 14px;\n}\n.bd.spacing {\n  padding: 0 15px;\n}\n.page_title {\n  text-align: center;\n  font-size: 34px;\n  color: #1677cb;\n  font-weight: 400;\n  margin: 0 15%;\n}\n.global_navs {\n  background-color: transparent;\n}\n.global_navs:before,\n.global_navs:after {\n  border-color: #D9DBDA;\n}\n.global_navs .cell {\n  padding-top: .5em;\n  padding-bottom: .5em;\n}\n.global_navs .cell:before {\n  border-color: #D9DBDA;\n}\n.global_navs .icon_nav {\n  width: 28px;\n  height: 28px;\n  display: block;\n  margin-right: .7em;\n}\n.page.button .page_title {\n  color: #225FBA;\n}\n.page.button .bd {\n  padding: 0 15px;\n}\n.page.button .button_sp_area {\n  padding: 10px 0;\n  width: 60%;\n  margin: 0 auto;\n  text-align: justify;\n  text-justify: distribute-all-lines;\n  /*ie6-9*/\n  font-size: 0;\n}\n.page.button .button_sp_area:after {\n  display: inline-block;\n  width: 100%;\n  height: 0;\n  font-size: 0;\n  margin: 0;\n  padding: 0;\n  overflow: hidden;\n  content: \".\";\n}\n.page.cell .page_title {\n  color: #225FBA;\n}\n.page.cell .bd {\n  padding-bottom: 30px;\n}\n.page.toast {\n  background-color: #FFFFFF;\n}\n.page.toast .bd {\n  padding: 120px 15px 0;\n}\n.page.dialog {\n  background-color: #FFFFFF;\n}\n.page.dialog .bd {\n  padding: 120px 15px 0;\n}\n.page.msg {\n  background-color: #FFFFFF;\n}\n.page.article {\n  background-color: #FFFFFF;\n}\n.page.article .page_title {\n  color: #DE7C23;\n}\n.page.icons {\n  background-color: #FFFFFF;\n  text-align: center;\n}\n.page.icons .page_title {\n  color: #3E24BD;\n}\n.page.icons .bd {\n  padding: 30px 0;\n  text-align: center;\n}\n.page.icons .icon_sp_area {\n  padding: 10px 20px;\n  text-align: left;\n}\n.page.icons i {\n  margin: 0 5px 10px;\n}\nbody {\n  overflow-x: hidden;\n}\n@-webkit-keyframes slideIn {\n  from {\n    -webkit-transform: translate3d(100%, 0, 0);\n            transform: translate3d(100%, 0, 0);\n  }\n  to {\n    -webkit-transform: translate3d(0, 0, 0);\n            transform: translate3d(0, 0, 0);\n  }\n}\n@keyframes slideIn {\n  from {\n    -webkit-transform: translate3d(100%, 0, 0);\n            transform: translate3d(100%, 0, 0);\n  }\n  to {\n    -webkit-transform: translate3d(0, 0, 0);\n            transform: translate3d(0, 0, 0);\n  }\n}\n@-webkit-keyframes slideOut {\n  from {\n    -webkit-transform: translate3d(0, 0, 0);\n            transform: translate3d(0, 0, 0);\n  }\n  to {\n    -webkit-transform: translate3d(100%, 0, 0);\n            transform: translate3d(100%, 0, 0);\n  }\n}\n@keyframes slideOut {\n  from {\n    -webkit-transform: translate3d(0, 0, 0);\n            transform: translate3d(0, 0, 0);\n  }\n  to {\n    -webkit-transform: translate3d(100%, 0, 0);\n            transform: translate3d(100%, 0, 0);\n  }\n}\n.page.slideIn {\n  -webkit-animation: slideIn .2s forwards;\n          animation: slideIn .2s forwards;\n}\n.page.slideOut {\n  -webkit-animation: slideOut .2s forwards;\n          animation: slideOut .2s forwards;\n}\n.slide-transition {\n  -webkit-transition: left 0.3s ease;\n  transition: left 0.3s ease;\n  width: 100%;\n}\n.slide-enter,\n.slide-leave {\n  left: 100%;\n}\n.slide-leave {\n  left: 100%;\n}\n.app-transition {\n  -webkit-transition: opacity 0.3s ease;\n  transition: opacity 0.3s ease;\n}\n.app-enter,\n.app-leave {\n  opacity: 0;\n}\n", "", {"version":3,"sources":["/./example/modules/App.vue.style"],"names":[],"mappings":"AAAA;EACE,2BAA2B;EAC3B,+BAA+B;CAChC;AACD;EACE,iBAAiB;EACjB,4DAA4D;CAC7D;AACD;EACE,UAAU;EACV,WAAW;CACZ;AACD;EACE,UAAU;CACX;AACD;EACE,sBAAsB;CACvB;AACD;;EAEE,aAAa;EACb,yCAAyC;CAC1C;AACD;;EAEE,0BAA0B;CAC3B;AACD;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;EACnB,OAAO;EACP,SAAS;EACT,UAAU;EACV,QAAQ;EACR,iBAAiB;EACjB,oBAAoB;CACrB;AACD;EACE,mBAAmB;EACnB,OAAO;EACP,SAAS;EACT,UAAU;EACV,QAAQ;EACR,iBAAiB;EACjB,kCAAkC;CACnC;AACD;EACE,eAAe;CAChB;AACD;EACE,mBAAmB;EACnB,YAAY;EACZ,gBAAgB;CACjB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;EACnB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,cAAc;CACf;AACD;EACE,8BAA8B;CAC/B;AACD;;EAEE,sBAAsB;CACvB;AACD;EACE,kBAAkB;EAClB,qBAAqB;CACtB;AACD;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;EACZ,aAAa;EACb,eAAe;EACf,mBAAmB;CACpB;AACD;EACE,eAAe;CAChB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,gBAAgB;EAChB,WAAW;EACX,eAAe;EACf,oBAAoB;EACpB,mCAAmC;EACnC,SAAS;EACT,aAAa;CACd;AACD;EACE,sBAAsB;EACtB,YAAY;EACZ,UAAU;EACV,aAAa;EACb,UAAU;EACV,WAAW;EACX,iBAAiB;EACjB,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE,qBAAqB;CACtB;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,eAAe;CAChB;AACD;EACE,0BAA0B;EAC1B,mBAAmB;CACpB;AACD;EACE,eAAe;CAChB;AACD;EACE,gBAAgB;EAChB,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,iBAAiB;CAClB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;CACpB;AACD;EACE;IACE,2CAAmC;YAAnC,mCAAmC;GACpC;EACD;IACE,wCAAgC;YAAhC,gCAAgC;GACjC;CACF;AAPD;EACE;IACE,2CAAmC;YAAnC,mCAAmC;GACpC;EACD;IACE,wCAAgC;YAAhC,gCAAgC;GACjC;CACF;AACD;EACE;IACE,wCAAgC;YAAhC,gCAAgC;GACjC;EACD;IACE,2CAAmC;YAAnC,mCAAmC;GACpC;CACF;AAPD;EACE;IACE,wCAAgC;YAAhC,gCAAgC;GACjC;EACD;IACE,2CAAmC;YAAnC,mCAAmC;GACpC;CACF;AACD;EACE,wCAAgC;UAAhC,gCAAgC;CACjC;AACD;EACE,yCAAiC;UAAjC,iCAAiC;CAClC;AACD;EACE,mCAA2B;EAA3B,2BAA2B;EAC3B,YAAY;CACb;AACD;;EAEE,WAAW;CACZ;AACD;EACE,WAAW;CACZ;AACD;EACE,sCAA8B;EAA9B,8BAA8B;CAC/B;AACD;;EAEE,WAAW;CACZ","file":"App.vue","sourcesContent":["html {\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%;\n}\nbody {\n  line-height: 1.6;\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n}\n* {\n  margin: 0;\n  padding: 0;\n}\na img {\n  border: 0;\n}\na {\n  text-decoration: none;\n}\nhtml,\nbody {\n  height: 100%;\n  -webkit-tap-highlight-color: transparent;\n}\nbody,\n.page {\n  background-color: #f3f3f3;\n}\n.page {\n  padding: 44px 0;\n}\n.container {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  overflow: hidden;\n  background: #f3f3f3;\n}\n.page {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  overflow-y: auto;\n  -webkit-overflow-scrolling: touch;\n}\n.hd {\n  padding: 2em 0;\n}\n.page_desc {\n  text-align: center;\n  color: #888;\n  font-size: 14px;\n}\n.bd.spacing {\n  padding: 0 15px;\n}\n.page_title {\n  text-align: center;\n  font-size: 34px;\n  color: #1677cb;\n  font-weight: 400;\n  margin: 0 15%;\n}\n.global_navs {\n  background-color: transparent;\n}\n.global_navs:before,\n.global_navs:after {\n  border-color: #D9DBDA;\n}\n.global_navs .cell {\n  padding-top: .5em;\n  padding-bottom: .5em;\n}\n.global_navs .cell:before {\n  border-color: #D9DBDA;\n}\n.global_navs .icon_nav {\n  width: 28px;\n  height: 28px;\n  display: block;\n  margin-right: .7em;\n}\n.page.button .page_title {\n  color: #225FBA;\n}\n.page.button .bd {\n  padding: 0 15px;\n}\n.page.button .button_sp_area {\n  padding: 10px 0;\n  width: 60%;\n  margin: 0 auto;\n  text-align: justify;\n  text-justify: distribute-all-lines;\n  /*ie6-9*/\n  font-size: 0;\n}\n.page.button .button_sp_area:after {\n  display: inline-block;\n  width: 100%;\n  height: 0;\n  font-size: 0;\n  margin: 0;\n  padding: 0;\n  overflow: hidden;\n  content: \".\";\n}\n.page.cell .page_title {\n  color: #225FBA;\n}\n.page.cell .bd {\n  padding-bottom: 30px;\n}\n.page.toast {\n  background-color: #FFFFFF;\n}\n.page.toast .bd {\n  padding: 120px 15px 0;\n}\n.page.dialog {\n  background-color: #FFFFFF;\n}\n.page.dialog .bd {\n  padding: 120px 15px 0;\n}\n.page.msg {\n  background-color: #FFFFFF;\n}\n.page.article {\n  background-color: #FFFFFF;\n}\n.page.article .page_title {\n  color: #DE7C23;\n}\n.page.icons {\n  background-color: #FFFFFF;\n  text-align: center;\n}\n.page.icons .page_title {\n  color: #3E24BD;\n}\n.page.icons .bd {\n  padding: 30px 0;\n  text-align: center;\n}\n.page.icons .icon_sp_area {\n  padding: 10px 20px;\n  text-align: left;\n}\n.page.icons i {\n  margin: 0 5px 10px;\n}\nbody {\n  overflow-x: hidden;\n}\n@keyframes slideIn {\n  from {\n    transform: translate3d(100%, 0, 0);\n  }\n  to {\n    transform: translate3d(0, 0, 0);\n  }\n}\n@keyframes slideOut {\n  from {\n    transform: translate3d(0, 0, 0);\n  }\n  to {\n    transform: translate3d(100%, 0, 0);\n  }\n}\n.page.slideIn {\n  animation: slideIn .2s forwards;\n}\n.page.slideOut {\n  animation: slideOut .2s forwards;\n}\n.slide-transition {\n  transition: left 0.3s ease;\n  width: 100%;\n}\n.slide-enter,\n.slide-leave {\n  left: 100%;\n}\n.slide-leave {\n  left: 100%;\n}\n.app-transition {\n  transition: opacity 0.3s ease;\n}\n.app-enter,\n.app-leave {\n  opacity: 0;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "html {\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%;\n}\nbody {\n  line-height: 1.6;\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n}\n* {\n  margin: 0;\n  padding: 0;\n}\na img {\n  border: 0;\n}\na {\n  text-decoration: none;\n}\nhtml,\nbody {\n  height: 100%;\n  -webkit-tap-highlight-color: transparent;\n}\nbody,\n.page {\n  background-color: #f3f3f3;\n}\n.page {\n  padding: 44px 0 54px;\n}\n.container {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  overflow: hidden;\n  background: #f3f3f3;\n}\n.page {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  overflow-y: auto;\n  -webkit-overflow-scrolling: touch;\n}\n.hd {\n  padding: 2em 0;\n}\n.page_desc {\n  text-align: center;\n  color: #888;\n  font-size: 14px;\n}\n.bd.spacing {\n  padding: 0 15px;\n}\n.page_title {\n  text-align: center;\n  font-size: 34px;\n  color: #1677cb;\n  font-weight: 400;\n  margin: 0 15%;\n}\n.global_navs {\n  background-color: transparent;\n}\n.global_navs:before,\n.global_navs:after {\n  border-color: #D9DBDA;\n}\n.global_navs .cell {\n  padding-top: .5em;\n  padding-bottom: .5em;\n}\n.global_navs .cell:before {\n  border-color: #D9DBDA;\n}\n.global_navs .icon_nav {\n  width: 28px;\n  height: 28px;\n  display: block;\n  margin-right: .7em;\n}\n.page.button .page_title {\n  color: #225FBA;\n}\n.page.button .bd {\n  padding: 0 15px;\n}\n.page.button .button_sp_area {\n  padding: 10px 0;\n  width: 60%;\n  margin: 0 auto;\n  text-align: justify;\n  text-justify: distribute-all-lines;\n  /*ie6-9*/\n  font-size: 0;\n}\n.page.button .button_sp_area:after {\n  display: inline-block;\n  width: 100%;\n  height: 0;\n  font-size: 0;\n  margin: 0;\n  padding: 0;\n  overflow: hidden;\n  content: \".\";\n}\n.page.cell .page_title {\n  color: #225FBA;\n}\n.page.cell .bd {\n  padding-bottom: 30px;\n}\n.page.toast {\n  background-color: #FFFFFF;\n}\n.page.toast .bd {\n  padding: 120px 15px 0;\n}\n.page.dialog {\n  background-color: #FFFFFF;\n}\n.page.dialog .bd {\n  padding: 120px 15px 0;\n}\n.page.msg {\n  background-color: #FFFFFF;\n}\n.page.article {\n  background-color: #FFFFFF;\n}\n.page.article .page_title {\n  color: #DE7C23;\n}\n.page.icons {\n  background-color: #FFFFFF;\n  text-align: center;\n}\n.page.icons .page_title {\n  color: #3E24BD;\n}\n.page.icons .bd {\n  padding: 30px 0;\n  text-align: center;\n}\n.page.icons .icon_sp_area {\n  padding: 10px 20px;\n  text-align: left;\n}\n.page.icons i {\n  margin: 0 5px 10px;\n}\nbody {\n  overflow-x: hidden;\n}\n.slide-transition {\n  -webkit-transition: -webkit-transform 0.2s ease;\n  transition: -webkit-transform 0.2s ease;\n  transition: transform 0.2s ease;\n  transition: transform 0.2s ease, -webkit-transform 0.2s ease;\n  width: 100%;\n}\n.slide-enter,\n.slide-leave {\n  -webkit-transform: translateX(100%);\n          transform: translateX(100%);\n}\n.app-transition {\n  -webkit-transition: opacity 0.2s ease;\n  transition: opacity 0.2s ease;\n}\n.app-enter,\n.app-leave {\n  opacity: 0;\n}\n", "", {"version":3,"sources":["/./example/modules/App.vue.style"],"names":[],"mappings":"AAAA;EACE,2BAA2B;EAC3B,+BAA+B;CAChC;AACD;EACE,iBAAiB;EACjB,4DAA4D;CAC7D;AACD;EACE,UAAU;EACV,WAAW;CACZ;AACD;EACE,UAAU;CACX;AACD;EACE,sBAAsB;CACvB;AACD;;EAEE,aAAa;EACb,yCAAyC;CAC1C;AACD;;EAEE,0BAA0B;CAC3B;AACD;EACE,qBAAqB;CACtB;AACD;EACE,mBAAmB;EACnB,OAAO;EACP,SAAS;EACT,UAAU;EACV,QAAQ;EACR,iBAAiB;EACjB,oBAAoB;CACrB;AACD;EACE,mBAAmB;EACnB,OAAO;EACP,SAAS;EACT,UAAU;EACV,QAAQ;EACR,iBAAiB;EACjB,kCAAkC;CACnC;AACD;EACE,eAAe;CAChB;AACD;EACE,mBAAmB;EACnB,YAAY;EACZ,gBAAgB;CACjB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;EACnB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,cAAc;CACf;AACD;EACE,8BAA8B;CAC/B;AACD;;EAEE,sBAAsB;CACvB;AACD;EACE,kBAAkB;EAClB,qBAAqB;CACtB;AACD;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;EACZ,aAAa;EACb,eAAe;EACf,mBAAmB;CACpB;AACD;EACE,eAAe;CAChB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,gBAAgB;EAChB,WAAW;EACX,eAAe;EACf,oBAAoB;EACpB,mCAAmC;EACnC,SAAS;EACT,aAAa;CACd;AACD;EACE,sBAAsB;EACtB,YAAY;EACZ,UAAU;EACV,aAAa;EACb,UAAU;EACV,WAAW;EACX,iBAAiB;EACjB,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE,qBAAqB;CACtB;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,eAAe;CAChB;AACD;EACE,0BAA0B;EAC1B,mBAAmB;CACpB;AACD;EACE,eAAe;CAChB;AACD;EACE,gBAAgB;EAChB,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,iBAAiB;CAClB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,gDAAgC;EAAhC,wCAAgC;EAAhC,gCAAgC;EAAhC,6DAAgC;EAChC,YAAY;CACb;AACD;;EAEE,oCAA4B;UAA5B,4BAA4B;CAC7B;AACD;EACE,sCAA8B;EAA9B,8BAA8B;CAC/B;AACD;;EAEE,WAAW;CACZ","file":"App.vue","sourcesContent":["html {\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%;\n}\nbody {\n  line-height: 1.6;\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n}\n* {\n  margin: 0;\n  padding: 0;\n}\na img {\n  border: 0;\n}\na {\n  text-decoration: none;\n}\nhtml,\nbody {\n  height: 100%;\n  -webkit-tap-highlight-color: transparent;\n}\nbody,\n.page {\n  background-color: #f3f3f3;\n}\n.page {\n  padding: 44px 0 54px;\n}\n.container {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  overflow: hidden;\n  background: #f3f3f3;\n}\n.page {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  overflow-y: auto;\n  -webkit-overflow-scrolling: touch;\n}\n.hd {\n  padding: 2em 0;\n}\n.page_desc {\n  text-align: center;\n  color: #888;\n  font-size: 14px;\n}\n.bd.spacing {\n  padding: 0 15px;\n}\n.page_title {\n  text-align: center;\n  font-size: 34px;\n  color: #1677cb;\n  font-weight: 400;\n  margin: 0 15%;\n}\n.global_navs {\n  background-color: transparent;\n}\n.global_navs:before,\n.global_navs:after {\n  border-color: #D9DBDA;\n}\n.global_navs .cell {\n  padding-top: .5em;\n  padding-bottom: .5em;\n}\n.global_navs .cell:before {\n  border-color: #D9DBDA;\n}\n.global_navs .icon_nav {\n  width: 28px;\n  height: 28px;\n  display: block;\n  margin-right: .7em;\n}\n.page.button .page_title {\n  color: #225FBA;\n}\n.page.button .bd {\n  padding: 0 15px;\n}\n.page.button .button_sp_area {\n  padding: 10px 0;\n  width: 60%;\n  margin: 0 auto;\n  text-align: justify;\n  text-justify: distribute-all-lines;\n  /*ie6-9*/\n  font-size: 0;\n}\n.page.button .button_sp_area:after {\n  display: inline-block;\n  width: 100%;\n  height: 0;\n  font-size: 0;\n  margin: 0;\n  padding: 0;\n  overflow: hidden;\n  content: \".\";\n}\n.page.cell .page_title {\n  color: #225FBA;\n}\n.page.cell .bd {\n  padding-bottom: 30px;\n}\n.page.toast {\n  background-color: #FFFFFF;\n}\n.page.toast .bd {\n  padding: 120px 15px 0;\n}\n.page.dialog {\n  background-color: #FFFFFF;\n}\n.page.dialog .bd {\n  padding: 120px 15px 0;\n}\n.page.msg {\n  background-color: #FFFFFF;\n}\n.page.article {\n  background-color: #FFFFFF;\n}\n.page.article .page_title {\n  color: #DE7C23;\n}\n.page.icons {\n  background-color: #FFFFFF;\n  text-align: center;\n}\n.page.icons .page_title {\n  color: #3E24BD;\n}\n.page.icons .bd {\n  padding: 30px 0;\n  text-align: center;\n}\n.page.icons .icon_sp_area {\n  padding: 10px 20px;\n  text-align: left;\n}\n.page.icons i {\n  margin: 0 5px 10px;\n}\nbody {\n  overflow-x: hidden;\n}\n.slide-transition {\n  transition: transform 0.2s ease;\n  width: 100%;\n}\n.slide-enter,\n.slide-leave {\n  transform: translateX(100%);\n}\n.app-transition {\n  transition: opacity 0.2s ease;\n}\n.app-enter,\n.app-leave {\n  opacity: 0;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -12845,29 +12845,22 @@
 	
 	var _HeaderBar2 = _interopRequireDefault(_HeaderBar);
 	
+	var _FooterBar = __webpack_require__(52);
+	
+	var _FooterBar2 = _interopRequireDefault(_FooterBar);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	exports.default = {
-	    name: 'AppView',
-	    components: { HeaderBar: _HeaderBar2.default },
-	    data: function data() {
-	        return {
-	            item: {}
-	        };
-	    }
-	};
-	// </script>
-	//
-	/* generated by vue-loader */
 	// <template>
 	//   <div class="container js_container">
-	//       <header-bar v-show="this.$route.isShowHeader=='hide'?false:true">sd</header-bar>
+	//       <header-bar v-show="this.$route.isShowHeader=='hide'?false:true"></header-bar>
 	//       <!-- main view -->
 	//       <router-view
 	//         class="view"
 	//         keep-alive
 	//         transition="slide">
 	//       </router-view>
+	//       <footer-bar v-show="this.$route.isShowHeader=='hide'?false:true"></footer-bar>
 	//   </div>
 	// </template>
 	//
@@ -12883,7 +12876,7 @@
 	//     background-color: #f3f3f3;
 	// }
 	// .page{
-	//     padding: 44px 0;
+	//     padding: 44px 0 54px;
 	// }
 	// .container {
 	//     position: absolute;
@@ -13057,6 +13050,18 @@
 	// </style>
 	//
 	// <script>
+	exports.default = {
+	    name: 'AppView',
+	    components: { HeaderBar: _HeaderBar2.default, FooterBar: _FooterBar2.default },
+	    data: function data() {
+	        return {
+	            item: {}
+	        };
+	    }
+	};
+	// </script>
+	//
+	/* generated by vue-loader */
 
 /***/ },
 /* 47 */
@@ -13203,18 +13208,204 @@
 
 /***/ },
 /* 52 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "\n  <div class=\"container js_container\">\n      <header-bar v-show=\"this.$route.isShowHeader=='hide'?false:true\">sd</header-bar>\n      <!-- main view -->\n      <router-view\n        class=\"view\"\n        keep-alive\n        transition=\"slide\">\n      </router-view>\n  </div>\n";
+	var __vue_script__, __vue_template__
+	__webpack_require__(53)
+	__vue_script__ = __webpack_require__(55)
+	__vue_template__ = __webpack_require__(56)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "C:\\Users\\fxc\\Desktop\\vue-weui-master\\src\\FooterBar.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
 
 /***/ },
 /* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(54);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(45)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../node_modules/css-loader/index.js?sourceMap!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-75ba54d4&file=FooterBar.vue!./../node_modules/less-loader/index.js!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./FooterBar.vue", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js?sourceMap!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-75ba54d4&file=FooterBar.vue!./../node_modules/less-loader/index.js!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./FooterBar.vue");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 54 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(44)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".footer {\n  position: absolute;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  box-sizing: border-box;\n  padding: 0 5px;\n  height: 44px;\n  background-color: #1677cb;\n  z-index: 10;\n  color: #fff;\n}\n.footer a {\n  position: relative;\n  float: left;\n  padding: 5px 10px;\n  width: 33.33333333%;\n  box-sizing: border-box;\n  text-overflow: ellipsis;\n  text-align: center;\n  white-space: nowrap;\n  overflow: hidden;\n  font-size: 12px;\n  line-height: 100%;\n  color: #ffffff;\n}\n.footer a i {\n  display: inline-block;\n  width: 22px;\n  height: 22px;\n}\n.footer a i img {\n  width: 100%;\n}\n.footer a i:before {\n  text-align: center;\n  color: #ffffff;\n}\n.footer a:active {\n  background-color: #1b598f;\n  color: #ffffff;\n}\n.footer span {\n  display: block;\n}\n.footer:before {\n  content: \" \";\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 1px;\n  border-top: 1px solid #D9D9D9;\n  -webkit-transform-origin: 0 0;\n          transform-origin: 0 0;\n  -webkit-transform: scaleY(0.5);\n          transform: scaleY(0.5);\n}\n.footer:after {\n  content: \" \";\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 1px;\n  height: 100%;\n  border-left: 1px solid #D9D9D9;\n  -webkit-transform-origin: 0 0;\n          transform-origin: 0 0;\n  -webkit-transform: scaleX(0.5);\n          transform: scaleX(0.5);\n}\n", "", {"version":3,"sources":["/./src/FooterBar.vue.style"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,QAAQ;EACR,SAAS;EACT,UAAU;EACV,uBAAuB;EACvB,eAAe;EACf,aAAa;EACb,0BAA0B;EAC1B,YAAY;EACZ,YAAY;CACb;AACD;EACE,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;EAClB,oBAAoB;EACpB,uBAAuB;EACvB,wBAAwB;EACxB,mBAAmB;EACnB,oBAAoB;EACpB,iBAAiB;EACjB,gBAAgB;EAChB,kBAAkB;EAClB,eAAe;CAChB;AACD;EACE,sBAAsB;EACtB,YAAY;EACZ,aAAa;CACd;AACD;EACE,YAAY;CACb;AACD;EACE,mBAAmB;EACnB,eAAe;CAChB;AACD;EACE,0BAA0B;EAC1B,eAAe;CAChB;AACD;EACE,eAAe;CAChB;AACD;EACE,aAAa;EACb,mBAAmB;EACnB,QAAQ;EACR,OAAO;EACP,YAAY;EACZ,YAAY;EACZ,8BAA8B;EAC9B,8BAAsB;UAAtB,sBAAsB;EACtB,+BAAuB;UAAvB,uBAAuB;CACxB;AACD;EACE,aAAa;EACb,mBAAmB;EACnB,QAAQ;EACR,OAAO;EACP,WAAW;EACX,aAAa;EACb,+BAA+B;EAC/B,8BAAsB;UAAtB,sBAAsB;EACtB,+BAAuB;UAAvB,uBAAuB;CACxB","file":"FooterBar.vue","sourcesContent":[".footer {\n  position: absolute;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  box-sizing: border-box;\n  padding: 0 5px;\n  height: 44px;\n  background-color: #1677cb;\n  z-index: 10;\n  color: #fff;\n}\n.footer a {\n  position: relative;\n  float: left;\n  padding: 5px 10px;\n  width: 33.33333333%;\n  box-sizing: border-box;\n  text-overflow: ellipsis;\n  text-align: center;\n  white-space: nowrap;\n  overflow: hidden;\n  font-size: 12px;\n  line-height: 100%;\n  color: #ffffff;\n}\n.footer a i {\n  display: inline-block;\n  width: 22px;\n  height: 22px;\n}\n.footer a i img {\n  width: 100%;\n}\n.footer a i:before {\n  text-align: center;\n  color: #ffffff;\n}\n.footer a:active {\n  background-color: #1b598f;\n  color: #ffffff;\n}\n.footer span {\n  display: block;\n}\n.footer:before {\n  content: \" \";\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 1px;\n  border-top: 1px solid #D9D9D9;\n  transform-origin: 0 0;\n  transform: scaleY(0.5);\n}\n.footer:after {\n  content: \" \";\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 1px;\n  height: 100%;\n  border-left: 1px solid #D9D9D9;\n  transform-origin: 0 0;\n  transform: scaleX(0.5);\n}\n"],"sourceRoot":"webpack://"}]);
+	
+	// exports
+
+
+/***/ },
+/* 55 */
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	// <template>
+	//     <footer class="footer">
+	//         <a v-link="'toast'"><i><img src="../example/images/icon_nav_toast.png"></i><span>toast</span></a>
+	//         <a v-link="'dialog'"><i><img src="../example/images/icon_nav_dialog.png"></i><span>dialog</span></a>
+	//         <a v-link="'msg'"><i><img src="../example/images/icon_nav_msg.png"></i><span>msg</span></a>
+	//     </footer>
+	// </template>
+	// <style lang="less">
+	//     @import './style/base/fn';
+	//     .footer {
+	//         position: absolute;
+	//         left: 0;
+	//         right: 0;
+	//         bottom: 0;
+	//         box-sizing:border-box;
+	//         padding: 0 5px;
+	//         height: 44px;
+	//         background-color: @gColorPrimary;
+	//         z-index: 10;
+	//         color: #fff;
+	//         a {
+	//             position: relative;
+	//             float: left;
+	//             padding: 5px 10px;
+	//             width: 33.33333333%;
+	//             box-sizing: border-box;
+	//             text-overflow: ellipsis;
+	//             text-align: center;
+	//             white-space: nowrap;
+	//             overflow: hidden;
+	//             font-size: 12px;
+	//             line-height: 100%;
+	//             color: #ffffff;
+	//             i{
+	//                 display: inline-block;
+	//                 width:22px;
+	//                 height:22px;
+	//                 img{
+	//                     width: 100%;
+	//                 }
+	//                 &:before{
+	//                      text-align: center;
+	//                      color: #ffffff;
+	//                  }
+	//             }
+	//         }
+	//         a:active {
+	//             background-color: @gColorAidBule;
+	//             color: #ffffff;
+	//         }
+	//         span{
+	//             display: block;
+	//         }
+	//     }
+	//     .footer:before {
+	//         content: " ";
+	//         position: absolute;
+	//         left: 0;
+	//         top: 0;
+	//         width: 100%;
+	//         height: 1px;
+	//         border-top: 1px solid #D9D9D9;
+	//         transform-origin: 0 0;
+	//         transform: scaleY(0.5);
+	//     }
+	//     .footer:after {
+	//         content: " ";
+	//         position: absolute;
+	//         left: 0;
+	//         top: 0;
+	//         width: 1px;
+	//         height: 100%;
+	//         border-left: 1px solid #D9D9D9;
+	//         transform-origin: 0 0;
+	//         transform: scaleX(0.5);
+	//     }
+	// </style>
+	// <script>
+	exports.default = {
+	    data: function data() {
+	        return {
+	            msg: 'hello vue'
+	        };
+	    },
+	
+	    components: {}
+	};
+	// </script>
+	/* generated by vue-loader */
+
+/***/ },
+/* 56 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "\r\n    <footer class=\"footer\">\r\n        <a v-link=\"'toast'\"><i><img src=\"" + __webpack_require__(57) + "\"></i><span>toast</span></a>\r\n        <a v-link=\"'dialog'\"><i><img src=\"" + __webpack_require__(58) + "\"></i><span>dialog</span></a>\r\n        <a v-link=\"'msg'\"><i><img src=\"" + __webpack_require__(59) + "\"></i><span>msg</span></a>\r\n    </footer>\r\n";
+
+/***/ },
+/* 57 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAAAXNSR0IArs4c6QAAAndJREFUaAXtmj9PGzEYxv0eCd0YOlGBGEpAbP0IFHVCQkyZGAKqKhADQ1XxJVrEwtSqlRjZq3ZJUGBj7daKjJXYOlQMQC4xfiKMfH8gUXjP54vs5Xw5n9/n9z7OnZ1YCF98BnwG8swApQWvNN9Ny077k5RyUV1/kdbGsc8uiOiUxsq7raWvf01tCUDAdcP2LyHkc7NhMer0LyiVX5mQpbhwOAc4Rf6TSuNbZuN4W1fO70bcFzXilmXY/qh0rWltga7o492wFEWBg26YoIbnJupSyNc46pIAVBd637kiOKchcDT0Rp4ZaYDmfYWve8CiW+gd9A46ngE/RB03qK8872DfFDnewGkHK/X197ONGibPQxdnAWcb63tdIfcV2XblfOfZsIROAgJOrWo+qCXbDVGw1po7uB4ZwAhcEFRbbw6/DwuH+5xykBvOKcAs4JwBzArOCcAs4VgB549rU5WznQl0OmjJGg46WB4yeE91pPjdvfz/Z765sTAIoA04NkC8p6SkUyHlZNiRzX6QtuDYANHRTImqgqjeD9ImHCvgydLh1cwYrT4GaRuOFRCdPQaZBxw74EOQLxu1b/dzS4bpF+IMWlieovFgcSfV7+lvexNny3DQlQkgOr6HFPSDSFxSDnDQkfh3CR9yFUCqvlbwnnzKkucpejJz0BSVFxw0WAE0YW3XPaDtjHPH8w5yZ9R2f95B2xnnjucd5M6o7f68g7Yzzh0vzcELBMH2KO5gWfZn6O3p17ESgNi1h4syvPls3KTbO3nUe9UgTuvXQtU6NFrQeJR2GyYcxJ4vbElUmThS6BG7o6lw6gz7RY/iWymdUujF+AykZ+AWhzA7O83zvaIAAAAASUVORK5CYII="
+
+/***/ },
+/* 58 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAAAXNSR0IArs4c6QAAAwBJREFUaAXtWk1oU0EQntmXNFKLFg+i/TlVvMQiYtWIBz0J9ZLGn5MXvdhTDwqiUrSb9qAogngQ2osXwWJtbaV49aKYtJJQ9ebfRZSCgvhDqUl2nUl8Ni9GHiG23djdQ2Znd97u9823b99hAmCbzYDNgM2AzYDNwMrNAJZSP5iQLTnQVwD1Xq1hY+m8uT6+AgGTodV4fiQsv7k4PQR/kZvRoNe5ATVnEWZCDWInkfzB2APFBFg5JoeADxzA7rGIfFc8b2pfa42HU/H2bEYN06nbmvmuegjrVcYrPKDpWLJfS+QYLyLq0e3ymQDnHPtK4z623DwE3XeuVpQrUFj41YD5E4da/747PAQXQv+fniVY61paBa2ChmfAHlHDBfKFZxX0TZHhAVZBwwXyhWcV9E2R4QFWQcMF8oVnFfRNkeEBVkHDBfKFZxX0TZHhAVZBwwXyhWcV9E2R4QErTEHELyzI0YRcY7gwZeEp0AXcCHkeHORREEFP8+BXAWfZ1lLreXk9hJg7yZipCJPnwX1PATSW7N+tIPeI6m2CZt7SpG99MCDEsdEd8g0vVtyiyXgMoLBh8fhi9Kk8iIR1M9U211PnU319KHy7vXeW9/IQ5IHotDxABbZBItnCvl+jYumliUg8X5dzYw9N9YezKpegDRvcsaWxmAoG8TjXCt39/iDoTnQ9HWjTOd3k+qUWUbUppW7S+OyGQHPrUEd3hmO60rJRzfNR15uI/DCgc6P02X/tC4dKnhB8PdbR+6F07b8SLA0s50eTfc9J6S0I4shERN6VWopUUk1SbCcdlXRdU+OekdZTc+WeXaoxzyVT6aZ0KQ3xMxrUCbbpKT1AppNqyh+dYF1suckxpqoU5OOo59V7Oh+raK0zxPQyLZmly3n//UjfQ95guVtVCo5vk581ijt8LxfI8XcHT5tCjpNbFUFewAExyLbQ8NZ4RF5zPRNs1QTv7brwhL5CL/hSCTWvzb+LJhBzMXj+COQOVm7xohMMPjbhUqkcu33CZsBmYDEz8BMtGM9Haz/txgAAAABJRU5ErkJggg=="
+
+/***/ },
+/* 59 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/png;base64,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"
+
+/***/ },
+/* 60 */
+/***/ function(module, exports) {
+
+	module.exports = "\r\n  <div class=\"container js_container\">\r\n      <header-bar v-show=\"this.$route.isShowHeader=='hide'?false:true\"></header-bar>\r\n      <!-- main view -->\r\n      <router-view\r\n        class=\"view\"\r\n        keep-alive\r\n        transition=\"slide\">\r\n      </router-view>\r\n      <footer-bar v-show=\"this.$route.isShowHeader=='hide'?false:true\"></footer-bar>\r\n  </div>\r\n";
+
+/***/ },
+/* 61 */
+/***/ function(module, exports, __webpack_require__) {
+
 	var __vue_script__, __vue_template__
-	__webpack_require__(54)
-	__vue_script__ = __webpack_require__(56)
-	__vue_template__ = __webpack_require__(57)
+	__webpack_require__(62)
+	__vue_script__ = __webpack_require__(64)
+	__vue_template__ = __webpack_require__(65)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -13231,13 +13422,13 @@
 	})()}
 
 /***/ },
-/* 54 */
+/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(55);
+	var content = __webpack_require__(63);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {});
@@ -13257,7 +13448,7 @@
 	}
 
 /***/ },
-/* 55 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(44)();
@@ -13271,7 +13462,7 @@
 
 
 /***/ },
-/* 56 */
+/* 64 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -13438,67 +13629,49 @@
 	/* generated by vue-loader */
 
 /***/ },
-/* 57 */
+/* 65 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "\n  <div class=\"page\" transition=\"app\">\n    <div class=\"hd\">\n        <h1 class=\"page_title\">WZMUI</h1>\n        <p class=\"page_desc\">Base on WeUI,thank for vue-weui。</p>\n    </div>\n    <div class=\"bd\">\n        <div class=\"grids\">\n            <a class=\"grid js_grid\" v-link=\"'button'\" data-id=\"button\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(58) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Button\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'cell'\" data-id=\"cell\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(59) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Cell\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'toast'\" data-id=\"toast\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(60) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Toast\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'dialog'\" data-id=\"dialog\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(61) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Dialog\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'progress'\" data-id=\"progress\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(58) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Progress\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'msg'\" data-id=\"msg\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(62) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Msg\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'article'\" data-id=\"article\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(63) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Article\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'actionsheet'\" data-id=\"actionsheet\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(64) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    ActionSheet\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'icons'\" data-id=\"icons\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(65) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Icons\n                </p>\n            </a>\n        </div>\n    </div>\n</div>\n";
+	module.exports = "\n  <div class=\"page\" transition=\"app\">\n    <div class=\"hd\">\n        <h1 class=\"page_title\">WZMUI</h1>\n        <p class=\"page_desc\">Base on WeUI,thank for vue-weui。</p>\n    </div>\n    <div class=\"bd\">\n        <div class=\"grids\">\n            <a class=\"grid js_grid\" v-link=\"'button'\" data-id=\"button\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(66) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Button\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'cell'\" data-id=\"cell\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(67) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Cell\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'toast'\" data-id=\"toast\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(57) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Toast\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'dialog'\" data-id=\"dialog\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(58) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Dialog\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'progress'\" data-id=\"progress\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(66) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Progress\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'msg'\" data-id=\"msg\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(59) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Msg\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'article'\" data-id=\"article\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(68) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Article\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'actionsheet'\" data-id=\"actionsheet\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(69) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    ActionSheet\n                </p>\n            </a>\n            <a class=\"grid js_grid\" v-link=\"'icons'\" data-id=\"icons\">\n                <div class=\"grid_icon\">\n                    <img src=\"" + __webpack_require__(70) + "\" alt=\"\">\n                </div>\n                <p class=\"grid_label\">\n                    Icons\n                </p>\n            </a>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 58 */
+/* 66 */
 /***/ function(module, exports) {
 
 	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAAAXNSR0IArs4c6QAABIpJREFUaAXtWk9IVEEYn2/LSomIiAJDMLU6GWkQ/TtoGQSdDDL04iYdulqXDhF76FBQdO0Q/iFIMqhLQaCmh0oI0sgumlYQGkVERGilven7vX2zvre7rr6debgub2D3zXvzfd/8fvPNm/m+4QkRlnAEcnoEKB26A60vCr/9mD4qhagUUq5NJ5Mzz4j+MImRzRuL+gZvHpxJxpVCcNfZ3t2zs+K+EHJnsnBu39NYQYE4NXq77o0bp4cgPPfl+/RrkCNBw+zBJxGSf90KuVa3JK1hEselkFVC0NjWTUV73J5c7QaMaanIlWxftW8gVjvnbs/Vek2s//KnD/9egmScg3iksEZUBVf7nYtfn6wUcsANrJhtqCsOqKN4CKoFJdenZRy69z+BOWlR9BL06uTFXUhwpbsx9GDowRwfgbyfop5IJghnSClpR8vTKkuIXWTJYvQhIzTFIzv6ru3IMBHx3hxcCYxg+bnnW+TM74sV0b4GDqG2gUKCiSUFExbcNlnW3NdNheuuTtw69DUImoFM0fLm3gtiZmZCCKvVJkf0kQPiLorQDfvHdcHP4sStVsjaOgEwNOrBmmj/uk9yro2BNwIrZyQPmdCV8fajQ+mwV5zpq5aWvMTy9dx+vby5Z28JrW4Z6Kj9nU4+m2dGCcbJiUb21k+ejk0TnXWPM4FyiJ8sa+45wTp3WaeRbUClKZOenzZjUxRTDABtciQOv+88lpGcGyRkJes4A9NocroaIYgFhQHHABqee99xbAR1PwU60HV0Yo5NPybSyhohiNWS36P1eOf8eC4ZEXRhA7ZgM7k9m3ttgtjniKzT6BwLSjYg3DrKBgnZANvutmzq2gQrov3VUopiLPsLrZZ+gNk2nC0Etv3oppPVJigj8dM3knIwXQfZPFO2lO1sbCgdbYIq/BIcfimj2lfHVsK2hkFtghp9L6pK/CIuKrSIgDZBBM52H04gvUh/S2uWwo5dLaLPS1NYWEqbIFk0BvO8lh5YuBt/Ley2/dBgcKP+NFOltQmOd9QO8VSa4iPHUsSWqV34e2LbYFu8H04infKnnSqtTRD5nJSRezCNwDm1C39PlA0pqNtErqhNEPCLCuQ1HvFfyAoQOPujNC8NXdiALeSI8y3Z14wQfHu77gtDiAEGsoKyaE8l6n4KdKDr6MRMJcBGCAIUp0Y3GGAXLxAb+BDimR9P2ukS69i6bAO2/AxOJlljBNEJklVFkm8fcdrzINPCgzbIQFaRgw3YMlWMJrxOJt7EoF8xwBjeJ1406suivR/t8Mu1Z2JbsSyrFETwzkEenuNzDqPFKEGFDEA5n7sjOOVBpsHLbCl7qFTwYVOicISO7cVegQM8dAqEIEg4i8R5JnfBzjg4KFexJaIfBAjj7dhDV+ixofKUQwBTFj9PoU7PbSA3RheZQBBqGg0Jag7gsquHHlx2F2gCCD2oOYDLru71IH/YBkT4PGrZkfkEkMDscFDqHoIcKNtH7nw9zp9HBRblqM5NXYEVmGFPcVC2+X6+5OPHeB6CoJrXn1MqX+bTB7GKU3gNRyBHR+A/KFjbvWAqMXEAAAAASUVORK5CYII="
 
 /***/ },
-/* 59 */
+/* 67 */
 /***/ function(module, exports) {
 
 	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAAAXNSR0IArs4c6QAAAH5JREFUaAXt17ERgDAIAEDiKs5i4zlERnOJVO7iKvFsc0fvmacDGvikIUIQIECAAIFUoGSdtV6t99iz/ufqJdp9bsc41zIW5AQIECBAgAABAgQIECDwCrgH/QMCBAgQIECAAAECBAjMKeAenPPdbU2AAAECBAgQIECAAIHfCzxT3RUKkM/E+AAAAABJRU5ErkJggg=="
 
 /***/ },
-/* 60 */
-/***/ function(module, exports) {
-
-	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAAAXNSR0IArs4c6QAAAndJREFUaAXtmj9PGzEYxv0eCd0YOlGBGEpAbP0IFHVCQkyZGAKqKhADQ1XxJVrEwtSqlRjZq3ZJUGBj7daKjJXYOlQMQC4xfiKMfH8gUXjP54vs5Xw5n9/n9z7OnZ1YCF98BnwG8swApQWvNN9Ny077k5RyUV1/kdbGsc8uiOiUxsq7raWvf01tCUDAdcP2LyHkc7NhMer0LyiVX5mQpbhwOAc4Rf6TSuNbZuN4W1fO70bcFzXilmXY/qh0rWltga7o492wFEWBg26YoIbnJupSyNc46pIAVBd637kiOKchcDT0Rp4ZaYDmfYWve8CiW+gd9A46ngE/RB03qK8872DfFDnewGkHK/X197ONGibPQxdnAWcb63tdIfcV2XblfOfZsIROAgJOrWo+qCXbDVGw1po7uB4ZwAhcEFRbbw6/DwuH+5xykBvOKcAs4JwBzArOCcAs4VgB549rU5WznQl0OmjJGg46WB4yeE91pPjdvfz/Z765sTAIoA04NkC8p6SkUyHlZNiRzX6QtuDYANHRTImqgqjeD9ImHCvgydLh1cwYrT4GaRuOFRCdPQaZBxw74EOQLxu1b/dzS4bpF+IMWlieovFgcSfV7+lvexNny3DQlQkgOr6HFPSDSFxSDnDQkfh3CR9yFUCqvlbwnnzKkucpejJz0BSVFxw0WAE0YW3XPaDtjHPH8w5yZ9R2f95B2xnnjucd5M6o7f68g7Yzzh0vzcELBMH2KO5gWfZn6O3p17ESgNi1h4syvPls3KTbO3nUe9UgTuvXQtU6NFrQeJR2GyYcxJ4vbElUmThS6BG7o6lw6gz7RY/iWymdUujF+AykZ+AWhzA7O83zvaIAAAAASUVORK5CYII="
-
-/***/ },
-/* 61 */
-/***/ function(module, exports) {
-
-	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAAAXNSR0IArs4c6QAAAwBJREFUaAXtWk1oU0EQntmXNFKLFg+i/TlVvMQiYtWIBz0J9ZLGn5MXvdhTDwqiUrSb9qAogngQ2osXwWJtbaV49aKYtJJQ9ebfRZSCgvhDqUl2nUl8Ni9GHiG23djdQ2Znd97u9823b99hAmCbzYDNgM2AzYDNwMrNAJZSP5iQLTnQVwD1Xq1hY+m8uT6+AgGTodV4fiQsv7k4PQR/kZvRoNe5ATVnEWZCDWInkfzB2APFBFg5JoeADxzA7rGIfFc8b2pfa42HU/H2bEYN06nbmvmuegjrVcYrPKDpWLJfS+QYLyLq0e3ymQDnHPtK4z623DwE3XeuVpQrUFj41YD5E4da/747PAQXQv+fniVY61paBa2ChmfAHlHDBfKFZxX0TZHhAVZBwwXyhWcV9E2R4QFWQcMF8oVnFfRNkeEBVkHDBfKFZxX0TZHhAVZBwwXyhWcV9E2R4QErTEHELyzI0YRcY7gwZeEp0AXcCHkeHORREEFP8+BXAWfZ1lLreXk9hJg7yZipCJPnwX1PATSW7N+tIPeI6m2CZt7SpG99MCDEsdEd8g0vVtyiyXgMoLBh8fhi9Kk8iIR1M9U211PnU319KHy7vXeW9/IQ5IHotDxABbZBItnCvl+jYumliUg8X5dzYw9N9YezKpegDRvcsaWxmAoG8TjXCt39/iDoTnQ9HWjTOd3k+qUWUbUppW7S+OyGQHPrUEd3hmO60rJRzfNR15uI/DCgc6P02X/tC4dKnhB8PdbR+6F07b8SLA0s50eTfc9J6S0I4shERN6VWopUUk1SbCcdlXRdU+OekdZTc+WeXaoxzyVT6aZ0KQ3xMxrUCbbpKT1AppNqyh+dYF1suckxpqoU5OOo59V7Oh+raK0zxPQyLZmly3n//UjfQ95guVtVCo5vk581ijt8LxfI8XcHT5tCjpNbFUFewAExyLbQ8NZ4RF5zPRNs1QTv7brwhL5CL/hSCTWvzb+LJhBzMXj+COQOVm7xohMMPjbhUqkcu33CZsBmYDEz8BMtGM9Haz/txgAAAABJRU5ErkJggg=="
-
-/***/ },
-/* 62 */
-/***/ function(module, exports) {
-
-	module.exports = "data:image/png;base64,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"
-
-/***/ },
-/* 63 */
+/* 68 */
 /***/ function(module, exports) {
 
 	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAAAXNSR0IArs4c6QAAAWNJREFUaAXtmssNwjAMhpOKMTjwkNgF2IMpgAMwBXsAuyDxODAHISlVTzGylMS41Z9T5Dqx/X9GTVGMwYACqhWwVHbP7Wz+du+jcW5I+aiwW/uqbLUa7a6XWD5VzBhsnSguJOoB1LmGeWQMIravqSE3OdxIyuRawQf39dT96jKSoGCORUOhwKLyCmwOggIiFw0BgkXlFdgcBAVELhoCBIvKK7A5fRZlBn9spifnzILpHnWz1pzH+9sy+jDR2PsWTSZYSvlEcO3y3hNEgS3rjk5AsKPg2rRBsJWio5Pk92COkwylXY4TjuoWdf5fT6p4rj2ZIE4yXKkL+alu0Rw1o8AcKv5zDxD8p/o5YveeYPJ7ECeZhD7DSYYhXu9/gyiQ0QWqXUBQNR5GciDIEEm1CwiqxsNIDgQZIql2ob8m/D3McIuvvs2nugSfXMiVGGSLhkumvxYS+8mbmwux8oEREQpkUeADV8xGaoJtaEsAAAAASUVORK5CYII="
 
 /***/ },
-/* 64 */
+/* 69 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "icon_nav_actionSheet.png?610c6bab9d5a2f510228cbe7bb45a1c7";
 
 /***/ },
-/* 65 */
+/* 70 */
 /***/ function(module, exports) {
 
 	module.exports = "data:image/png;base64,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"
 
 /***/ },
-/* 66 */
+/* 71 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(67)
-	__vue_script__ = __webpack_require__(69)
-	__vue_template__ = __webpack_require__(70)
+	__webpack_require__(72)
+	__vue_script__ = __webpack_require__(74)
+	__vue_template__ = __webpack_require__(75)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -13515,13 +13688,13 @@
 	})()}
 
 /***/ },
-/* 67 */
+/* 72 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(68);
+	var content = __webpack_require__(73);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {});
@@ -13541,7 +13714,7 @@
 	}
 
 /***/ },
-/* 68 */
+/* 73 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(44)();
@@ -13549,13 +13722,13 @@
 	
 	
 	// module
-	exports.push([module.id, ".btn.btn_mini {\n  line-height: 180%;\n  font-size: 14.4px;\n  padding-left: 10px;\n  padding-right: 10px;\n  display: inline-block;\n}\nbutton.weui_btn,\ninput.weui_btn {\n  width: 100%;\n  border-width: 0;\n  outline: 0;\n  -webkit-appearance: none;\n}\nbutton.weui_btn:focus,\ninput.weui_btn:focus {\n  outline: 0;\n}\nbutton.weui_btn_inline,\ninput.weui_btn_inline,\nbutton.weui_btn_mini,\ninput.weui_btn_mini {\n  width: auto;\n}\n/*gap between btn*/\n.btn + .btn {\n  margin-top: 15px;\n}\n.btn.btn_inline + .btn.btn_inline {\n  margin-top: auto;\n  margin-left: 15px;\n}\n.btn_area {\n  margin: 15px;\n}\n.btn_area.btn_area_inline {\n  -webkit-display: flex;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n.btn_area.btn_area_inline .btn {\n  margin-top: auto;\n  margin-right: 15px;\n  width: 100%;\n  -webkit-flex: 1;\n  -webkit-box-flex: 1;\n      -ms-flex: 1;\n          flex: 1;\n}\n.btn_area.btn_area_inline .btn:last-child {\n  margin-right: 0;\n}\n.btn {\n  position: relative;\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  padding-left: 15px;\n  padding-right: 15px;\n  box-sizing: border-box;\n  font-size: 18px;\n  text-align: center;\n  text-decoration: none;\n  color: #FFFFFF;\n  line-height: 240%;\n  border-radius: 5px;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  overflow: hidden;\n}\n.btn:after {\n  content: \" \";\n  width: 200%;\n  height: 200%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border: 1px solid rgba(0, 0, 0, 0.2);\n  -webkit-transform: scale(0.5);\n          transform: scale(0.5);\n  -webkit-transform-origin: 0 0;\n          transform-origin: 0 0;\n  box-sizing: border-box;\n  border-radius: 10px;\n}\n.btn.btn_inline {\n  display: inline-block;\n}\n.btn_default {\n  color: #666666;\n  background-color: #FFFFFF;\n}\n.btn_default:not(.btn_disabled):visited {\n  background-color: #FFFFFF;\n}\n.btn_default:not(.btn_disabled):active {\n  color: #666666;\n  background-color: #F3F3F3;\n}\n.btn_default.btn_disabled {\n  color: #FFFFFF;\n  background-color: #D9D9D9;\n}\n.btn_primary {\n  background-color: #1677CB;\n}\n.btn_primary:not(.btn_disabled):visited {\n  color: #FFFFFF;\n}\n.btn_primary:not(.btn_disabled):active {\n  color: #FFFFFF;\n  background-color: #1B598F;\n}\n.btn_warn {\n  background-color: #EF4F4F;\n}\n.btn_warn:not(.btn_disabled):visited {\n  color: #FFFFFF;\n}\n.btn_warn:not(.btn_disabled):active {\n  color: #FFFFFF;\n  background-color: #C13E3E;\n}\n.weui_btn_disabled {\n  color: #FFFFFF;\n}\n.weui_btn_disabled.weui_btn_default {\n  color: #FFFFFF;\n}\n.btn_plain_primary {\n  color: #1677CB;\n  border: 1px solid #1677CB;\n}\nbutton.btn_plain_primary,\ninput.btn_plain_primary {\n  border-width: 1px;\n  background-color: transparent;\n}\n.btn_plain_primary:active {\n  border-color: #1B598F;\n}\n.btn_plain_primary:after {\n  border-width: 0;\n}\n.btn_plain_warn {\n  color: #EF4F4F;\n  border: 1px solid #EF4F4F;\n}\nbutton.btn_plain_warn,\ninput.btn_plain_warn {\n  border-width: 1px;\n  background-color: transparent;\n}\n.btn_plain_warn:active {\n  border-color: #EF4F4F;\n}\n.btn_plain_warn:after {\n  border-width: 0;\n}\n.btn_plain_default {\n  color: #666666;\n  border: 1px solid #F3F3F3;\n}\nbutton.btn_plain_default,\ninput.btn_plain_default {\n  border-width: 1px;\n  background-color: transparent;\n}\n.btn_plain_default:active {\n  border-color: #D9D9D9;\n}\n.btn_plain_default:after {\n  border-width: 0;\n}\n", "", {"version":3,"sources":["/./example/modules/ButtonView.vue.style"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,kBAAkB;EAClB,mBAAmB;EACnB,oBAAoB;EACpB,sBAAsB;CACvB;AACD;;EAEE,YAAY;EACZ,gBAAgB;EAChB,WAAW;EACX,yBAAyB;CAC1B;AACD;;EAEE,WAAW;CACZ;AACD;;;;EAIE,YAAY;CACb;AACD,mBAAmB;AACnB;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;EACjB,kBAAkB;CACnB;AACD;EACE,aAAa;CACd;AACD;EACE,sBAAsB;EACtB,qBAAc;EAAd,qBAAc;EAAd,cAAc;CACf;AACD;EACE,iBAAiB;EACjB,mBAAmB;EACnB,YAAY;EACZ,gBAAgB;EAChB,oBAAQ;MAAR,YAAQ;UAAR,QAAQ;CACT;AACD;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;EACnB,eAAe;EACf,kBAAkB;EAClB,mBAAmB;EACnB,mBAAmB;EACnB,oBAAoB;EACpB,uBAAuB;EACvB,gBAAgB;EAChB,mBAAmB;EACnB,sBAAsB;EACtB,eAAe;EACf,kBAAkB;EAClB,mBAAmB;EACnB,8CAA8C;EAC9C,iBAAiB;CAClB;AACD;EACE,aAAa;EACb,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,OAAO;EACP,QAAQ;EACR,qCAAqC;EACrC,8BAAsB;UAAtB,sBAAsB;EACtB,8BAAsB;UAAtB,sBAAsB;EACtB,uBAAuB;EACvB,oBAAoB;CACrB;AACD;EACE,sBAAsB;CACvB;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,eAAe;CAChB;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,eAAe;CAChB;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;EACE,eAAe;CAChB;AACD;EACE,eAAe;CAChB;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;;EAEE,kBAAkB;EAClB,8BAA8B;CAC/B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;;EAEE,kBAAkB;EAClB,8BAA8B;CAC/B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;;EAEE,kBAAkB;EAClB,8BAA8B;CAC/B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,gBAAgB;CACjB","file":"ButtonView.vue","sourcesContent":[".btn.btn_mini {\n  line-height: 180%;\n  font-size: 14.4px;\n  padding-left: 10px;\n  padding-right: 10px;\n  display: inline-block;\n}\nbutton.weui_btn,\ninput.weui_btn {\n  width: 100%;\n  border-width: 0;\n  outline: 0;\n  -webkit-appearance: none;\n}\nbutton.weui_btn:focus,\ninput.weui_btn:focus {\n  outline: 0;\n}\nbutton.weui_btn_inline,\ninput.weui_btn_inline,\nbutton.weui_btn_mini,\ninput.weui_btn_mini {\n  width: auto;\n}\n/*gap between btn*/\n.btn + .btn {\n  margin-top: 15px;\n}\n.btn.btn_inline + .btn.btn_inline {\n  margin-top: auto;\n  margin-left: 15px;\n}\n.btn_area {\n  margin: 15px;\n}\n.btn_area.btn_area_inline {\n  -webkit-display: flex;\n  display: flex;\n}\n.btn_area.btn_area_inline .btn {\n  margin-top: auto;\n  margin-right: 15px;\n  width: 100%;\n  -webkit-flex: 1;\n  flex: 1;\n}\n.btn_area.btn_area_inline .btn:last-child {\n  margin-right: 0;\n}\n.btn {\n  position: relative;\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  padding-left: 15px;\n  padding-right: 15px;\n  box-sizing: border-box;\n  font-size: 18px;\n  text-align: center;\n  text-decoration: none;\n  color: #FFFFFF;\n  line-height: 240%;\n  border-radius: 5px;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  overflow: hidden;\n}\n.btn:after {\n  content: \" \";\n  width: 200%;\n  height: 200%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border: 1px solid rgba(0, 0, 0, 0.2);\n  transform: scale(0.5);\n  transform-origin: 0 0;\n  box-sizing: border-box;\n  border-radius: 10px;\n}\n.btn.btn_inline {\n  display: inline-block;\n}\n.btn_default {\n  color: #666666;\n  background-color: #FFFFFF;\n}\n.btn_default:not(.btn_disabled):visited {\n  background-color: #FFFFFF;\n}\n.btn_default:not(.btn_disabled):active {\n  color: #666666;\n  background-color: #F3F3F3;\n}\n.btn_default.btn_disabled {\n  color: #FFFFFF;\n  background-color: #D9D9D9;\n}\n.btn_primary {\n  background-color: #1677CB;\n}\n.btn_primary:not(.btn_disabled):visited {\n  color: #FFFFFF;\n}\n.btn_primary:not(.btn_disabled):active {\n  color: #FFFFFF;\n  background-color: #1B598F;\n}\n.btn_warn {\n  background-color: #EF4F4F;\n}\n.btn_warn:not(.btn_disabled):visited {\n  color: #FFFFFF;\n}\n.btn_warn:not(.btn_disabled):active {\n  color: #FFFFFF;\n  background-color: #C13E3E;\n}\n.weui_btn_disabled {\n  color: #FFFFFF;\n}\n.weui_btn_disabled.weui_btn_default {\n  color: #FFFFFF;\n}\n.btn_plain_primary {\n  color: #1677CB;\n  border: 1px solid #1677CB;\n}\nbutton.btn_plain_primary,\ninput.btn_plain_primary {\n  border-width: 1px;\n  background-color: transparent;\n}\n.btn_plain_primary:active {\n  border-color: #1B598F;\n}\n.btn_plain_primary:after {\n  border-width: 0;\n}\n.btn_plain_warn {\n  color: #EF4F4F;\n  border: 1px solid #EF4F4F;\n}\nbutton.btn_plain_warn,\ninput.btn_plain_warn {\n  border-width: 1px;\n  background-color: transparent;\n}\n.btn_plain_warn:active {\n  border-color: #EF4F4F;\n}\n.btn_plain_warn:after {\n  border-width: 0;\n}\n.btn_plain_default {\n  color: #666666;\n  border: 1px solid #F3F3F3;\n}\nbutton.btn_plain_default,\ninput.btn_plain_default {\n  border-width: 1px;\n  background-color: transparent;\n}\n.btn_plain_default:active {\n  border-color: #D9D9D9;\n}\n.btn_plain_default:after {\n  border-width: 0;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".btn.btn_mini {\n  line-height: 180%;\n  font-size: 14.4px;\n  padding-left: 10px;\n  padding-right: 10px;\n  display: inline-block;\n}\nbutton.weui_btn,\ninput.weui_btn {\n  width: 100%;\n  border-width: 0;\n  outline: 0;\n  -webkit-appearance: none;\n}\nbutton.weui_btn:focus,\ninput.weui_btn:focus {\n  outline: 0;\n}\nbutton.weui_btn_inline,\ninput.weui_btn_inline,\nbutton.weui_btn_mini,\ninput.weui_btn_mini {\n  width: auto;\n}\n/*gap between btn*/\n.btn + .btn {\n  margin-top: 15px;\n}\n.btn.btn_inline + .btn.btn_inline {\n  margin-top: auto;\n  margin-left: 15px;\n}\n.btn_area {\n  margin: 15px;\n}\n.btn_area.btn_area_inline {\n  -webkit-display: flex;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n.btn_area.btn_area_inline .btn {\n  margin-top: auto;\n  margin-right: 15px;\n  width: 100%;\n  -webkit-flex: 1;\n  -webkit-box-flex: 1;\n      -ms-flex: 1;\n          flex: 1;\n}\n.btn_area.btn_area_inline .btn:last-child {\n  margin-right: 0;\n}\n.btn {\n  position: relative;\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  padding-left: 15px;\n  padding-right: 15px;\n  box-sizing: border-box;\n  font-size: 18px;\n  text-align: center;\n  text-decoration: none;\n  color: #FFFFFF;\n  line-height: 240%;\n  border-radius: 5px;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  overflow: hidden;\n}\n.btn:after {\n  content: \" \";\n  width: 200%;\n  height: 200%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border: 1px solid rgba(0, 0, 0, 0.2);\n  -webkit-transform: scale(0.5);\n          transform: scale(0.5);\n  -webkit-transform-origin: 0 0;\n          transform-origin: 0 0;\n  box-sizing: border-box;\n  border-radius: 10px;\n}\n.btn.btn_inline {\n  display: inline-block;\n}\n.btn_default {\n  color: #666666;\n  background-color: #FFFFFF;\n}\n.btn_default:not(.btn_disabled):visited {\n  background-color: #FFFFFF;\n}\n.btn_default:not(.btn_disabled):active {\n  color: #666666;\n  background-color: #F3F3F3;\n}\n.btn_default.btn_disabled {\n  color: #FFFFFF;\n  background-color: #D9D9D9;\n}\n.btn_primary {\n  background-color: #1677CB;\n}\n.btn_primary:not(.btn_disabled):visited {\n  color: #FFFFFF;\n}\n.btn_primary:not(.btn_disabled):active {\n  color: #FFFFFF;\n  background-color: #1B598F;\n}\n.btn_warn {\n  background-color: #EF4F4F;\n}\n.btn_warn:not(.btn_disabled):visited {\n  color: #FFFFFF;\n}\n.btn_warn:not(.btn_disabled):active {\n  color: #FFFFFF;\n  background-color: #C13E3E;\n}\n.weui_btn_disabled {\n  color: #FFFFFF;\n}\n.weui_btn_disabled.weui_btn_default {\n  color: #FFFFFF;\n}\n.btn_plain_primary {\n  color: #1677CB;\n  border: 1px solid #1677CB;\n}\nbutton.btn_plain_primary,\ninput.btn_plain_primary {\n  border-width: 1px;\n  background-color: transparent;\n}\n.btn_plain_primary:active {\n  border-color: #1B598F;\n}\n.btn_plain_primary:after {\n  border-width: 0;\n}\n.btn_plain_warn {\n  color: #EF4F4F;\n  border: 1px solid #EF4F4F;\n}\nbutton.btn_plain_warn,\ninput.btn_plain_warn {\n  border-width: 1px;\n  background-color: transparent;\n}\n.btn_plain_warn:active {\n  border-color: #EF4F4F;\n}\n.btn_plain_warn:after {\n  border-width: 0;\n}\n.btn_plain_default {\n  color: #666666;\n  border: 1px solid #CCCCCC;\n}\nbutton.btn_plain_default,\ninput.btn_plain_default {\n  border-width: 1px;\n  background-color: transparent;\n}\n.btn_plain_default:active {\n  border-color: #D9D9D9;\n}\n.btn_plain_default:after {\n  border-width: 0;\n}\n", "", {"version":3,"sources":["/./example/modules/ButtonView.vue.style"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,kBAAkB;EAClB,mBAAmB;EACnB,oBAAoB;EACpB,sBAAsB;CACvB;AACD;;EAEE,YAAY;EACZ,gBAAgB;EAChB,WAAW;EACX,yBAAyB;CAC1B;AACD;;EAEE,WAAW;CACZ;AACD;;;;EAIE,YAAY;CACb;AACD,mBAAmB;AACnB;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;EACjB,kBAAkB;CACnB;AACD;EACE,aAAa;CACd;AACD;EACE,sBAAsB;EACtB,qBAAc;EAAd,qBAAc;EAAd,cAAc;CACf;AACD;EACE,iBAAiB;EACjB,mBAAmB;EACnB,YAAY;EACZ,gBAAgB;EAChB,oBAAQ;MAAR,YAAQ;UAAR,QAAQ;CACT;AACD;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;EACnB,eAAe;EACf,kBAAkB;EAClB,mBAAmB;EACnB,mBAAmB;EACnB,oBAAoB;EACpB,uBAAuB;EACvB,gBAAgB;EAChB,mBAAmB;EACnB,sBAAsB;EACtB,eAAe;EACf,kBAAkB;EAClB,mBAAmB;EACnB,8CAA8C;EAC9C,iBAAiB;CAClB;AACD;EACE,aAAa;EACb,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,OAAO;EACP,QAAQ;EACR,qCAAqC;EACrC,8BAAsB;UAAtB,sBAAsB;EACtB,8BAAsB;UAAtB,sBAAsB;EACtB,uBAAuB;EACvB,oBAAoB;CACrB;AACD;EACE,sBAAsB;CACvB;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,eAAe;CAChB;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,eAAe;CAChB;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;EACE,eAAe;CAChB;AACD;EACE,eAAe;CAChB;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;;EAEE,kBAAkB;EAClB,8BAA8B;CAC/B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;;EAEE,kBAAkB;EAClB,8BAA8B;CAC/B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,eAAe;EACf,0BAA0B;CAC3B;AACD;;EAEE,kBAAkB;EAClB,8BAA8B;CAC/B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,gBAAgB;CACjB","file":"ButtonView.vue","sourcesContent":[".btn.btn_mini {\n  line-height: 180%;\n  font-size: 14.4px;\n  padding-left: 10px;\n  padding-right: 10px;\n  display: inline-block;\n}\nbutton.weui_btn,\ninput.weui_btn {\n  width: 100%;\n  border-width: 0;\n  outline: 0;\n  -webkit-appearance: none;\n}\nbutton.weui_btn:focus,\ninput.weui_btn:focus {\n  outline: 0;\n}\nbutton.weui_btn_inline,\ninput.weui_btn_inline,\nbutton.weui_btn_mini,\ninput.weui_btn_mini {\n  width: auto;\n}\n/*gap between btn*/\n.btn + .btn {\n  margin-top: 15px;\n}\n.btn.btn_inline + .btn.btn_inline {\n  margin-top: auto;\n  margin-left: 15px;\n}\n.btn_area {\n  margin: 15px;\n}\n.btn_area.btn_area_inline {\n  -webkit-display: flex;\n  display: flex;\n}\n.btn_area.btn_area_inline .btn {\n  margin-top: auto;\n  margin-right: 15px;\n  width: 100%;\n  -webkit-flex: 1;\n  flex: 1;\n}\n.btn_area.btn_area_inline .btn:last-child {\n  margin-right: 0;\n}\n.btn {\n  position: relative;\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  padding-left: 15px;\n  padding-right: 15px;\n  box-sizing: border-box;\n  font-size: 18px;\n  text-align: center;\n  text-decoration: none;\n  color: #FFFFFF;\n  line-height: 240%;\n  border-radius: 5px;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  overflow: hidden;\n}\n.btn:after {\n  content: \" \";\n  width: 200%;\n  height: 200%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border: 1px solid rgba(0, 0, 0, 0.2);\n  transform: scale(0.5);\n  transform-origin: 0 0;\n  box-sizing: border-box;\n  border-radius: 10px;\n}\n.btn.btn_inline {\n  display: inline-block;\n}\n.btn_default {\n  color: #666666;\n  background-color: #FFFFFF;\n}\n.btn_default:not(.btn_disabled):visited {\n  background-color: #FFFFFF;\n}\n.btn_default:not(.btn_disabled):active {\n  color: #666666;\n  background-color: #F3F3F3;\n}\n.btn_default.btn_disabled {\n  color: #FFFFFF;\n  background-color: #D9D9D9;\n}\n.btn_primary {\n  background-color: #1677CB;\n}\n.btn_primary:not(.btn_disabled):visited {\n  color: #FFFFFF;\n}\n.btn_primary:not(.btn_disabled):active {\n  color: #FFFFFF;\n  background-color: #1B598F;\n}\n.btn_warn {\n  background-color: #EF4F4F;\n}\n.btn_warn:not(.btn_disabled):visited {\n  color: #FFFFFF;\n}\n.btn_warn:not(.btn_disabled):active {\n  color: #FFFFFF;\n  background-color: #C13E3E;\n}\n.weui_btn_disabled {\n  color: #FFFFFF;\n}\n.weui_btn_disabled.weui_btn_default {\n  color: #FFFFFF;\n}\n.btn_plain_primary {\n  color: #1677CB;\n  border: 1px solid #1677CB;\n}\nbutton.btn_plain_primary,\ninput.btn_plain_primary {\n  border-width: 1px;\n  background-color: transparent;\n}\n.btn_plain_primary:active {\n  border-color: #1B598F;\n}\n.btn_plain_primary:after {\n  border-width: 0;\n}\n.btn_plain_warn {\n  color: #EF4F4F;\n  border: 1px solid #EF4F4F;\n}\nbutton.btn_plain_warn,\ninput.btn_plain_warn {\n  border-width: 1px;\n  background-color: transparent;\n}\n.btn_plain_warn:active {\n  border-color: #EF4F4F;\n}\n.btn_plain_warn:after {\n  border-width: 0;\n}\n.btn_plain_default {\n  color: #666666;\n  border: 1px solid #CCCCCC;\n}\nbutton.btn_plain_default,\ninput.btn_plain_default {\n  border-width: 1px;\n  background-color: transparent;\n}\n.btn_plain_default:active {\n  border-color: #D9D9D9;\n}\n.btn_plain_default:after {\n  border-width: 0;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 69 */
+/* 74 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -13575,7 +13748,7 @@
 	//           <a href="javascript:;" class="btn btn_primary">按钮</a>
 	//           <a href="javascript:;" class="btn btn_warn">警告按钮</a>
 	//
-	//           <div class="button_sp_area">
+	//           <div class="btn_area">
 	//               <a href="javascript:;" class="btn btn_plain_default">边框1</a>
 	//               <a href="javascript:;" class="btn btn_plain_primary">边框2</a>
 	//
@@ -13584,12 +13757,12 @@
 	//               <a href="javascript:;" class="btn btn_mini btn_primary">按钮</a>
 	//               <a href="javascript:;" class="btn btn_mini btn_warn">按钮</a>
 	//           </div>
-	//           <div class="btn_area btn_area_inline">
+	//           <!--<div class="btn_area btn_area_inline">
 	//               <a href="javascript:;" class="btn btn_default">默认</a>
 	//               <a href="javascript:;" class="btn btn_disabled btn_default">no</a>
 	//               <a href="javascript:;" class="btn btn_primary">按钮</a>
 	//               <a href="javascript:;" class="btn btn_warn">警告</a>
-	//           </div>
+	//           </div>-->
 	//       </div>
 	//   </div>
 	// </template>
@@ -13612,18 +13785,18 @@
 	/* generated by vue-loader */
 
 /***/ },
-/* 70 */
+/* 75 */
 /***/ function(module, exports) {
 
-	module.exports = "\n  <div class=\"page\">\n      <div class=\"hd\">\n          <h1 class=\"page_title\">Button</h1>\n      </div>\n      <div class=\"bd spacing\">\n          <a href=\"javascript:;\" class=\"btn btn_default\">默认</a>\n          <a href=\"javascript:;\" class=\"btn btn_disabled btn_default\">不可点击</a>\n\n          <a href=\"javascript:;\" class=\"btn btn_primary\">按钮</a>\n          <a href=\"javascript:;\" class=\"btn btn_warn\">警告按钮</a>\n\n          <div class=\"button_sp_area\">\n              <a href=\"javascript:;\" class=\"btn btn_plain_default\">边框1</a>\n              <a href=\"javascript:;\" class=\"btn btn_plain_primary\">边框2</a>\n\n              <a href=\"javascript:;\" class=\"btn btn_mini btn_default\">按钮</a>\n              <a href=\"javascript:;\" class=\"btn btn_mini btn_disabled btn_default\">按钮</a>\n              <a href=\"javascript:;\" class=\"btn btn_mini btn_primary\">按钮</a>\n              <a href=\"javascript:;\" class=\"btn btn_mini btn_warn\">按钮</a>\n          </div>\n          <div class=\"btn_area btn_area_inline\">\n              <a href=\"javascript:;\" class=\"btn btn_default\">默认</a>\n              <a href=\"javascript:;\" class=\"btn btn_disabled btn_default\">no</a>\n              <a href=\"javascript:;\" class=\"btn btn_primary\">按钮</a>\n              <a href=\"javascript:;\" class=\"btn btn_warn\">警告</a>\n          </div>\n      </div>\n  </div>\n";
+	module.exports = "\r\n  <div class=\"page\">\r\n      <div class=\"hd\">\r\n          <h1 class=\"page_title\">Button</h1>\r\n      </div>\r\n      <div class=\"bd spacing\">\r\n          <a href=\"javascript:;\" class=\"btn btn_default\">默认</a>\r\n          <a href=\"javascript:;\" class=\"btn btn_disabled btn_default\">不可点击</a>\r\n\r\n          <a href=\"javascript:;\" class=\"btn btn_primary\">按钮</a>\r\n          <a href=\"javascript:;\" class=\"btn btn_warn\">警告按钮</a>\r\n\r\n          <div class=\"btn_area\">\r\n              <a href=\"javascript:;\" class=\"btn btn_plain_default\">边框1</a>\r\n              <a href=\"javascript:;\" class=\"btn btn_plain_primary\">边框2</a>\r\n\r\n              <a href=\"javascript:;\" class=\"btn btn_mini btn_default\">按钮</a>\r\n              <a href=\"javascript:;\" class=\"btn btn_mini btn_disabled btn_default\">按钮</a>\r\n              <a href=\"javascript:;\" class=\"btn btn_mini btn_primary\">按钮</a>\r\n              <a href=\"javascript:;\" class=\"btn btn_mini btn_warn\">按钮</a>\r\n          </div>\r\n          <!--<div class=\"btn_area btn_area_inline\">\r\n              <a href=\"javascript:;\" class=\"btn btn_default\">默认</a>\r\n              <a href=\"javascript:;\" class=\"btn btn_disabled btn_default\">no</a>\r\n              <a href=\"javascript:;\" class=\"btn btn_primary\">按钮</a>\r\n              <a href=\"javascript:;\" class=\"btn btn_warn\">警告</a>\r\n          </div>-->\r\n      </div>\r\n  </div>\r\n";
 
 /***/ },
-/* 71 */
+/* 76 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__vue_script__ = __webpack_require__(72)
-	__vue_template__ = __webpack_require__(90)
+	__vue_script__ = __webpack_require__(77)
+	__vue_template__ = __webpack_require__(95)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -13640,7 +13813,7 @@
 	})()}
 
 /***/ },
-/* 72 */
+/* 77 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13649,11 +13822,11 @@
 	  value: true
 	});
 	
-	var _Toast = __webpack_require__(73);
+	var _Toast = __webpack_require__(78);
 	
 	var _Toast2 = _interopRequireDefault(_Toast);
 	
-	var _Loading = __webpack_require__(85);
+	var _Loading = __webpack_require__(90);
 	
 	var _Loading2 = _interopRequireDefault(_Loading);
 	
@@ -13713,13 +13886,13 @@
 	/* generated by vue-loader */
 
 /***/ },
-/* 73 */
+/* 78 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(74)
-	__vue_script__ = __webpack_require__(76)
-	__vue_template__ = __webpack_require__(84)
+	__webpack_require__(79)
+	__vue_script__ = __webpack_require__(81)
+	__vue_template__ = __webpack_require__(89)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -13736,13 +13909,13 @@
 	})()}
 
 /***/ },
-/* 74 */
+/* 79 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(75);
+	var content = __webpack_require__(80);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {});
@@ -13762,7 +13935,7 @@
 	}
 
 /***/ },
-/* 75 */
+/* 80 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(44)();
@@ -13776,7 +13949,7 @@
 
 
 /***/ },
-/* 76 */
+/* 81 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13785,7 +13958,7 @@
 	  value: true
 	});
 	
-	var _Icon = __webpack_require__(77);
+	var _Icon = __webpack_require__(82);
 	
 	var _Icon2 = _interopRequireDefault(_Icon);
 	
@@ -14056,24 +14229,24 @@
 	// <script>
 
 /***/ },
-/* 77 */
+/* 82 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(78)
+	__webpack_require__(83)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
 
 
 /***/ },
-/* 78 */
+/* 83 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(79);
+	var content = __webpack_require__(84);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {});
@@ -14093,7 +14266,7 @@
 	}
 
 /***/ },
-/* 79 */
+/* 84 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(44)();
@@ -14101,49 +14274,49 @@
 	
 	
 	// module
-	exports.push([module.id, "/*字体图标*/\n@font-face {\n  font-family: 'iconfont';\n  /*src: url('./font/iconfont.eot'); !*IE9*!*/\n  src: url(" + __webpack_require__(80) + "?#iefix) format('embedded-opentype'),  url(" + __webpack_require__(81) + ") format('woff'),  url(" + __webpack_require__(82) + ") format('truetype'),  url(" + __webpack_require__(83) + "#iconfont) format('svg');\n  /* iOS 4.1- */\n}\n[class^=\"icon-\"]:before,\n[class*=\"icon-\"]::before,\n.icon {\n  font-family: \"iconfont\" !important;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n  -webkit-text-stroke-width: 0.2px;\n  -moz-osx-font-smoothing: grayscale;\n  text-decoration: inherit;\n  width: 1em;\n  margin-right: .2em;\n  text-align: center;\n  font-variant: normal;\n  text-transform: none;\n  line-height: 1em;\n  margin-left: .2em;\n  vertical-align: middle;\n  font-size: 22px;\n  color: #1677CB;\n}\n.i-searchmini:before {\n  content: \"\\E624\";\n}\n.i-triangleWarning:before {\n  content: \"\\F02FE\";\n}\n.i-right:before {\n  content: \"\\E628\";\n}\n.i-roundwarning:before {\n  content: \"\\E64F\";\n}\n.i-sad:before {\n  content: \"\\E820\";\n}\n.i-add:before {\n  content: \"\\E64A\";\n}\n.i-minus:before {\n  content: \"\\E64B\";\n}\n.i-left:before {\n  content: \"\\E626\";\n}\n.i-top:before {\n  content: \"\\E627\";\n}\n.i-ight:before {\n  content: \"\\E628\";\n}\n.i-down:before {\n  content: \"\\E629\";\n}\n.i-warning:before {\n  content: \"\\E62C\";\n}\n.i-help:before {\n  content: \"\\E62D\";\n}\n.i-cross:before {\n  content: \"\\E622\";\n}\n.i-questions:before {\n  content: \"\\E639\";\n}\n.i-backtop:before {\n  content: \"\\E6C6\";\n}\n.i-mapfill:before {\n  content: \"\\E668\";\n}\n.i-map:before {\n  content: \"\\E669\";\n}\n.i-refresh:before {\n  content: \"\\E66A\";\n}\n.i-smile:before {\n  content: \"\\E670\";\n}\n.i-delete:before {\n  content: \"\\E67E\";\n}\n.i-more:before {\n  content: \"\\E6AD\";\n}\n.i-close:before {\n  content: \"\\E6A7\";\n}\n.i-closefill:before {\n  content: \"\\E6A6\";\n}\n.i-scan:before {\n  content: \"\\E69A\";\n}\n.i-search:before {\n  content: \"\\E699\";\n}\n.i-share:before {\n  content: \"\\E6F3\";\n}\n.i-wifi:before {\n  content: \"\\E6F2\";\n}\n.i-moreandroid:before {\n  content: \"\\E6A5\";\n}\n.i-sadfill:before {\n  content: \"\\E672\";\n}\n.i-download:before {\n  content: \"\\F0304\";\n}\n.i-check:before {\n  content: \"\\E60B\";\n}\n.i-forbid:before {\n  content: \"\\E650\";\n}\n.i-caozuo:before {\n  content: \"\\E649\";\n}\n.i-ddown:before {\n  content: \"\\E695\";\n}\n.i-dleft:before {\n  content: \"\\E696\";\n}\n.i-dright:before {\n  content: \"\\E697\";\n}\n.i-dup:before {\n  content: \"\\E698\";\n}\n.i-arrowdown:before {\n  content: \"\\E69D\";\n}\n.i-arrowleft:before {\n  content: \"\\E69E\";\n}\n.i-arrowright:before {\n  content: \"\\E69F\";\n}\n.i-arrowup:before {\n  content: \"\\E6A0\";\n}\n.i-collect1e:before {\n  content: \"\\E647\";\n}\n.i-collect1f:before {\n  content: \"\\E648\";\n}\n.i-share:before {\n  content: \"\\E646\";\n}\n.i-addroud:before {\n  content: \"\\E65E\";\n}\n.i-addroudfill:before {\n  content: \"\\E65F\";\n}\n.i-minusroud:before {\n  content: \"\\E65B\";\n}\n.i-minusroudfill:before {\n  content: \"\\E65C\";\n}\n.i-zoomin:before {\n  content: \"\\EDAF\";\n}\n.i-zoomout:before {\n  content: \"\\EDB0\";\n}\n.i-hook:before {\n  content: \"\\EB14\";\n}\n.i-refresh:before {\n  content: \"\\E631\";\n}\n.i-searchbig:before {\n  content: \"\\E60B\";\n}\n.i-round:before {\n  content: \"\\E60C\";\n}\n.i-play:before {\n  content: \"\\E6A8\";\n}\n.i-pause:before {\n  content: \"\\E6A9\";\n}\n.i-stop:before {\n  content: \"\\E6A7\";\n}\n.i-iconfontfemale:before {\n  content: \"\\E604\";\n}\n.i-iconfontmale:before {\n  content: \"\\E607\";\n}\n.i-search:before {\n  content: \"\\E624\";\n}\n.i-bighook:before {\n  content: \"\\E616\";\n}\n.i-radiochecked:before {\n  content: \"\\E62A\";\n}\n.i-radiooff:before {\n  content: \"\\E60C\";\n}\n.i-xiazai1:before {\n  content: \"\\E647\";\n}\n.i-search2:before {\n  content: \"\\E60B\";\n}\n.i-loading:before {\n  content: \"\\E7E3\";\n}\n.i-star:before {\n  content: \"\\E603\";\n}\n.i-starfill:before {\n  content: \"\\E604\";\n}\n.i-heart:before {\n  content: \"\\E605\";\n}\n.i-heartfill:before {\n  content: \"\\E606\";\n}\n.i-checksquare:before {\n  content: \"\\E649\";\n}\n.i-checksquareoff:before {\n  content: \"\\E642\";\n}\n.i-code:before {\n  content: \"\\E601\";\n}\n.i-barcode:before {\n  content: \"\\E600\";\n}\n", "", {"version":3,"sources":["/./src/Icon.vue.style"],"names":[],"mappings":"AAAA,QAAQ;AACR;EACE,wBAAwB;EACxB,4CAA4C;EAC5C,+MAAgS;EAChS,cAAc;CACf;AACD;;;EAGE,mCAAmC;EACnC,mBAAmB;EACnB,oCAAoC;EACpC,iCAAiC;EACjC,mCAAmC;EACnC,yBAAyB;EACzB,WAAW;EACX,mBAAmB;EACnB,mBAAmB;EACnB,qBAAqB;EACrB,qBAAqB;EACrB,iBAAiB;EACjB,kBAAkB;EAClB,uBAAuB;EACvB,gBAAgB;EAChB,eAAe;CAChB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,kBAAkB;CACnB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,kBAAkB;CACnB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB","file":"Icon.vue","sourcesContent":["/*字体图标*/\n@font-face {\n  font-family: 'iconfont';\n  /*src: url('./font/iconfont.eot'); !*IE9*!*/\n  src: url('font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('font/iconfont.woff') format('woff'), /* chrome、firefox */ url('font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('font/iconfont.svg#iconfont') format('svg');\n  /* iOS 4.1- */\n}\n[class^=\"icon-\"]:before,\n[class*=\"icon-\"]::before,\n.icon {\n  font-family: \"iconfont\" !important;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n  -webkit-text-stroke-width: 0.2px;\n  -moz-osx-font-smoothing: grayscale;\n  text-decoration: inherit;\n  width: 1em;\n  margin-right: .2em;\n  text-align: center;\n  font-variant: normal;\n  text-transform: none;\n  line-height: 1em;\n  margin-left: .2em;\n  vertical-align: middle;\n  font-size: 22px;\n  color: #1677CB;\n}\n.i-searchmini:before {\n  content: \"\\e624\";\n}\n.i-triangleWarning:before {\n  content: \"\\f02fe\";\n}\n.i-right:before {\n  content: \"\\e628\";\n}\n.i-roundwarning:before {\n  content: \"\\e64f\";\n}\n.i-sad:before {\n  content: \"\\e820\";\n}\n.i-add:before {\n  content: \"\\e64a\";\n}\n.i-minus:before {\n  content: \"\\e64b\";\n}\n.i-left:before {\n  content: \"\\e626\";\n}\n.i-top:before {\n  content: \"\\e627\";\n}\n.i-ight:before {\n  content: \"\\e628\";\n}\n.i-down:before {\n  content: \"\\e629\";\n}\n.i-warning:before {\n  content: \"\\e62c\";\n}\n.i-help:before {\n  content: \"\\e62d\";\n}\n.i-cross:before {\n  content: \"\\e622\";\n}\n.i-questions:before {\n  content: \"\\e639\";\n}\n.i-backtop:before {\n  content: \"\\e6c6\";\n}\n.i-mapfill:before {\n  content: \"\\e668\";\n}\n.i-map:before {\n  content: \"\\e669\";\n}\n.i-refresh:before {\n  content: \"\\e66a\";\n}\n.i-smile:before {\n  content: \"\\e670\";\n}\n.i-delete:before {\n  content: \"\\e67e\";\n}\n.i-more:before {\n  content: \"\\e6ad\";\n}\n.i-close:before {\n  content: \"\\e6a7\";\n}\n.i-closefill:before {\n  content: \"\\e6a6\";\n}\n.i-scan:before {\n  content: \"\\e69a\";\n}\n.i-search:before {\n  content: \"\\e699\";\n}\n.i-share:before {\n  content: \"\\e6f3\";\n}\n.i-wifi:before {\n  content: \"\\e6f2\";\n}\n.i-moreandroid:before {\n  content: \"\\e6a5\";\n}\n.i-sadfill:before {\n  content: \"\\e672\";\n}\n.i-download:before {\n  content: \"\\f0304\";\n}\n.i-check:before {\n  content: \"\\e60b\";\n}\n.i-forbid:before {\n  content: \"\\e650\";\n}\n.i-caozuo:before {\n  content: \"\\e649\";\n}\n.i-ddown:before {\n  content: \"\\e695\";\n}\n.i-dleft:before {\n  content: \"\\e696\";\n}\n.i-dright:before {\n  content: \"\\e697\";\n}\n.i-dup:before {\n  content: \"\\e698\";\n}\n.i-arrowdown:before {\n  content: \"\\e69d\";\n}\n.i-arrowleft:before {\n  content: \"\\e69e\";\n}\n.i-arrowright:before {\n  content: \"\\e69f\";\n}\n.i-arrowup:before {\n  content: \"\\e6a0\";\n}\n.i-collect1e:before {\n  content: \"\\e647\";\n}\n.i-collect1f:before {\n  content: \"\\e648\";\n}\n.i-share:before {\n  content: \"\\e646\";\n}\n.i-addroud:before {\n  content: \"\\e65e\";\n}\n.i-addroudfill:before {\n  content: \"\\e65f\";\n}\n.i-minusroud:before {\n  content: \"\\e65b\";\n}\n.i-minusroudfill:before {\n  content: \"\\e65c\";\n}\n.i-zoomin:before {\n  content: \"\\edaf\";\n}\n.i-zoomout:before {\n  content: \"\\edb0\";\n}\n.i-hook:before {\n  content: \"\\eb14\";\n}\n.i-refresh:before {\n  content: \"\\e631\";\n}\n.i-searchbig:before {\n  content: \"\\e60b\";\n}\n.i-round:before {\n  content: \"\\e60c\";\n}\n.i-play:before {\n  content: \"\\e6a8\";\n}\n.i-pause:before {\n  content: \"\\e6a9\";\n}\n.i-stop:before {\n  content: \"\\e6a7\";\n}\n.i-iconfontfemale:before {\n  content: \"\\e604\";\n}\n.i-iconfontmale:before {\n  content: \"\\e607\";\n}\n.i-search:before {\n  content: \"\\e624\";\n}\n.i-bighook:before {\n  content: \"\\e616\";\n}\n.i-radiochecked:before {\n  content: \"\\e62a\";\n}\n.i-radiooff:before {\n  content: \"\\e60c\";\n}\n.i-xiazai1:before {\n  content: \"\\e647\";\n}\n.i-search2:before {\n  content: \"\\e60b\";\n}\n.i-loading:before {\n  content: \"\\e7e3\";\n}\n.i-star:before {\n  content: \"\\e603\";\n}\n.i-starfill:before {\n  content: \"\\e604\";\n}\n.i-heart:before {\n  content: \"\\e605\";\n}\n.i-heartfill:before {\n  content: \"\\e606\";\n}\n.i-checksquare:before {\n  content: \"\\e649\";\n}\n.i-checksquareoff:before {\n  content: \"\\e642\";\n}\n.i-code:before {\n  content: \"\\e601\";\n}\n.i-barcode:before {\n  content: \"\\e600\";\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "/*字体图标*/\n@font-face {\n  font-family: 'iconfont';\n  /*src: url('./font/iconfont.eot'); !*IE9*!*/\n  src: url(" + __webpack_require__(85) + "?#iefix) format('embedded-opentype'),  url(" + __webpack_require__(86) + ") format('woff'),  url(" + __webpack_require__(87) + ") format('truetype'),  url(" + __webpack_require__(88) + "#iconfont) format('svg');\n  /* iOS 4.1- */\n}\n[class^=\"icon-\"]:before,\n[class*=\"icon-\"]::before,\n.icon {\n  font-family: \"iconfont\" !important;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n  -webkit-text-stroke-width: 0.2px;\n  -moz-osx-font-smoothing: grayscale;\n  text-decoration: inherit;\n  width: 1em;\n  margin-right: .2em;\n  text-align: center;\n  font-variant: normal;\n  text-transform: none;\n  line-height: 1em;\n  margin-left: .2em;\n  vertical-align: middle;\n  font-size: 22px;\n  color: #1677CB;\n}\n.i-searchmini:before {\n  content: \"\\E624\";\n}\n.i-triangleWarning:before {\n  content: \"\\F02FE\";\n}\n.i-right:before {\n  content: \"\\E628\";\n}\n.i-roundwarning:before {\n  content: \"\\E64F\";\n}\n.i-sad:before {\n  content: \"\\E820\";\n}\n.i-add:before {\n  content: \"\\E64A\";\n}\n.i-minus:before {\n  content: \"\\E64B\";\n}\n.i-left:before {\n  content: \"\\E626\";\n}\n.i-top:before {\n  content: \"\\E627\";\n}\n.i-ight:before {\n  content: \"\\E628\";\n}\n.i-down:before {\n  content: \"\\E629\";\n}\n.i-warning:before {\n  content: \"\\E62C\";\n}\n.i-help:before {\n  content: \"\\E62D\";\n}\n.i-cross:before {\n  content: \"\\E622\";\n}\n.i-questions:before {\n  content: \"\\E639\";\n}\n.i-backtop:before {\n  content: \"\\E6C6\";\n}\n.i-mapfill:before {\n  content: \"\\E668\";\n}\n.i-map:before {\n  content: \"\\E669\";\n}\n.i-refresh:before {\n  content: \"\\E66A\";\n}\n.i-smile:before {\n  content: \"\\E670\";\n}\n.i-delete:before {\n  content: \"\\E67E\";\n}\n.i-more:before {\n  content: \"\\E6AD\";\n}\n.i-close:before {\n  content: \"\\E6A7\";\n}\n.i-closefill:before {\n  content: \"\\E6A6\";\n}\n.i-scan:before {\n  content: \"\\E69A\";\n}\n.i-search:before {\n  content: \"\\E699\";\n}\n.i-share:before {\n  content: \"\\E6F3\";\n}\n.i-wifi:before {\n  content: \"\\E6F2\";\n}\n.i-moreandroid:before {\n  content: \"\\E6A5\";\n}\n.i-sadfill:before {\n  content: \"\\E672\";\n}\n.i-download:before {\n  content: \"\\F0304\";\n}\n.i-check:before {\n  content: \"\\E60B\";\n}\n.i-forbid:before {\n  content: \"\\E650\";\n}\n.i-caozuo:before {\n  content: \"\\E649\";\n}\n.i-ddown:before {\n  content: \"\\E695\";\n}\n.i-dleft:before {\n  content: \"\\E696\";\n}\n.i-dright:before {\n  content: \"\\E697\";\n}\n.i-dup:before {\n  content: \"\\E698\";\n}\n.i-arrowdown:before {\n  content: \"\\E69D\";\n}\n.i-arrowleft:before {\n  content: \"\\E69E\";\n}\n.i-arrowright:before {\n  content: \"\\E69F\";\n}\n.i-arrowup:before {\n  content: \"\\E6A0\";\n}\n.i-collect1e:before {\n  content: \"\\E647\";\n}\n.i-collect1f:before {\n  content: \"\\E648\";\n}\n.i-share:before {\n  content: \"\\E646\";\n}\n.i-addroud:before {\n  content: \"\\E65E\";\n}\n.i-addroudfill:before {\n  content: \"\\E65F\";\n}\n.i-minusroud:before {\n  content: \"\\E65B\";\n}\n.i-minusroudfill:before {\n  content: \"\\E65C\";\n}\n.i-zoomin:before {\n  content: \"\\EDAF\";\n}\n.i-zoomout:before {\n  content: \"\\EDB0\";\n}\n.i-hook:before {\n  content: \"\\EB14\";\n}\n.i-refresh:before {\n  content: \"\\E631\";\n}\n.i-searchbig:before {\n  content: \"\\E60B\";\n}\n.i-round:before {\n  content: \"\\E60C\";\n}\n.i-play:before {\n  content: \"\\E6A8\";\n}\n.i-pause:before {\n  content: \"\\E6A9\";\n}\n.i-stop:before {\n  content: \"\\E6A7\";\n}\n.i-iconfontfemale:before {\n  content: \"\\E604\";\n}\n.i-iconfontmale:before {\n  content: \"\\E607\";\n}\n.i-search:before {\n  content: \"\\E624\";\n}\n.i-bighook:before {\n  content: \"\\E616\";\n}\n.i-radiochecked:before {\n  content: \"\\E62A\";\n}\n.i-radiooff:before {\n  content: \"\\E60C\";\n}\n.i-xiazai1:before {\n  content: \"\\E647\";\n}\n.i-search2:before {\n  content: \"\\E60B\";\n}\n.i-loading:before {\n  content: \"\\E7E3\";\n}\n.i-star:before {\n  content: \"\\E603\";\n}\n.i-starfill:before {\n  content: \"\\E604\";\n}\n.i-heart:before {\n  content: \"\\E605\";\n}\n.i-heartfill:before {\n  content: \"\\E606\";\n}\n.i-checksquare:before {\n  content: \"\\E649\";\n}\n.i-checksquareoff:before {\n  content: \"\\E642\";\n}\n.i-code:before {\n  content: \"\\E601\";\n}\n.i-barcode:before {\n  content: \"\\E600\";\n}\n", "", {"version":3,"sources":["/./src/Icon.vue.style"],"names":[],"mappings":"AAAA,QAAQ;AACR;EACE,wBAAwB;EACxB,4CAA4C;EAC5C,+MAAgS;EAChS,cAAc;CACf;AACD;;;EAGE,mCAAmC;EACnC,mBAAmB;EACnB,oCAAoC;EACpC,iCAAiC;EACjC,mCAAmC;EACnC,yBAAyB;EACzB,WAAW;EACX,mBAAmB;EACnB,mBAAmB;EACnB,qBAAqB;EACrB,qBAAqB;EACrB,iBAAiB;EACjB,kBAAkB;EAClB,uBAAuB;EACvB,gBAAgB;EAChB,eAAe;CAChB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,kBAAkB;CACnB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,kBAAkB;CACnB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,iBAAiB;CAClB","file":"Icon.vue","sourcesContent":["/*字体图标*/\n@font-face {\n  font-family: 'iconfont';\n  /*src: url('./font/iconfont.eot'); !*IE9*!*/\n  src: url('font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('font/iconfont.woff') format('woff'), /* chrome、firefox */ url('font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('font/iconfont.svg#iconfont') format('svg');\n  /* iOS 4.1- */\n}\n[class^=\"icon-\"]:before,\n[class*=\"icon-\"]::before,\n.icon {\n  font-family: \"iconfont\" !important;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n  -webkit-text-stroke-width: 0.2px;\n  -moz-osx-font-smoothing: grayscale;\n  text-decoration: inherit;\n  width: 1em;\n  margin-right: .2em;\n  text-align: center;\n  font-variant: normal;\n  text-transform: none;\n  line-height: 1em;\n  margin-left: .2em;\n  vertical-align: middle;\n  font-size: 22px;\n  color: #1677CB;\n}\n.i-searchmini:before {\n  content: \"\\e624\";\n}\n.i-triangleWarning:before {\n  content: \"\\f02fe\";\n}\n.i-right:before {\n  content: \"\\e628\";\n}\n.i-roundwarning:before {\n  content: \"\\e64f\";\n}\n.i-sad:before {\n  content: \"\\e820\";\n}\n.i-add:before {\n  content: \"\\e64a\";\n}\n.i-minus:before {\n  content: \"\\e64b\";\n}\n.i-left:before {\n  content: \"\\e626\";\n}\n.i-top:before {\n  content: \"\\e627\";\n}\n.i-ight:before {\n  content: \"\\e628\";\n}\n.i-down:before {\n  content: \"\\e629\";\n}\n.i-warning:before {\n  content: \"\\e62c\";\n}\n.i-help:before {\n  content: \"\\e62d\";\n}\n.i-cross:before {\n  content: \"\\e622\";\n}\n.i-questions:before {\n  content: \"\\e639\";\n}\n.i-backtop:before {\n  content: \"\\e6c6\";\n}\n.i-mapfill:before {\n  content: \"\\e668\";\n}\n.i-map:before {\n  content: \"\\e669\";\n}\n.i-refresh:before {\n  content: \"\\e66a\";\n}\n.i-smile:before {\n  content: \"\\e670\";\n}\n.i-delete:before {\n  content: \"\\e67e\";\n}\n.i-more:before {\n  content: \"\\e6ad\";\n}\n.i-close:before {\n  content: \"\\e6a7\";\n}\n.i-closefill:before {\n  content: \"\\e6a6\";\n}\n.i-scan:before {\n  content: \"\\e69a\";\n}\n.i-search:before {\n  content: \"\\e699\";\n}\n.i-share:before {\n  content: \"\\e6f3\";\n}\n.i-wifi:before {\n  content: \"\\e6f2\";\n}\n.i-moreandroid:before {\n  content: \"\\e6a5\";\n}\n.i-sadfill:before {\n  content: \"\\e672\";\n}\n.i-download:before {\n  content: \"\\f0304\";\n}\n.i-check:before {\n  content: \"\\e60b\";\n}\n.i-forbid:before {\n  content: \"\\e650\";\n}\n.i-caozuo:before {\n  content: \"\\e649\";\n}\n.i-ddown:before {\n  content: \"\\e695\";\n}\n.i-dleft:before {\n  content: \"\\e696\";\n}\n.i-dright:before {\n  content: \"\\e697\";\n}\n.i-dup:before {\n  content: \"\\e698\";\n}\n.i-arrowdown:before {\n  content: \"\\e69d\";\n}\n.i-arrowleft:before {\n  content: \"\\e69e\";\n}\n.i-arrowright:before {\n  content: \"\\e69f\";\n}\n.i-arrowup:before {\n  content: \"\\e6a0\";\n}\n.i-collect1e:before {\n  content: \"\\e647\";\n}\n.i-collect1f:before {\n  content: \"\\e648\";\n}\n.i-share:before {\n  content: \"\\e646\";\n}\n.i-addroud:before {\n  content: \"\\e65e\";\n}\n.i-addroudfill:before {\n  content: \"\\e65f\";\n}\n.i-minusroud:before {\n  content: \"\\e65b\";\n}\n.i-minusroudfill:before {\n  content: \"\\e65c\";\n}\n.i-zoomin:before {\n  content: \"\\edaf\";\n}\n.i-zoomout:before {\n  content: \"\\edb0\";\n}\n.i-hook:before {\n  content: \"\\eb14\";\n}\n.i-refresh:before {\n  content: \"\\e631\";\n}\n.i-searchbig:before {\n  content: \"\\e60b\";\n}\n.i-round:before {\n  content: \"\\e60c\";\n}\n.i-play:before {\n  content: \"\\e6a8\";\n}\n.i-pause:before {\n  content: \"\\e6a9\";\n}\n.i-stop:before {\n  content: \"\\e6a7\";\n}\n.i-iconfontfemale:before {\n  content: \"\\e604\";\n}\n.i-iconfontmale:before {\n  content: \"\\e607\";\n}\n.i-search:before {\n  content: \"\\e624\";\n}\n.i-bighook:before {\n  content: \"\\e616\";\n}\n.i-radiochecked:before {\n  content: \"\\e62a\";\n}\n.i-radiooff:before {\n  content: \"\\e60c\";\n}\n.i-xiazai1:before {\n  content: \"\\e647\";\n}\n.i-search2:before {\n  content: \"\\e60b\";\n}\n.i-loading:before {\n  content: \"\\e7e3\";\n}\n.i-star:before {\n  content: \"\\e603\";\n}\n.i-starfill:before {\n  content: \"\\e604\";\n}\n.i-heart:before {\n  content: \"\\e605\";\n}\n.i-heartfill:before {\n  content: \"\\e606\";\n}\n.i-checksquare:before {\n  content: \"\\e649\";\n}\n.i-checksquareoff:before {\n  content: \"\\e642\";\n}\n.i-code:before {\n  content: \"\\e601\";\n}\n.i-barcode:before {\n  content: \"\\e600\";\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 80 */
+/* 85 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "font/iconfont.eot";
 
 /***/ },
-/* 81 */
+/* 86 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "font/iconfont.woff";
 
 /***/ },
-/* 82 */
+/* 87 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "font/iconfont.ttf";
 
 /***/ },
-/* 83 */
+/* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "font/iconfont.svg";
 
 /***/ },
-/* 84 */
+/* 89 */
 /***/ function(module, exports) {
 
 	module.exports = "\n  <div v-show=\"show\">\n      <div class=\"mask_transparent\"></div>\n      <div class=\"toast\">\n          <i class=\"icon i-bighook\"></i>\n          <p class=\"toast_content\"><slot>已完成</slot></p>\n      </div>\n  </div>\n";
 
 /***/ },
-/* 85 */
+/* 90 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(86)
-	__vue_script__ = __webpack_require__(88)
-	__vue_template__ = __webpack_require__(89)
+	__webpack_require__(91)
+	__vue_script__ = __webpack_require__(93)
+	__vue_template__ = __webpack_require__(94)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -14160,13 +14333,13 @@
 	})()}
 
 /***/ },
-/* 86 */
+/* 91 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(87);
+	var content = __webpack_require__(92);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {});
@@ -14186,7 +14359,7 @@
 	}
 
 /***/ },
-/* 87 */
+/* 92 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(44)();
@@ -14200,7 +14373,7 @@
 
 
 /***/ },
-/* 88 */
+/* 93 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -14238,24 +14411,24 @@
 	/* generated by vue-loader */
 
 /***/ },
-/* 89 */
+/* 94 */
 /***/ function(module, exports) {
 
 	module.exports = "\n  <div class=\"loading_toast\">\n      <div class=\"mask_transparent\"></div>\n      <div class=\"toast\">\n          <div class=\"loading\">\n              <div v-for=\"n in 12\" class=\"loading_leaf\" :class=\"'loading_leaf_' + n\"></div>\n          </div>\n          <p class=\"toast_content\">数据加载中</p>\n      </div>\n  </div>\n";
 
 /***/ },
-/* 90 */
+/* 95 */
 /***/ function(module, exports) {
 
 	module.exports = "\n  <div class=\"page\">\n    <div class=\"hd\">\n        <h1 class=\"page_title\">Toast</h1>\n    </div>\n    <div class=\"bd spacing\">\n        <!-- <a href=\"javascript:;\" class=\"weui_btn weui_btn_primary\" id=\"showToast\" v-on:click=\"show_toast()\">点击弹出Toast</a> -->\n        <a href=\"javascript:;\" class=\"btn btn_primary\" v-on:click=\"showToast = true;\">点击弹出Toast(手动关闭)</a>\n        <a href=\"javascript:;\" class=\"btn btn_primary\" v-on:click=\"showToast3000 = true;\">点击弹出Toast(持续300毫秒)</a>\n        <a href=\"javascript:;\" class=\"btn btn_primary\" v-on:click=\"showLoadingToast = true;\">点击弹出Loading Toast</a>\n    </div>\n\n    <Toast :show.sync=\"showToast\" :duration=\"0\"></Toast>\n    <Toast :show.sync=\"showToast3000\" :duration=\"3000\">我只持续3秒哦</Toast>\n\n    <Loading v-show=\"showLoadingToast\"></Loading>\n\n  </div>\n";
 
 /***/ },
-/* 91 */
+/* 96 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__vue_script__ = __webpack_require__(92)
-	__vue_template__ = __webpack_require__(98)
+	__vue_script__ = __webpack_require__(97)
+	__vue_template__ = __webpack_require__(103)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -14272,7 +14445,7 @@
 	})()}
 
 /***/ },
-/* 92 */
+/* 97 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -14281,7 +14454,7 @@
 	    value: true
 	});
 	
-	var _Dialog = __webpack_require__(93);
+	var _Dialog = __webpack_require__(98);
 	
 	var _Dialog2 = _interopRequireDefault(_Dialog);
 	
@@ -14343,13 +14516,13 @@
 	// <script>
 
 /***/ },
-/* 93 */
+/* 98 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(94)
-	__vue_script__ = __webpack_require__(96)
-	__vue_template__ = __webpack_require__(97)
+	__webpack_require__(99)
+	__vue_script__ = __webpack_require__(101)
+	__vue_template__ = __webpack_require__(102)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -14366,13 +14539,13 @@
 	})()}
 
 /***/ },
-/* 94 */
+/* 99 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(95);
+	var content = __webpack_require__(100);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {});
@@ -14392,7 +14565,7 @@
 	}
 
 /***/ },
-/* 95 */
+/* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(44)();
@@ -14406,7 +14579,7 @@
 
 
 /***/ },
-/* 96 */
+/* 101 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -14597,24 +14770,24 @@
 	/* generated by vue-loader */
 
 /***/ },
-/* 97 */
+/* 102 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n<div :class=\"'dialog_' + type\" v-show=\"show\">\n    <div class=\"dialog_mask\"></div>\n    <div class=\"dialog\">\n        <div class=\"dialog_hd\">\n            <strong class=\"dialog_title\">{{title}}</strong>\n        </div>\n        <div class=\"dialog_bd\">\n            <slot>请注意，这里可以自定义(支持html)</slot>\n        </div>\n        <div class=\"dialog_ft\">\n            <a href=\"javascript:;\" class=\"btn_dialog default\" v-if=\"type === 'confirm'\" @click=\"dispatch($event,  'on-' + type + '-cancel')\">{{cancelBtn}}</a>\n            <a href=\"javascript:;\" class=\"btn_dialog primary\" @click=\"dispatch($event, 'on-' + type + '-confirm')\">{{confirmBtn}}</a>\n        </div>\n    </div>\n</div>\n\n";
 
 /***/ },
-/* 98 */
+/* 103 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n<div class=\"page\">\n    <div class=\"hd\">\n        <h1 class=\"page_title\">Dialog</h1>\n    </div>\n    <div class=\"bd spacing\">\n        <a href=\"javascript:;\" class=\"btn btn_primary\" v-on:click=\"showAlert=true;\">点击弹出Dialog Alert</a>\n        <a href=\"javascript:;\" class=\"btn btn_primary\" v-on:click=\"showConfirm=true;\">点击弹出Dialog Confirm</a>\n    </div>\n\n    <Dialog :show.sync=\"showAlert\"></Dialog>\n\n    <Dialog :show.sync=\"showConfirm\" type=\"confirm\" title=\"弹窗标题\">\n        自定义弹窗内容\n        <br> ...\n    </Dialog>\n\n</div>\n\n";
 
 /***/ },
-/* 99 */
+/* 104 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__vue_script__ = __webpack_require__(100)
-	__vue_template__ = __webpack_require__(111)
+	__vue_script__ = __webpack_require__(105)
+	__vue_template__ = __webpack_require__(116)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -14631,7 +14804,7 @@
 	})()}
 
 /***/ },
-/* 100 */
+/* 105 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -14640,7 +14813,7 @@
 	  value: true
 	});
 	
-	var _ActionSheet = __webpack_require__(101);
+	var _ActionSheet = __webpack_require__(106);
 	
 	var _ActionSheet2 = _interopRequireDefault(_ActionSheet);
 	
@@ -14675,13 +14848,13 @@
 	// <script>
 
 /***/ },
-/* 101 */
+/* 106 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(102)
-	__vue_script__ = __webpack_require__(104)
-	__vue_template__ = __webpack_require__(110)
+	__webpack_require__(107)
+	__vue_script__ = __webpack_require__(109)
+	__vue_template__ = __webpack_require__(115)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -14698,13 +14871,13 @@
 	})()}
 
 /***/ },
-/* 102 */
+/* 107 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(103);
+	var content = __webpack_require__(108);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {});
@@ -14724,7 +14897,7 @@
 	}
 
 /***/ },
-/* 103 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(44)();
@@ -14738,7 +14911,7 @@
 
 
 /***/ },
-/* 104 */
+/* 109 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -14747,7 +14920,7 @@
 	  value: true
 	});
 	
-	var _Mask = __webpack_require__(105);
+	var _Mask = __webpack_require__(110);
 	
 	var _Mask2 = _interopRequireDefault(_Mask);
 	
@@ -14877,13 +15050,13 @@
 	// <script>
 
 /***/ },
-/* 105 */
+/* 110 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(106)
-	__vue_script__ = __webpack_require__(108)
-	__vue_template__ = __webpack_require__(109)
+	__webpack_require__(111)
+	__vue_script__ = __webpack_require__(113)
+	__vue_template__ = __webpack_require__(114)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -14900,13 +15073,13 @@
 	})()}
 
 /***/ },
-/* 106 */
+/* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(107);
+	var content = __webpack_require__(112);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {});
@@ -14926,7 +15099,7 @@
 	}
 
 /***/ },
-/* 107 */
+/* 112 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(44)();
@@ -14940,7 +15113,7 @@
 
 
 /***/ },
-/* 108 */
+/* 113 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -15016,30 +15189,30 @@
 	/* generated by vue-loader */
 
 /***/ },
-/* 109 */
+/* 114 */
 /***/ function(module, exports) {
 
 	module.exports = "\n  <div class=\"weui_mask_transition\" :class=\"{weui_fade_toggle:isShow}\" id=\"mask\" v-show=\"isShow\" v-on:click=\"close()\"></div>\n";
 
 /***/ },
-/* 110 */
+/* 115 */
 /***/ function(module, exports) {
 
 	module.exports = "\n  <div id=\"actionSheet_wrap\">\n      <!-- fade_toggle -->\n      <!-- style=\"display:block\" -->\n      <!-- <div class=\"mask_transition\" :class=\"{fade_toggle:isShow}\" id=\"mask\" v-show=\"isShow\" v-on:click=\"close()\"></div> -->\n      <Mask :is-show.sync=\"isShow\"></Mask>\n      <!-- actionsheet_toggle -->\n      <div class=\"actionsheet\" :class=\"{actionsheet_toggle:isShow}\" id=\"actionsheet\">\n          <div class=\"actionsheet_menu\">\n              <div class=\"actionsheet_cell\" v-on:click=\"close()\">示例菜单2</div>\n              <div class=\"actionsheet_cell\" v-on:click=\"close()\">示例菜单</div>\n              <div class=\"actionsheet_cell\" v-on:click=\"close()\">示例菜单</div>\n              <div class=\"actionsheet_cell\">示例菜单(我没有关闭功能)</div>\n          </div>\n          <div class=\"actionsheet_action\">\n              <div class=\"actionsheet_cell\" id=\"actionsheet_cancel\" v-on:click=\"close()\">取消</div>\n          </div>\n      </div>\n  </div>\n";
 
 /***/ },
-/* 111 */
+/* 116 */
 /***/ function(module, exports) {
 
 	module.exports = "\n  <div class=\"page actionSheet\" style=\"overflow: hidden\">\n      <div class=\"hd\">\n          <h1 class=\"page_title\">ActionSheet</h1>\n      </div>\n      <div class=\"bd spacing\">\n          <a href=\"javascript:;\" class=\"btn btn_primary\" v-on:click=\"showActionSheet=true;\">点击上拉ActionSheet</a>\n      </div>\n      <ActionSheet :is-show.sync=\"showActionSheet\"></ActionSheet>\n  </div>\n";
 
 /***/ },
-/* 112 */
+/* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__vue_script__ = __webpack_require__(113)
-	__vue_template__ = __webpack_require__(119)
+	__vue_script__ = __webpack_require__(118)
+	__vue_template__ = __webpack_require__(124)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -15056,7 +15229,7 @@
 	})()}
 
 /***/ },
-/* 113 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -15065,7 +15238,7 @@
 	  value: true
 	});
 	
-	var _Msg = __webpack_require__(114);
+	var _Msg = __webpack_require__(119);
 	
 	var _Msg2 = _interopRequireDefault(_Msg);
 	
@@ -15089,13 +15262,13 @@
 	// <script>
 
 /***/ },
-/* 114 */
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(115)
-	__vue_script__ = __webpack_require__(117)
-	__vue_template__ = __webpack_require__(118)
+	__webpack_require__(120)
+	__vue_script__ = __webpack_require__(122)
+	__vue_template__ = __webpack_require__(123)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -15112,13 +15285,13 @@
 	})()}
 
 /***/ },
-/* 115 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(116);
+	var content = __webpack_require__(121);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {});
@@ -15138,7 +15311,7 @@
 	}
 
 /***/ },
-/* 116 */
+/* 121 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(44)();
@@ -15152,7 +15325,7 @@
 
 
 /***/ },
-/* 117 */
+/* 122 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -15242,25 +15415,25 @@
 	/* generated by vue-loader */
 
 /***/ },
-/* 118 */
+/* 123 */
 /***/ function(module, exports) {
 
 	module.exports = "\n  <div class=\"msg\">\n      <div class=\"icon_area\"><i class=\"icon i-bighook\"></i></div>\n      <div class=\"text_area\">\n          <h2 class=\"msg_title\">操作成功</h2>\n          <p class=\"msg_desc\">内容详情，可根据实际需要安排</p>\n      </div>\n      <div class=\"opr_area\">\n          <p class=\"btn_area\">\n              <a href=\"javascript:;\" class=\"btn btn_primary\">确定</a>\n              <a href=\"javascript:;\" class=\"btn btn_default\">取消</a>\n          </p>\n      </div>\n      <div class=\"extra_area\">\n          <a href=\"\">查看详情</a>\n      </div>\n  </div>\n";
 
 /***/ },
-/* 119 */
+/* 124 */
 /***/ function(module, exports) {
 
 	module.exports = "\n  <div class=\"page\">\n    <Msg></Msg>\n  </div>\n";
 
 /***/ },
-/* 120 */
+/* 125 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(121)
-	__vue_script__ = __webpack_require__(123)
-	__vue_template__ = __webpack_require__(124)
+	__webpack_require__(126)
+	__vue_script__ = __webpack_require__(128)
+	__vue_template__ = __webpack_require__(129)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -15277,13 +15450,13 @@
 	})()}
 
 /***/ },
-/* 121 */
+/* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(122);
+	var content = __webpack_require__(127);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {});
@@ -15303,7 +15476,7 @@
 	}
 
 /***/ },
-/* 122 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(44)();
@@ -15317,7 +15490,7 @@
 
 
 /***/ },
-/* 123 */
+/* 128 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -15368,19 +15541,19 @@
 	/* generated by vue-loader */
 
 /***/ },
-/* 124 */
+/* 129 */
 /***/ function(module, exports) {
 
 	module.exports = "\n  <div class=\"page\">\n      <div class=\"hd\">\n          <h1 class=\"page_title\">Article</h1>\n      </div>\n      <div class=\"bd\">\n          <article class=\"article\">\n              <h1>大标题</h1>\n              <section>\n                  <h2 class=\"title\">章标题</h2>\n                  <section>\n                      <h3>1.1 节标题</h3>\n                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\n                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n                          consequat. Duis aute</p>\n                  </section>\n                  <section>\n                      <h3>1.2 节标题</h3>\n                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\n                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\n                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n                  </section>\n              </section>\n          </article>\n      </div>\n  </div>\n";
 
 /***/ },
-/* 125 */
+/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(126)
-	__vue_script__ = __webpack_require__(128)
-	__vue_template__ = __webpack_require__(137)
+	__webpack_require__(131)
+	__vue_script__ = __webpack_require__(133)
+	__vue_template__ = __webpack_require__(142)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -15397,13 +15570,13 @@
 	})()}
 
 /***/ },
-/* 126 */
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(127);
+	var content = __webpack_require__(132);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {});
@@ -15423,7 +15596,7 @@
 	}
 
 /***/ },
-/* 127 */
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(44)();
@@ -15437,7 +15610,7 @@
 
 
 /***/ },
-/* 128 */
+/* 133 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -15446,11 +15619,11 @@
 	  value: true
 	});
 	
-	var _Select = __webpack_require__(129);
+	var _Select = __webpack_require__(134);
 	
 	var _Select2 = _interopRequireDefault(_Select);
 	
-	var _Tooltips = __webpack_require__(132);
+	var _Tooltips = __webpack_require__(137);
 	
 	var _Tooltips2 = _interopRequireDefault(_Tooltips);
 	
@@ -15795,12 +15968,12 @@
 	/* generated by vue-loader */
 
 /***/ },
-/* 129 */
+/* 134 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__vue_script__ = __webpack_require__(130)
-	__vue_template__ = __webpack_require__(131)
+	__vue_script__ = __webpack_require__(135)
+	__vue_template__ = __webpack_require__(136)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -15817,7 +15990,7 @@
 	})()}
 
 /***/ },
-/* 130 */
+/* 135 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -15856,19 +16029,19 @@
 	/* generated by vue-loader */
 
 /***/ },
-/* 131 */
+/* 136 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n<select class=\"select\" v-model=\"selected\">\n    <option v-for=\"(index, option) in options\" :value=\"index + 1\">{{option}}</option>\n</select>\n\n";
 
 /***/ },
-/* 132 */
+/* 137 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(133)
-	__vue_script__ = __webpack_require__(135)
-	__vue_template__ = __webpack_require__(136)
+	__webpack_require__(138)
+	__vue_script__ = __webpack_require__(140)
+	__vue_template__ = __webpack_require__(141)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -15885,13 +16058,13 @@
 	})()}
 
 /***/ },
-/* 133 */
+/* 138 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(134);
+	var content = __webpack_require__(139);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {});
@@ -15911,7 +16084,7 @@
 	}
 
 /***/ },
-/* 134 */
+/* 139 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(44)();
@@ -15925,7 +16098,7 @@
 
 
 /***/ },
-/* 135 */
+/* 140 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -15993,24 +16166,24 @@
 	/* generated by vue-loader */
 
 /***/ },
-/* 136 */
+/* 141 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n<div v-show=\"text\"\n  :class=\"{\n    'toptips': true,\n    'warn': (type == 'warn'),\n    'success': (type == 'success')\n  }\">{{text}}</div>\n\n";
 
 /***/ },
-/* 137 */
+/* 142 */
 /***/ function(module, exports) {
 
 	module.exports = "\n  <div class=\"page\">\n    <div class=\"hd\">\n        <h1 class=\"page_title\">Cell</h1>\n    </div>\n    <div class=\"bd\">\n        <div class=\"cells_title\">带说明的列表项</div>\n        <div class=\"cells\">\n            <div class=\"cell\">\n                <div class=\"cell_bd cell_primary\">\n                    <p>标题文字</p>\n                </div>\n                <div class=\"cell_ft\">\n                    说明文字\n                </div>\n            </div>\n        </div>\n        <div class=\"cells_title\">带图标、说明的列表项</div>\n        <div class=\"cells cells_split\">\n            <div class=\"cell\">\n                <div class=\"cell_hd\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=\" alt=\"\" style=\"width:20px;margin-right:5px;display:block\"></div>\n                <div class=\"cell_bd cell_primary\">\n                    <p>标题文字</p>\n                </div>\n                <div class=\"cell_ft\">\n                    说明文字\n                </div>\n            </div>\n            <div class=\"cell\">\n                <div class=\"cell_hd\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=\" alt=\"\" style=\"width:20px;margin-right:5px;display:block\"></div>\n                <div class=\"cell_bd cell_primary\">\n                    <p>标题文字</p>\n                </div>\n                <div class=\"cell_ft\">\n                    说明文字\n                </div>\n            </div>\n        </div>\n\n        <div class=\"cells_title\">带跳转的列表项</div>\n        <div class=\"cells cells_access\">\n            <a class=\"cell\" href=\"javascript:;\">\n                <div class=\"cell_bd cell_primary\">\n                    <p>cell standard</p>\n                </div>\n                <div class=\"cell_ft\">\n                </div>\n            </a>\n            <a class=\"cell\" href=\"javascript:;\">\n                <div class=\"cell_bd cell_primary\">\n                    <p>cell standard</p>\n                </div>\n                <div class=\"cell_ft\">\n                </div>\n            </a>\n        </div>\n\n        <div class=\"cells_title\">带说明、跳转的列表项</div>\n        <div class=\"cells cells_access\">\n            <a class=\"cell\" href=\"javascript:;\">\n                <div class=\"cell_bd cell_primary\">\n                    <p>cell standard</p>\n                </div>\n                <div class=\"cell_ft\">\n                    说明文字\n                </div>\n            </a>\n            <a class=\"cell\" href=\"javascript:;\">\n                <div class=\"cell_bd cell_primary\">\n                    <p>cell standard</p>\n                </div>\n                <div class=\"cell_ft\">\n                    说明文字\n                </div>\n            </a>\n\n        </div>\n\n        <div class=\"cells_title\">带图标、说明、跳转的列表项</div>\n        <div class=\"cells cells_access\">\n\n            <a class=\"cell\" href=\"javascript:;\">\n                <div class=\"cell_hd\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=\" alt=\"\" style=\"width:20px;margin-right:5px;display:block\"></div>\n                <div class=\"cell_bd cell_primary\">\n                    <p>cell standard</p>\n                </div>\n                <div class=\"cell_ft\">\n                    说明文字\n                </div>\n            </a>\n            <a class=\"cell\" href=\"javascript:;\">\n                <div class=\"cell_hd\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=\" alt=\"\" style=\"width:20px;margin-right:5px;display:block\"></div>\n                <div class=\"cell_bd cell_primary\">\n                    <p>cell standard</p>\n                </div>\n                <div class=\"cell_ft\">\n                    说明文字\n                </div>\n            </a>\n        </div>\n\n        <div class=\"cells_title\">单选列表项</div>\n        <div class=\"cells cells_radio\">\n            <label class=\"cell check_label\" for=\"x11\">\n                <div class=\"cell_bd cell_primary\">\n                    <p>cell standard</p>\n                </div>\n                <div class=\"cell_ft\">\n                    <input type=\"radio\" class=\"check\" name=\"radio1\" id=\"x11\">\n                    <span class=\"icon i_checked\"></span>\n                </div>\n            </label>\n            <label class=\"cell check_label\" for=\"x12\">\n\n                <div class=\"cell_bd cell_primary\">\n                    <p>cell standard</p>\n                </div>\n                <div class=\"cell_ft\">\n                    <input type=\"radio\" name=\"radio1\" class=\"check\" id=\"x12\" checked=\"checked\">\n                    <span class=\"icon i_checked\"></span>\n                </div>\n            </label>\n        </div>\n        <div class=\"cells_title\">复选列表项</div>\n        <div class=\"cells cells_checkbox\">\n            <label class=\"cell check_label\" for=\"s11\">\n                <div class=\"cell_hd\">\n                    <input type=\"checkbox\" class=\"check\" name=\"checkbox1\" id=\"s11\" checked=\"checked\">\n                    <i class=\"icon i_checked\"></i>\n                </div>\n                <div class=\"cell_bd cell_primary\">\n                    <p>standard is dealt for u.</p>\n                </div>\n            </label>\n            <label class=\"cell check_label\" for=\"s12\">\n                <div class=\"cell_hd\">\n                    <input type=\"checkbox\" name=\"checkbox1\" class=\"check\" id=\"s12\">\n                    <i class=\"icon i_checked\"></i>\n                </div>\n                <div class=\"cell_bd cell_primary\">\n                    <p>standard is dealicient for u.</p>\n                </div>\n            </label>\n        </div>\n\n        <div class=\"cells_title\">开关</div>\n        <div class=\"cells cells_form\">\n            <div class=\"cell cell_switch\">\n                <div class=\"cell_hd cell_primary\">标题文字</div>\n                <div class=\"cell_ft\">\n                    <input class=\"switch\" type=\"checkbox\"/>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"cells_title\">表单</div>\n        <div class=\"cells cells_form\">\n            <div class=\"cell\">\n                <div class=\"cell_hd\"><label class=\"label\">qq</label></div>\n                <div class=\"cell_bd cell_primary\">\n                    <input class=\"input\" type=\"number\" placeholder=\"请输入qq号\"/>\n                </div>\n            </div>\n            <div class=\"cell vcode\">\n                <div class=\"cell_hd\"><label class=\"label\">验证码</label></div>\n                <div class=\"cell_bd cell_primary\">\n                    <input class=\"input\" type=\"number\" placeholder=\"请输入验证码\"/>\n                </div>\n                <div class=\"cell_ft\">\n                    <img src=\"/example/images/vcode.jpg\" />\n                </div>\n            </div>\n            <div class=\"cell\">\n                <div class=\"cell_hd\"><label class=\"label\">银行卡</label></div>\n                <div class=\"cell_bd cell_primary\">\n                    <input class=\"input\" type=\"number\" placeholder=\"请输入银行卡号\"/>\n                </div>\n            </div>\n            <div class=\"cell vcode cell_warn\">\n                <div class=\"cell_hd\"><label class=\"label\">验证码</label></div>\n                <div class=\"cell_bd cell_primary\">\n                    <input class=\"input\" type=\"number\" placeholder=\"请输入验证码\"/>\n                </div>\n                <div class=\"cell_ft\">\n                    <i class=\"icon i-roundwarning\"></i>\n                    <img src=\"/example/images/vcode.jpg\" />\n                </div>\n            </div>\n        </div>\n        <div class=\"cells_tips\">底部说明文字底部说明文字</div>\n        <div class=\"btn_area\">\n            <a class=\"btn btn_primary\" href=\"javascript:\">确定</a>\n        </div>\n        <div class=\"cells_title\">上传</div>\n        <div class=\"cells cells_form\">\n            <div class=\"cell\">\n                <div class=\"cell_bd cell_primary\">\n                    <div class=\"uploader\">\n                        <div class=\"uploader_hd cell\">\n                            <div class=\"cell_bd cell_primary\">图片上传</div>\n                            <div class=\"cell_ft\">0/2</div>\n                        </div>\n                        <div class=\"uploader_bd\">\n                            <ul class=\"uploader_files\">\n                                <li class=\"uploader_file\" style=\"background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)\"></li>\n                                <li class=\"uploader_file\" style=\"background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)\"></li>\n                                <li class=\"uploader_file\" style=\"background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)\"></li>\n                                <li class=\"uploader_file uploader_status\" style=\"background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)\">\n                                    <div class=\"uploader_status_content\">\n                                        <i class=\"icon i-roundwarning\"></i> \n                                    </div>\n                                </li>\n                                <li class=\"uploader_file uploader_status\" style=\"background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)\">\n                                    <div class=\"uploader_status_content\">50%</div>\n                                </li>\n                            </ul>\n                            <div class=\"uploader_input_wrp\">\n                                <input class=\"uploader_input\" type=\"file\" accept=\"image/jpg,image/jpeg,image/png,image/gif\" multiple />\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"cells_title\">文本域</div>\n        <div class=\"cells cells_form\">\n            <div class=\"cell\">\n                <div class=\"cell_bd cell_primary\">\n                    <textarea class=\"textarea\" placeholder=\"请输入评论\" rows=\"3\"></textarea>\n                    <div class=\"textarea_counter\"><span>0</span>/200</div>\n                </div>\n            </div>\n        </div>\n        <div class=\"cells_title\">表单报错</div>\n        <div class=\"cells cells_form\">\n            <div class=\"cell cell_warn\">\n                <div class=\"cell_hd\"><label for=\"\" class=\"label\">卡号</label></div>\n                <div class=\"cell_bd cell_primary\">\n                    <input class=\"input\" type=\"tel\" value=\"weui input error\" placeholder=\"请输入卡号\"/>\n                </div>\n                <div class=\"cell_ft\">\n                    <i class=\"icon i-roundwarning\"></i>\n                </div>\n            </div>\n            <div class=\"cell\">\n                <div class=\"cell_hd\"><label for=\"\" class=\"label\">日期</label></div>\n                <div class=\"cell_bd cell_primary\">\n                    <input class=\"input\" type=\"date\" value=\"\"/>\n                </div>\n            </div>\n            <div class=\"cell\">\n                <div class=\"cell_hd\"><label for=\"\" class=\"label\">时间</label></div>\n                <div class=\"cell_bd cell_primary\">\n                    <input class=\"input\" type=\"datetime-local\" value=\"\" placeholder=\"\"/>\n                </div>\n            </div>\n        </div>\n        <div class=\"cells_title\">选择</div>\n        <div class=\"cells cells_split\">\n\n            <div class=\"cell cell_select select_before\">\n                <div class=\"cell_hd\">\n                  <we-select :options=\"areaCodeOptions\" :selected.sync=\"areaCodeSelected\"></we-select>\n                </div>\n                <div class=\"cell_bd cell_primary\">\n                    <input class=\"input\" type=\"text\" placeholder=\"请输入号码\"/>\n                </div>\n            </div>\n        </div>\n        <div class=\"cells_title\">选择</div>\n        <div class=\"cells cells_split\">\n            <div class=\"cell cell_select\">\n                <div class=\"cell_bd cell_primary\">\n                    <we-select :options=\"contactOptions\" :selected.sync=\"contactSelected\"></we-select>\n                </div>\n            </div>\n            <div class=\"cell cell_select select_after\">\n                <div class=\"cell_hd\">\n                    国家/地区{{nationSelected}}\n                </div>\n                <div class=\"cell_bd cell_primary\">\n                    <we-select :after=\"true\" :options=\"nationOptions\" :selected.sync=\"nationSelected\">\n                        <span slot=\"header\">国家/地区</span>\n                    </we-select>\n                </div>\n            </div>\n        </div>\n        <Tooltips :text.sync=\"tooltipsWarn\" :type=\"'warn'\"></Tooltips>\n    </div>\n  </div>\n";
 
 /***/ },
-/* 138 */
+/* 143 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__vue_script__ = __webpack_require__(139)
-	__vue_template__ = __webpack_require__(145)
+	__vue_script__ = __webpack_require__(144)
+	__vue_template__ = __webpack_require__(150)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -16027,7 +16200,7 @@
 	})()}
 
 /***/ },
-/* 139 */
+/* 144 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -16036,7 +16209,7 @@
 	    value: true
 	});
 	
-	var _Progress = __webpack_require__(140);
+	var _Progress = __webpack_require__(145);
 	
 	var _Progress2 = _interopRequireDefault(_Progress);
 	
@@ -16104,13 +16277,13 @@
 	// <script>
 
 /***/ },
-/* 140 */
+/* 145 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(141)
-	__vue_script__ = __webpack_require__(143)
-	__vue_template__ = __webpack_require__(144)
+	__webpack_require__(146)
+	__vue_script__ = __webpack_require__(148)
+	__vue_template__ = __webpack_require__(149)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -16127,13 +16300,13 @@
 	})()}
 
 /***/ },
-/* 141 */
+/* 146 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(142);
+	var content = __webpack_require__(147);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {});
@@ -16153,7 +16326,7 @@
 	}
 
 /***/ },
-/* 142 */
+/* 147 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(44)();
@@ -16167,7 +16340,7 @@
 
 
 /***/ },
-/* 143 */
+/* 148 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -16176,7 +16349,7 @@
 	    value: true
 	});
 	
-	var _Icon = __webpack_require__(77);
+	var _Icon = __webpack_require__(82);
 	
 	var _Icon2 = _interopRequireDefault(_Icon);
 	
@@ -16272,25 +16445,25 @@
 	// <script>
 
 /***/ },
-/* 144 */
+/* 149 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n<div v-if=\"show\" class=\"progress\">\n    <div class=\"progress_bar\">\n        <div class=\"progress_inner_bar\" :style=\"{ width: size + '%' }\"></div>\n    </div>\n    <a v-if=\"showCloseBtn\" href=\"javascript:;\" class=\"progress_opr\" @click=\"dispatch('on-progress-cancel')\">\n        <i class=\"icon i-cross\"></i>\n    </a>\n</div>\n\n";
 
 /***/ },
-/* 145 */
+/* 150 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n<div class=\"page\">\n    <div class=\"hd\">\n        <h1 class=\"page_title\">Progress</h1>\n    </div>\n    <div class=\"bd spacing\">\n        <h3>静态</h3>\n        <Progress :size=\"0\"></Progress>\n        </br>\n        <Progress :size=\"50\"></Progress>\n        </br>\n        <Progress :size=\"100\"></Progress>\n        </br>\n        <Progress :size=\"50\" :show-close-btn=\"false\"></Progress>\n        </br>\n        <h3>自动变更</h3>\n        <Progress :size=\"size1\"></Progress>\n        </br>\n        <Progress :size=\"size2\"></Progress>\n        <h3>手动变更</h3>\n        <Progress :size=\"size\"></Progress>\n        <a href=\"javascript:;\" class=\"btn btn_mini btn_primary\" v-on:click=\"size=0\">0%</a>\n        <a href=\"javascript:;\" class=\"btn btn_mini btn_primary\" v-on:click=\"size=50\">50%</a>\n        <a href=\"javascript:;\" class=\"btn btn_mini btn_primary\" v-on:click=\"size=100\">100%</a>\n    </div>\n</div>\n\n";
 
 /***/ },
-/* 146 */
+/* 151 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(147)
-	__vue_script__ = __webpack_require__(149)
-	__vue_template__ = __webpack_require__(150)
+	__webpack_require__(152)
+	__vue_script__ = __webpack_require__(154)
+	__vue_template__ = __webpack_require__(155)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
@@ -16307,13 +16480,13 @@
 	})()}
 
 /***/ },
-/* 147 */
+/* 152 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(148);
+	var content = __webpack_require__(153);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {});
@@ -16333,7 +16506,7 @@
 	}
 
 /***/ },
-/* 148 */
+/* 153 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(44)();
@@ -16347,7 +16520,7 @@
 
 
 /***/ },
-/* 149 */
+/* 154 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -16356,7 +16529,7 @@
 	  value: true
 	});
 	
-	var _Icon = __webpack_require__(77);
+	var _Icon = __webpack_require__(82);
 	
 	var _Icon2 = _interopRequireDefault(_Icon);
 	
@@ -16459,13 +16632,13 @@
 	// <script>
 
 /***/ },
-/* 150 */
+/* 155 */
 /***/ function(module, exports) {
 
 	module.exports = "\n  <div class=\"page\">\n      <div class=\"hd\">\n          <h1 class=\"page_title\">Icons</h1>\n      </div>\n      <div class=\"bd spacing\">\n          <p class=\"tip-title\">箭头</p>\n          <i class=\"icon i-left\"></i>\n          <i class=\"icon i-top\"></i>\n          <i class=\"icon i-right\"></i>\n          <i class=\"icon i-down\"></i>\n          <i class=\"icon i-arrowdown\"></i>\n          <i class=\"icon i-arrowleft\"></i>\n          <i class=\"icon i-arrowright\"></i>\n          <i class=\"icon i-arrowup\"></i>\n          <i class=\"icon i-dup\"></i>\n          <i class=\"icon i-ddown\"></i>\n          <i class=\"icon i-dleft\"></i>\n          <i class=\"icon i-dright\"></i>\n          <i class=\"icon i-backtop\"></i>\n          <i class=\"icon i-collect1e\"></i>\n          <i class=\"icon i-download\"></i>\n          <p class=\"tip-title\">提示</p>\n          <i class=\"icon i-triangleWarning\"></i>\n          <i class=\"icon i-roundwarning\"></i>\n          <i class=\"icon i-warning\"></i>\n          <i class=\"icon i-help\"></i>\n          <i class=\"icon i-questions\"></i>\n          <i class=\"icon i-forbid\"></i>\n          <p class=\"tip-title\">checkbox</p>\n          <i class=\"icon i-checksquare\"></i>\n          <i class=\"icon i-checksquareoff\"></i>\n          <i class=\"icon i-radiochecked\"></i>\n          <i class=\"icon i-radiooff\"></i>\n          <i class=\"icon i-hook\"></i>\n          <i class=\"icon i-bighook\"></i>\n          <p class=\"tip-title\">操作</p>\n          <i class=\"icon i-star\"></i>\n          <i class=\"icon i-starfill\"></i>\n          <i class=\"icon i-heart\"></i>\n          <i class=\"icon i-heartfill\"></i>\n          <i class=\"icon i-addroud\"></i>\n          <i class=\"icon i-addroudfill\"></i>\n          <i class=\"icon i-minusroud\"></i>\n          <i class=\"icon i-minusroudfill\"></i>\n          <i class=\"icon i-zoomin\"></i>\n          <i class=\"icon i-zoomout\"></i>\n          <i class=\"icon i-sad\"></i>\n          <i class=\"icon i-sadfill\"></i>\n          <i class=\"icon i-searchbig\"></i>\n          <i class=\"icon i-search\"></i>\n          <i class=\"icon i-round\"></i>\n          <i class=\"icon i-play\"></i>\n          <i class=\"icon i-pause\"></i>\n          <i class=\"icon i-stop\"></i>\n          <i class=\"icon i-closefill\"></i>\n          <i class=\"icon i-smile\"></i>\n          <p class=\"tip-title\">其他</p>\n          <i class=\"icon i-add\"></i>\n          <i class=\"icon i-minus\"></i>\n          <i class=\"icon i-cross\"></i>\n          <i class=\"icon i-mapfill\"></i>\n          <i class=\"icon i-map\"></i>\n          <i class=\"icon i-delete\"></i>\n          <i class=\"icon i-more\"></i>\n          <i class=\"icon i-scan\"></i>\n          <i class=\"icon i-share\"></i>\n          <i class=\"icon i-wifi\"></i>\n          <i class=\"icon i-moreandroid\"></i>\n          <i class=\"icon i-share\"></i>\n          <i class=\"icon i-refresh\"></i>\n          <i class=\"icon i-loading\"></i>\n          <i class=\"icon i-code\"></i>\n          <i class=\"icon i-barcode\"></i>\n      </div>\n  </div>\n";
 
 /***/ },
-/* 151 */
+/* 156 */
 /***/ function(module, exports) {
 
 	'use strict';
