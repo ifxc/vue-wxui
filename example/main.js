@@ -1,69 +1,66 @@
-'use strict';
-
 import Vue from 'vue';
-import Router from 'vue-router';
+import VueRouter from 'vue-router';
+import './example.less';
+import './containers/slide.less';
+import {App,
+  Button, Cell, Toast,
+  Dialog, Progress, Message,
+  Article, Actionsheet, Icons,
+  Tab, Navbar, Tabbar,
+  Panel, SearchBar} from './containers';
 
-import App from './modules/App.vue';
-import IndexView from './modules/IndexView.vue';
-import ButtonView from './modules/ButtonView.vue';
-import ToastView from './modules/ToastView.vue';
-import DialogView from './modules/DialogView.vue';
-import ActionSheet from './modules/ActionSheetView.vue';
-import MsgView from './modules/MsgView.vue';
-import ArticleView from './modules/ArticleView.vue';
-import CellView from './modules/CellView.vue';
-import ProgressView from './modules/ProgressView.vue';
-import IconsView from './modules/IconsView.vue';
-import flexible from '../src/lib/flexible.js';
 
-// install router
-Vue.use(Router);
+//Vue.config.debug = true;
 
-// register filters globally
+Vue.use(VueRouter);
 
-// routing
-var router = new Router();
-
+const router = new VueRouter();
 router.map({
   '/': {
-    name: 'index',  // 路径别名
-    component: IndexView,
-    isShowHeader: 'hide'
+    component: App
   },
   '/button': {
-    name: 'button',
-    component: ButtonView
-  },
-  '/toast': {
-    component: ToastView
-  },
-  '/dialog': {
-    component: DialogView
-  },
-  '/actionsheet': {
-    component: ActionSheet
-  },
-  '/msg': {
-    component: MsgView
-  },
-  '/article': {
-    component: ArticleView
+    component: Button
   },
   '/cell': {
-    component: CellView
+    component: Cell
+  },
+  '/toast': {
+    component: Toast
+  },
+  '/dialog': {
+    component: Dialog
   },
   '/progress': {
-    component: ProgressView
+    component: Progress
+  },
+  '/message': {
+    component: Message
+  },
+  '/article': {
+    component: Article
+  },
+  '/actionsheet': {
+    component: Actionsheet
   },
   '/icons': {
-    component: IconsView
+    component: Icons
+  },
+  '/tab': {
+    component: Tab
+  },
+  '/navbar': {
+    component: Navbar
+  },
+  '/tabbar': {
+    component: Tabbar
+  },
+  '/panel': {
+    component: Panel
+  },
+  '/search-bar': {
+    component: SearchBar
   }
 });
 
-router.redirect({
-  '*': '/'
-});
-router.start(App, '#app');
-
-// flexible
-
+router.start(Vue.extend({}), '#container');
