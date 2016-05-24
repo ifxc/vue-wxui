@@ -1,3 +1,4 @@
-<template>
-<div class="weui_btn_area"><slot></div>
+<template lang="jade">
+    div.weui_btn_area
+        slot
 </template>

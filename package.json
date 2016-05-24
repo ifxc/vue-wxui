@@ -1,21 +1,11 @@
 {
-  "name": "vue-weui",
-  "version": "0.3.2",
-  "description": "WeUI components with love of Vue.js",
-  "main": "dist/vue-weui.js",
-  "repository": {
-    "type": "git",
-    "url": "adcentury/vue-weui"
-  },
+  "name": "vue-wxui",
+  "version": "0.0.1",
+  "description": "vuejs+weui",
+  "main": "dist/vue-wxui.min.js",
   "dependencies": {
     "vue": "^1.0.8"
   },
-  "files": [
-    "LICENCE",
-    "README.md",
-    "components",
-    "dist"
-  ],
   "keywords": [
     "wxui",
     "vue",
@@ -39,13 +29,16 @@
     "express": "^4.13.3",
     "fastclick": "^1.0.6",
     "file-loader": "^0.8.4",
+    "jade": "^1.11.0",
     "less": "^2.5.3",
     "less-loader": "^2.2.1",
     "rimraf": "^2.4.4",
     "style-loader": "^0.13.0",
     "vue-hot-reload-api": "^1.2.0",
     "vue-html-loader": "^1.0.0",
+    "vue-loader": "^8.4.0",
     "vue-router": "^0.7.6",
+    "vue-style-loader": "^1.0.0",
     "webpack": "^1.12.2",
     "webpack-dev-middleware": "^1.2.0",
     "webpack-hot-middleware": "^2.5.0",
@@ -57,9 +50,14 @@
     "build": "npm run clean && webpack --progress --hide-modules --config build/webpack.build.min.js && webpack --progress --hide-modules --config  build/webpack.build.example.js",
     "build:examples": "rimraf examples/dist && webpack --config examples/webpack.build.example.js"
   },
-  "author": {
-    "name": "枫星辰",
-    "email": "ifxc@qq.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifxc/vue-wzmui"
   },
-  "license": "MIT"
+  "author": "ifxc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifxc/vue-wzmui/issues"
+  },
+  "homepage": "http://ifxc.me"
 }

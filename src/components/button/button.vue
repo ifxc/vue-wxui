@@ -1,7 +1,8 @@
-<template>
-<a href="javascript:;" class="weui_btn" :class="[typeClass, disabled ? 'weui_btn_disabled' : '', mini ? 'weui_btn_mini' : '']">
-  <slot></slot>
-</a>
+<template lang="jade">
+a(href="javascript:;",
+  class="weui_btn",
+  :class="[typeClass, disabled ? 'weui_btn_disabled' : '', mini ? 'weui_btn_mini' : '']")
+    slot
 </template>
 
 <script>
