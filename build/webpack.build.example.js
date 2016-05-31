@@ -6,7 +6,7 @@ module.exports = {
 
   output: {
     path: path.join(__dirname, '../dist/example'),
-    publicPath: 'dist/example',
+    publicPath: 'dist/example/',
     filename: '[hash].bundle.js'
   },
 

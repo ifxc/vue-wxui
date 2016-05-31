@@ -46,7 +46,7 @@ npm install vue-wxui --save-dev
     
 ##Example
 [Example](http://ifxc.github.io/vue-wxui)
-![](http://ifxc.github.io/vue-wxui/qr.png)
+![](http://ifxc.github.io/vue-wxui/qr.png?d=0531)
     
 ##Develop  
 `npm start`   
