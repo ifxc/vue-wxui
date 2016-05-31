@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="zh">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
-    <title>WZMUI-Example</title>
-    <!-- <link rel="icon" href="static/logo.png" type="image/x-icon"> -->
-  </head>
-  <body>
-    <div id="app"></div>
-    <script src="static/example.js"></script>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+  <title>Vue WxUI</title>
+</head>
+<body ontouchstart>
+  <div class="app-container">
+    <div id="container" class="container">
+      <router-view keep-alive transition="slide"></router-view>
+    </div>
+  </div>
+  <script src="/__build__/bundle.js"></script>
+</body>
 </html>
