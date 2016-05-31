@@ -1,11 +1,8 @@
 {
   "name": "vue-wxui",
-  "version": "0.0.1",
-  "description": "vuejs+weui",
+  "version": "0.0.3",
+  "description": "base on weui and vuejs",
   "main": "dist/vue-wxui.min.js",
-  "dependencies": {
-    "vue": "^1.0.8"
-  },
   "keywords": [
     "wxui",
     "vue",
@@ -13,10 +10,17 @@
     "vue wxui",
     "vue-wxui",
     "vue weui",
+    "vue-weui",
+    "vue ui",
+    "vue-ui",
     "vue components",
     "mobile ui",
+    "wechat ui",
     "wechat mobile ui"
   ],
+  "dependencies": {
+    "vue": "^1.0.8"
+  },
   "devDependencies": {
     "autoprefixer-loader": "^3.1.0",
     "babel-core": "^6.1.21",
@@ -41,23 +45,23 @@
     "vue-style-loader": "^1.0.0",
     "webpack": "^1.12.2",
     "webpack-dev-middleware": "^1.2.0",
-    "webpack-hot-middleware": "^2.5.0",
-    "weui": "weui/weui"
+    "webpack-hot-middleware": "^2.5.0"
   },
   "scripts": {
     "clean": "rimraf dist",
     "start": "node build/server.js",
-    "build": "npm run clean && webpack --progress --hide-modules --config build/webpack.build.min.js && webpack --progress --hide-modules --config  build/webpack.build.example.js",
-    "build:examples": "rimraf examples/dist && webpack --config examples/webpack.build.example.js"
+    "build": "npm run clean && webpack --progress --hide-modules --config build/webpack.build.min.js && webpack --progress --hide-modules --config  build/webpack.build.example.js && webpack --progress --hide-modules --config build/webpack.build.simple.js",
+    "build:examples": "webpack --config build/webpack.build.example.js",
+    "build:simple": "webpack --config build/webpack.build.simple.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ifxc/vue-wzmui"
+    "url": "git+https://github.com/ifxc/vue-wxui"
   },
   "author": "ifxc",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ifxc/vue-wzmui/issues"
+    "url": "https://github.com/ifxc/vue-wxui/issues"
   },
   "homepage": "http://ifxc.me"
 }
