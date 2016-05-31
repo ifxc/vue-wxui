@@ -5,8 +5,8 @@ module.exports = {
   entry: path.join(__dirname, '../example/main.js'),
 
   output: {
-    path: path.join(__dirname, '../dist'),
-    publicPath: './static/',
+    path: path.join(__dirname, '../dist/example'),
+    publicPath: './',
     filename: '[hash].bundle.js'
   },
 
