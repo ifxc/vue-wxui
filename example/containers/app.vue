@@ -1,7 +1,7 @@
 <template>
 <div class="page" transition="app">
   <div class="hd">
-    <h1 class="page_title">Vue-WeUI</h1>
+    <h1 class="page_title">Vue-WxUI</h1>
     <p class="page_desc">使用Vue封装，为微信Web服务量身设计</p>
   </div>
   <div class="bd">

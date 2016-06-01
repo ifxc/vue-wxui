@@ -4,7 +4,7 @@
     <tab>
       <div slot="body"></div>
       <tabbar slot="tabbar">
-        <tabbar-item v-for="bar in bars" :is-on="!!bar.isOn">
+        <tabbar-item v-for="bar in bars" :is-on="!!bar.isOn" :router-link="{path: '/'+bar.url}">
           <img slot="icon" :src="bar.icon" alt="">
           <span slot="label">{{bar.label}}</span>
         </tabbar-item>
@@ -27,17 +27,21 @@ export default {
     return {
       bars: [{
         icon: icon_nav_button,
-        label: '微信',
-        isOn: true
+        label: 'Button',
+        isOn: true,
+        url: 'button'
       }, {
         icon: icon_nav_msg,
-        label: '通讯录'
+        label: 'Msg Page',
+        url: 'message'
       }, {
         icon: icon_nav_article,
-        label: '发现'
+        label: 'Article Page',
+        url: 'article'
       }, {
         icon: icon_nav_cell,
-        label: '我'
+        label: 'Cell',
+        url: 'cell'
       }]
     }
   },

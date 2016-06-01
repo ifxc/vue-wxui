@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import './example.less';
-import './containers/slide.less';
 import {App,
   Button, Cell, Toast,
   Dialog, Progress, Message,
