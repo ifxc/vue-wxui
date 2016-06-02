@@ -19,7 +19,9 @@
     export default{
         data(){
             return{
-                list: [{title:'Header', link:'header'}]
+                list: [{title:'Header', link:'header'},
+                    {title:'Timeline', link:'timeline'}
+                ]
             }
         },
         components: {LinkCell, Cells}

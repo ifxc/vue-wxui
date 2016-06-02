@@ -1,5 +1,6 @@
-import Header from './header/index.vue';
+import Header from './header/index.vue'
+import {Timeline, TimelineItem} from './timeline/index'
 
-const VueWeui = {Header};
+const VueWeui = {Header, Timeline ,TimelineItem};
 
 module.exports = VueWeui;

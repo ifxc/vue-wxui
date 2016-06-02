@@ -1,5 +1,5 @@
 <template>
-<i :class="[nameClass, typeClass]"></i>
+<i :class="[nameClass, typeClass, class]"></i>
 </template>
 
 <script>
@@ -26,6 +26,11 @@ export default {
       type: String,
       required: false,
       default: 'default'
+    },
+
+    class: {
+      type: String,
+      required: false,
     }
   },
 
