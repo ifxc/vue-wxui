@@ -6,7 +6,8 @@ import {App,
   Dialog, Progress, Message,
   Article, Actionsheet, Icons,
   Tab, Navbar, Tabbar,
-  Panel, SearchBar, More} from './containers';
+  Panel, SearchBar, More,
+  Header} from './containers';
 
 
 //Vue.config.debug = true;
@@ -62,6 +63,9 @@ router.map({
   },
   '/more': {
     component: More
+  },
+  '/header': {
+    component: Header
   }
 });
 
