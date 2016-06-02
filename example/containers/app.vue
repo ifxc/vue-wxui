@@ -26,6 +26,7 @@ import icon_nav_icons from '../images/icon_nav_icons.png';
 import icon_nav_panel from '../images/icon_nav_panel.png';
 import icon_nav_tab from '../images/icon_nav_tab.png';
 import icon_nav_search_bar from '../images/icon_nav_search_bar.png';
+import icon_nav_other from '../images/icon_nav_other.png';
 
 export default {
   data() {
@@ -78,6 +79,10 @@ export default {
         text: 'SearchBar',
         url: 'search-bar',
         image: icon_nav_search_bar
+      }, {
+        text: 'More',
+        url: 'more',
+        image: icon_nav_other
       }]
     };
   },

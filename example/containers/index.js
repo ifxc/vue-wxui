@@ -13,3 +13,4 @@ export Navbar from './tab/navbar.vue';
 export Tabbar from './tab/tabbar.vue';
 export Panel from './panel.vue';
 export SearchBar from './search-bar.vue';
+export More from './more.vue';
