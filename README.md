@@ -45,8 +45,9 @@ npm install vue-wxui --save-dev
     then, open example_simple/index.html with chrome browser
     
 ##Example
-[Example](http://ifxc.github.io/vue-wxui)
 ![](http://ifxc.github.io/vue-wxui/qr.png?d=0531)
+
+[Example](http://ifxc.github.io/vue-wxui)
     
 ##Develop  
 `npm start`   
