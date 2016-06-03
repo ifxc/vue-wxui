@@ -7,7 +7,7 @@ import {App,
   Article, Actionsheet, Icons,
   Tab, Navbar, Tabbar,
   Panel, SearchBar, More,
-  Header, Timeline} from './containers';
+  Header, Timeline, Popups} from './containers';
 
 
 //Vue.config.debug = true;
@@ -69,6 +69,9 @@ router.map({
   },
   '/timeline': {
     component:Timeline
+  },
+  '/popups': {
+    component: Popups
   }
 });
 

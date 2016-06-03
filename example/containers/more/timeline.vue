@@ -25,11 +25,6 @@
 <script>
     import {Timeline, TimelineItem} from 'vue-wxui'
     export default{
-        data(){
-            return{
-                msg:'hello vue'
-            }
-        },
         components:{Timeline, TimelineItem}
     }
 </script>

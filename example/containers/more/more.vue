@@ -20,7 +20,8 @@
         data(){
             return{
                 list: [{title:'Header', link:'header'},
-                    {title:'Timeline', link:'timeline'}
+                    {title:'Timeline', link:'timeline'},
+                    {title:'Popups', link:'popups'}
                 ]
             }
         },

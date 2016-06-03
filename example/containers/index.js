@@ -16,3 +16,4 @@ export SearchBar from './search-bar.vue';
 export More from './more/more.vue';
 export Header from './more/header.vue';
 export Timeline from './more/timeline.vue';
+export Popups from './more/popups.vue';
