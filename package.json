@@ -1,6 +1,6 @@
 {
   "name": "vue-wxui",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "base on weui and vuejs",
   "main": "dist/vue-wxui.min.js",
   "keywords": [
