@@ -1,15 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
   <title>Vue WxUI</title>
+  <link rel="stylesheet" href="../dist/vue-wxui.base.min.css">
 </head>
 <body>
   <div id="app">
-    <wxui-icon name="success" type="message"></wxui-icon>
+    <weui-article><h1>Vue WxUI</h1></weui-article>
     <wxui-button type="primary">成功</wxui-button>
   </div>
-  <script src="simple.build.js"></script>
+  <script src="../node_modules/vue/dist/vue.min.js"></script>
+  <script src="../dist/vue-wxui.base.min.js"></script>
+  <script>
+    //注册为全局组件
+    Vue.component('weui-article', VueWxui.Article);
+    new Vue({
+      el: '#app',
+      data: {
+        message: 'Hello Vue.js!'
+      },
+      components: {
+        //<wxui-button>只能用在父组件模板内
+        'wxui-button': VueWxui.Button
+      }
+    });
+  </script>
 </body>
 </html>

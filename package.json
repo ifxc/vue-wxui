@@ -1,6 +1,6 @@
 {
   "name": "vue-wxui",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "base on weui and vuejs",
   "main": "dist/vue-wxui.min.js",
   "keywords": [
@@ -50,9 +50,10 @@
   "scripts": {
     "clean": "rimraf dist",
     "start": "node build/server.js",
-    "build": "npm run clean && webpack --progress --hide-modules --config build/webpack.build.min.js && webpack --progress --hide-modules --config build/webpack.build.css.js && webpack --progress --hide-modules --config  build/webpack.build.example.js && webpack --progress --hide-modules --config build/webpack.build.simple.js",
-    "build:examples": "webpack --config build/webpack.build.example.js",
-    "build:simple": "webpack --config build/webpack.build.simple.js"
+    "build:wxui": "webpack --progress --hide-modules --config build/webpack.build.min.js",
+    "build:wxui.css": "webpack --progress --hide-modules --config build/webpack.build.css.js",
+    "build:examples": "webpack --progress --hide-modules --config build/webpack.build.example.js",
+    "build": "npm run clean && npm run build:wxui && npm run build:wxui.css && npm run build:examples"
   },
   "repository": {
     "type": "git",

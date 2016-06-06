@@ -1,6 +1,7 @@
 var config = require('./webpack.build.min.js');
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var path = require('path');
 
 config.module = {
     loaders: [
@@ -17,7 +18,7 @@ config.vue = {
         less: ExtractTextPlugin.extract("css!less")
     }
 };
-config.output.filename = config.output.filename.replace(/\.js$/, '.base.js');
-config.plugins = config.plugins.concat([new ExtractTextPlugin("../dist/vue-wxui.min.css")]);
+config.output.filename = config.output.filename.replace(/\.min.js$/, '.base.min.js');
+config.plugins = config.plugins.concat([new ExtractTextPlugin(path.join(__dirname,'../dist/vue-wxui.base.min.css'))]);
 
 module.exports = config;
