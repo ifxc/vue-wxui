@@ -26,7 +26,7 @@
         }
     }
 </script>
-<style>
+<style lang="less">
     .weui_popup {
         position: fixed;
         top: 0;
