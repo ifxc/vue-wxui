@@ -6,7 +6,7 @@ vue-wxui 在此基础有所增加组件，同时集成了vuejs方便移动端开
 
 ##Install
 ```
-npm install vue-wxui --save-dev
+npm install vue-wxui --save
 ```
 
 ##Base Usage
