@@ -8,48 +8,61 @@ vue-wxui 在此基础有所增加组件，同时集成了vuejs方便移动端开
 ```
 npm install vue-wxui --save-dev
 ```
-##Usage
 
-1. add body content
+##Base Usage
 
-    ```html
-    <div id="app">
-        <wxui-icon name="success" type="message"></wxui-icon>
-        <wxui-button type="primary">成功</wxui-button>
-    </div>
-    <script src="simple.build.js"></script>
-    ```
+```html
+<link rel="stylesheet" href="../dist/vue-wxui.base.min.css">
+```
 
-2. install vue && add simple.js
+```html
+<div id="app">
+    <weui-article><h1>Vue WxUI</h1></weui-article>
+    <wxui-button type="primary">成功</wxui-button>
+</div>
+<script src="../node_modules/vue/dist/vue.min.js"></script>
+<script src="../dist/vue-wxui.base.min.js"></script>
+<script>
+//注册为全局组件
+Vue.component('weui-article', VueWxui.Article);
+new Vue({
+  el: '#app',
+  components: {
+    //<wxui-button>只能用在父组件模板内
+    'wxui-button': VueWxui.Button
+  }
+});
+</script>
+```
 
-    `npm install vue --save-dev`
-    ```js
-    import Vue from 'vue';
-    import Wxui from 'vue-wxui';
-    
-    Vue.component('wxui-icon', Wxui.Icon);
-    new Vue({
-        el: '#app',
-        data: {
-            message: 'Hello Vue.js!'
-        },
-        components: {
-            'wxui-button': Wxui.Button
-        }
-    });
-    ```
-    
-3. webpack bundle && run
- 
-    `npm run build:simple`
-    then, open example_simple/index.html with chrome browser
+Or npm install vue vue-wxui
+
+```js
+import Vue from 'vue'
+import Wxui from 'vue-wxui'
+
+Vue.component('weui-article', Wxui.Article);
+new Vue({
+  el: '#app',
+  components: {
+    'wxui-button': Wxui.Button
+  }
+});
+```
+
+More usage, Please see example.
     
 ##Example
 ![](http://ifxc.github.io/vue-wxui/qr.png?d=0531)
 
 [Example](http://ifxc.github.io/vue-wxui)
     
-##Develop  
+##Develop 
+ 
+1. install package
+`npm install`
+
+2. run server
 `npm start`   
    
 ##ChangeLog
