@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
   <title>Vue WxUI</title>
+
 </head>
 <body>
   <div id="container" class="container">
-    <router-view keep-alive transition="slide"></router-view>
+    <router-view :transition="animate"></router-view>
   </div>
   <script src="/__build__/bundle.js"></script>
 </body>

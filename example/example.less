@@ -9,10 +9,17 @@ body {
 }
 
 .container {
+    position: relative;
     height: 100%;
-    overflow-y: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     & > div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow-x: auto;
         background-color: #FBF9FE;
     }
 }
@@ -222,43 +229,4 @@ body {
 .icon_search_bar {
     background: url("./images/icon_nav_search_bar.png") no-repeat;
     background-size: 28px 28px;
-}
-
-@keyframes slideIn {
-    from {
-        transform: translate3d(100%, 0, 0);
-        opacity: 0;
-    }
-    to {
-        transform: translate3d(0, 0, 0);
-        opacity: 1;
-    }
-}
-
-@keyframes slideOut {
-    from {
-        transform: translate3d(0, 0, 0);
-        opacity: 1;
-    }
-    to {
-        transform: translate3d(100%, 0, 0);
-        opacity: 0;
-    }
-}
-
-.enter, .leave {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-}
-
-.enter {
-    animation: slideIn .2s forwards;
-}
-
-.leave {
-    animation: slideOut .25s forwards;
 }

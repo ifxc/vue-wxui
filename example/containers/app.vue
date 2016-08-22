@@ -1,11 +1,11 @@
 <template>
-<div class="page" transition="app">
+<div class="page">
   <div class="hd">
     <h1 class="page_title">Vue-WxUI</h1>
     <p class="page_desc">为微信Web服务量身设计</p>
   </div>
   <div class="bd">
-    <grids>
+    <grids keep-alive>
       <grid v-for="item in list" :router-link="{path: '/' + item.url}" :image-url="item.image" :label="item.text"></grid>
     </grids>
   </div>

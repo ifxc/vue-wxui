@@ -1,38 +1,60 @@
-@keyframes slideIn {
+@keyframes slideLeftToCenter {
   from {
-    transform: translate3d(100%, 0, 0);
-    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+    opacity: .5;
   }
   to {
     transform: translate3d(0, 0, 0);
     opacity: 1;
   }
 }
-
-@keyframes slideOut {
+@keyframes slideCenterToRight {
   from {
     transform: translate3d(0, 0, 0);
     opacity: 1;
   }
   to {
     transform: translate3d(100%, 0, 0);
-    opacity: 0;
+    opacity: .5;
   }
 }
 
-.slide-enter, .slide-leave {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
+@keyframes slideRightToCenter {
+  from {
+    transform: translate3d(100%, 0, 0);
+    opacity: .8;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes slideCenterToLeft {
+  from {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+    opacity: .8;
+  }
 }
 
-.slide-enter {
-  animation: slideIn .2s forwards;
+.slide-left-transition,
+.slide-right-transition{
+  will-change: transform,opacity;
 }
 
-.slide-leave {
-  animation: slideOut .25s forwards;
+.slide-right-enter {
+  animation: slideLeftToCenter .4s forwards;
+}
+.slide-right-leave {
+  animation: slideCenterToRight .4s forwards;
+}
+
+.slide-left-enter {
+  animation: slideRightToCenter .4s forwards;
+}
+.slide-left-leave {
+  animation: slideCenterToLeft .4s forwards;
 }

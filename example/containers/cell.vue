@@ -156,7 +156,7 @@ import vcode from '../images/vcode.jpg';
 export default {
   data() {
     return {
-      show: false,
+      show: true,
       radioPicked: 'One',
       sampleImage: sampleImage,
       checkboxChecked: ['Two'],
@@ -230,7 +230,6 @@ export default {
   },
 
   ready() {
-    setTimeout(()=>{this.show = true;}, 200);
     const handler = setInterval(() => {
       if (this.toptipsCount === 1) {
         clearInterval(handler);
