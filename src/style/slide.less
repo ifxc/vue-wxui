@@ -1,48 +1,40 @@
 @keyframes slideLeftToCenter {
   from {
-    transform: translate3d(-100%, 0, 0);
-    opacity: .5;
+    transform: translate3d(-20%, 0, 0);
   }
   to {
     transform: translate3d(0, 0, 0);
-    opacity: 1;
   }
 }
 @keyframes slideCenterToRight {
   from {
     transform: translate3d(0, 0, 0);
-    opacity: 1;
   }
   to {
     transform: translate3d(100%, 0, 0);
-    opacity: .5;
   }
 }
 
 @keyframes slideRightToCenter {
   from {
     transform: translate3d(100%, 0, 0);
-    opacity: .8;
   }
   to {
     transform: translate3d(0, 0, 0);
-    opacity: 1;
   }
 }
 @keyframes slideCenterToLeft {
   from {
     transform: translate3d(0, 0, 0);
-    opacity: 1;
   }
   to {
-    transform: translate3d(-100%, 0, 0);
-    opacity: .8;
+    transform: translate3d(-20%, 0, 0);
   }
 }
 
 .slide-left-transition,
 .slide-right-transition{
-  will-change: transform,opacity;
+  will-change: transform;
 }
 
 .slide-right-enter {
@@ -57,4 +49,9 @@
 }
 .slide-left-leave {
   animation: slideCenterToLeft .4s forwards;
+}
+
+.slide-right-leave,
+.slide-left-enter{
+  z-index: 1;
 }
