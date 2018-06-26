@@ -1,15 +1,16 @@
-#vue-wxui  注：项目采用vue1开发，暂停维护
+# vue-wxui
+# 注：项目采用vue1开发，暂停维护
 > vuejs+vue-router+weui+es6+webpack
 
 WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信 Web 开发量身设计，可以令用户的使用感知更加统一。包含button、cell、dialog、 progress、 toast、article、actionsheet、icon等各式元素。
 vue-wxui 在此基础有所增加组件，同时集成了vuejs方便移动端开发，另外与WeUI更新尽量同步。
 
-##Install
+## Install
 ```
 npm install vue-wxui --save
 ```
 
-##Base Usage
+## Base Usage
 
 ```html
 <link rel="stylesheet" href="../dist/vue-wxui.base.min.css">
@@ -52,12 +53,12 @@ new Vue({
 
 More usage, Please see example.
     
-##Example
+## Example
 ![](http://ifxc.github.io/vue-wxui/qr.png?d=0531)
 
 [Example](http://ifxc.github.io/vue-wxui)
     
-##Develop 
+## Develop
  
 1. install package
 `npm install`
@@ -65,9 +66,9 @@ More usage, Please see example.
 2. run server
 `npm start`   
    
-##ChangeLog
+## ChangeLog
 [ChangeLog](http://github.com/ifxc/vue-wxui/blob/master/CHANGELOG.md)  
 
-##License
+## License
 The MIT License(http://opensource.org/licenses/MIT)    
     
